@@ -22,7 +22,7 @@
         "predeploy": "npm run build",
         "deploy": "gh-pages -d build",    
         "build": "react-scripts build",
-        "serve": "serve -s build"
+        "serve": "serve -s build" 
     },
     "eslintConfig": {
         "extends": [
