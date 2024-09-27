@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cultura-estelar/static/css/main.bca4c589.css",
+    "main.js": "/cultura-estelar/static/js/main.04bab140.js",
+    "static/media/OpenSansCondensed-Bold.ttf": "/cultura-estelar/static/media/OpenSansCondensed-Bold.07d2f62d6fdec88a9ab8.ttf",
+    "static/media/stellarstories.png": "/cultura-estelar/static/media/stellarstories.b6b624c32f97cb22bad2.png",
+    "index.html": "/cultura-estelar/index.html",
+    "main.bca4c589.css.map": "/cultura-estelar/static/css/main.bca4c589.css.map",
+    "main.04bab140.js.map": "/cultura-estelar/static/js/main.04bab140.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bca4c589.css",
+    "static/js/main.04bab140.js"
+  ]
+}
