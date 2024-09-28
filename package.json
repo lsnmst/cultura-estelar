@@ -1,8 +1,11 @@
 {
-    "homepage": "http://lsnmst.github.io/cultura-estelar",
+    "homepage": "http://lsnmst.github.io/cultura-estelar/",
     "name": "cultura-estelar",
     "version": "1.0.0",
     "private": false,
+    "engines": {
+        "node": "18.0.0"
+    },
     "dependencies": {
         "@turf/turf": "^6.5.0",
         "http-server": "^14.1.1",
@@ -12,7 +15,7 @@
         "react-list": "^0.8.17",
         "react-scripts": "^5.0.1",
         "react-select": "^5.7.2",
-        "sass": "^1.66.1", 
+        "sass": "^1.66.1",
         "serve": "^14.2.0"
     },
     "scripts": {
@@ -20,9 +23,8 @@
         "predeploy": "npm run build",
         "deploy": "gh-pages -d build",
         "build": "react-scripts build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject"
-        },
+        "serve": "serve -s build"
+    },
     "eslintConfig": {
         "extends": [
             "react-app"
