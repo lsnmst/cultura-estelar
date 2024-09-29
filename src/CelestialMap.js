@@ -32,7 +32,7 @@ export default class CelestialMap extends Component {
         follow: "center",
         background: { fill: "#333", stroke: "#b3b300", opacity: 1, width: 2 },
         container: "celestial-map", 
-        datapath: "/d3-celestial/",
+        datapath: "./d3-celestial/",
 
         constellations: {
           names: true,
