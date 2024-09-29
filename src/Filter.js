@@ -19,7 +19,7 @@ const Filter = props => {
 
   return (
     <React.Fragment>
-      <span className="card--nav-filter">Filter stories: </span>
+      <span className="card--nav-filter">Filtrar histórias: </span>
       <Select
         className="categoryFilter"
         classNamePrefix="select"

@@ -108,7 +108,7 @@ class Sort extends Component {
   render() {
     return (
       <React.Fragment>
-        <span className="card--nav-sort">Sort stories: </span>
+        <span className="card--nav-sort">Classifique as histórias: </span>
         <Select
           className="storiesSort"
           classNamePrefix="select"

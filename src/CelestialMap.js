@@ -37,7 +37,7 @@ export default class CelestialMap extends Component {
         constellations: {
           names: true,
           namesType: "iau",
-          nameStyle: { fill: ["#fec", "#f6c", "#fec"], opacity:0.9, font: ["bold 13px 'Lucida Sans Unicode', Trebuchet, Helvetica, Arial, sans-serif", "18px 'Nehanda-SpiritMedium', 'Lucida Sans Unicode', Trebuchet, Helvetica, Arial, sans-serif", "14px 'Lucida Sans Unicode', Trebuchet, Helvetica, Arial, sans-serif"], align: "center", baseline: "middle" },
+          nameStyle: { fill: ["#fec", "#f6c", "#fec"], opacity:0.9, font: ["bold 13px 'Nehanda-SpiritMedium', 'Lucida Sans Unicode', Trebuchet, Helvetica, Arial, sans-serif", "18px 'Nehanda-SpiritMedium', 'Lucida Sans Unicode', Trebuchet, Helvetica, Arial, sans-serif", "14px 'Nehanda-SpiritMedium','Lucida Sans Unicode', Trebuchet, Helvetica, Arial, sans-serif"], align: "center", baseline: "middle" },
           lines: true,
           lineStyle: { stroke: ["#99c", "#f6c", "#99c"], width: [2, 2.5, 2], opacity: 0.75 },
           bounds: true,
@@ -46,14 +46,15 @@ export default class CelestialMap extends Component {
         stars: { 
           limit: 5,
           propername: true,
-          propernameStyle: { fill: "#9999bb", font: "13px 'Palatino Linotype', Georgia, Times, 'Times Roman', serif", align: "right", baseline: "bottom" },
+          propernameStyle: { fill: "#9999bb", font: "13px 'Nehanda-SpiritMedium','Palatino Linotype', Georgia, Times, 'Times Roman', serif", align: "right", baseline: "bottom" },
           propernameLimit: 2,
           designation: true,
-          designationStyle: { fill: "#9999bb", font: "11px 'Palatino Linotype', Georgia, Times, 'Times Roman', serif", align: "left", baseline: "top" },
+          designationStyle: { fill: "#9999bb", font: "11px 'Nehanda-SpiritMedium','Palatino Linotype', Georgia, Times, 'Times Roman', serif", align: "left", baseline: "top" },
           designationLimit: 2.5,
         },
         dsos: { 
-          show: false
+          show: true,
+          names: true
         },
         mw: { 
           style: { fill:"#ffffff", opacity: 0.1 } 

@@ -23,7 +23,7 @@ class IntroPopup extends PureComponent {
         <p>Stellarstories é uma proposta de extensão do Terrastories, um aplicativo de georreportagem de código aberto para mapear histórias orais baseadas em lugares. Esta é uma prova de conceito, que apresenta o conhecimento científico e a sabedoria sobre a cultura estelar Tupi-Guarani (edição de Gustavo Villa - Parque Arqueológico da Pedra do Sol, Brasil), para mostrar como ele pode ser usado para contar histórias sobre o cosmos. <a href="https://github.com/terrastories/stellarstories" target="_blank" rel="noreferrer"> Saiba mais sobre o Stellarstories aqui.</a></p>
 
         <div className="intro-card--actions">
-          <span className="count" onClick={this.handleIntroPopup}>Close</span>
+          <span className="count" onClick={this.handleIntroPopup}>Fechar</span>
         </div>
       </div>
     );

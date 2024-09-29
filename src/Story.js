@@ -61,7 +61,7 @@ const Story = props => {
           {
             story.language &&
             <p>
-              <b>Language:</b> {story.language}
+              <b>Idioma:</b> {story.language}
             </p>
           }
         </div>
