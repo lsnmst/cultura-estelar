@@ -253,7 +253,7 @@ const sampleStories = [
         "media": [
             {
                 "id": 3,
-                "url": "./cultura-estelar/images/maybi.jpg",
+                "url": "https://lsnmst.github.io/cultura-estelar/images/maybi.jpg",
                 "blob": {
                     "id": 3,
                     "key": "maybi.jpg",
