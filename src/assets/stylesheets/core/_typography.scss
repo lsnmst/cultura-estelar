@@ -13,12 +13,12 @@
 }
 
 body {
-  font-family: 'OpenSansCondensed';
+  font-family: 'MangueiraAlt-Regular';
   margin: 0;
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: 'OpenSansCondensed';
+  font-family: 'MangueiraAlt-Regular';
   margin: 0 0 1.25rem;
   line-height: 1.25;
   color: $default-text;
@@ -43,7 +43,8 @@ h6 {
   color: $default-text;
 }
 p {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'MangueiraAlt-Regular', sans-serif;
+  font-weight: 600;
   font-size: 1rem;
   line-height: 1.25;
 }

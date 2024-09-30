@@ -194,9 +194,10 @@ const sampleStories = [
             "topic": null
         }, */
     {
-        "title": "História número 1 Tupi-Guarani",
+        "title": "Estrela Tinguaçu",
         "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
         "id": 3,
+        "author": "Maybí Machacalis",
         "created_at": "2023-11-14T10:41:15.498Z",
         "points": [
             {
@@ -204,15 +205,15 @@ const sampleStories = [
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        42.6742,
-                        55.8955
+                        30.3616667,
+                        15.8572222
                     ]
                 },
                 "properties": {
                     "name": "História número 1 Tupi-Guarani",
                     "description": "",
                     "region": "Milky Way",
-                    "type_of_place": "Milky Way",
+                    "type_of_place": "41 Arietis",
                     "photo_url": null,
                     "name_audio_url": null,
                     "stories": [
@@ -249,15 +250,16 @@ const sampleStories = [
                 "community_id": 1
             }
         ],
-        "language": "Maxakalí",
+        "language": "tupi-guaraní",
         "media": [
             {
                 "id": 3,
-                "url": "https://lsnmst.github.io/cultura-estelar/images/maybi.jpg",
+                "author": "Maybí Machacalis",
+                "url": "https://lsnmst.github.io/cultura-estelar/images/tupi-4.jpg",
                 "blob": {
                     "id": 3,
-                    "key": "maybi.jpg",
-                    "filename": "maybi.jpg",
+                    "key": "tupi-4.jpg",
+                    "filename": "tupi-4.jpg",
                     "content_type": "image/jpeg",
                     "metadata": {
                         "identified": true,
@@ -274,9 +276,9 @@ const sampleStories = [
         ], "speakers": [
             {
                 "id": 4,
-                "name": "Gustavo Villa",
+                "name": "Texto por Gustavo Villa",
                 "picture_url": "/speaker.png",
-                "speaker_community": null
+                "speaker_community": "Nome da comunidade"
             },
         ],
         "media_links": [],

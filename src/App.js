@@ -21,9 +21,9 @@ class App extends Component {
       stories: sampleStories,
       activePoint: null,
       activeStory: null,
-      filterOptions: ["Name", "Type of Celestial Body", "Speaker", "Topic", "Language", "Speaker Community"],
-      filterCategory: "Select category",
-      filterItem: "Select option",
+      filterOptions: ["Name", "Corpo celestial", "Speaker", "Topic", "Idioma", "Comunidade"],
+      filterCategory: "Escolha uma categoria",
+      filterItem: "Escolha a opção",
       itemOptions: [],
       zoom: 1.25,
       centerLong: -120,
@@ -61,19 +61,19 @@ class App extends Component {
     let filterMap = {};
     this.state.filterOptions.sort().map(category => {
       switch (category) {
-        case "Name": {
-          // first category: Name
-          const regionSet = new Set(
-            this.state.sourceStories
-              .map(story => {
-                return story.points.map(point => point.properties.region);
-              })
-              .flat()
-          );
-          filterMap[category] = Array.from(regionSet).filter(item => item).sort();
-          break;
-        }
-        case "Type of Celestial Body": {
+        /*         case "Name": {
+                  // first category: Name
+                  const regionSet = new Set(
+                    this.state.sourceStories
+                      .map(story => {
+                        return story.points.map(point => point.properties.region);
+                      })
+                      .flat()
+                  );
+                  filterMap[category] = Array.from(regionSet).filter(item => item).sort();
+                  break;
+                } */
+        case "Corpo celestial": {
           // second category: Type of Celestial Body
           const typeOfPlaceSet = new Set(
             this.state.sourceStories
@@ -87,7 +87,7 @@ class App extends Component {
           filterMap[category] = Array.from(typeOfPlaceSet).filter(item => item).sort();
           break;
         }
-        case "Speaker": {
+/*         case "Speaker": {
           // third category: Speaker
           const speakerSet = new Set(
             this.state.sourceStories
@@ -99,7 +99,7 @@ class App extends Component {
           filterMap[category] = Array.from(speakerSet).filter(item => item).sort();
           break;
         }
-        case "Topic": {
+ */        case "Topic": {
           // fourth category: Topic
           const topicSet = new Set(
             this.state.sourceStories
@@ -109,7 +109,7 @@ class App extends Component {
           filterMap[category] = Array.from(topicSet).filter(item => item).sort();
           break;
         }
-        case "Language": {
+        case "Idioma": {
           // fifth category: Language
           const languageSet = new Set(
             this.state.sourceStories
@@ -119,14 +119,14 @@ class App extends Component {
           filterMap[category] = Array.from(languageSet).filter(item => item).sort();
           break;
         }
-        case "Speaker Community": {
+        case "Comunidade": {
           // sixth category: Speaker Community
           const communitySet = new Set(
             this.state.sourceStories
-            .map(story => {
-              return story.speakers.map(speaker => speaker.speaker_community);
-            })
-            .flat()
+              .map(story => {
+                return story.speakers.map(speaker => speaker.speaker_community);
+              })
+              .flat()
           );
           filterMap[category] = Array.from(communitySet).filter(item => item).sort();
           break;
@@ -139,7 +139,7 @@ class App extends Component {
   handleFilter = (category, item) => {
     let filteredStories = [];
     switch (category) {
-      case "Name": {
+/*       case "Name": {
         // first category: Name
         filteredStories = this.state.sourceStories.filter(story => {
           if (
@@ -155,7 +155,7 @@ class App extends Component {
         });
         break;
       }
-      case "Type of Celestial Body": {
+ */      case "Corpo celestial": {
         // second category: type of celestial body
         filteredStories = this.state.sourceStories.filter(story => {
           if (
@@ -163,7 +163,7 @@ class App extends Component {
               return (
                 point.properties["type_of_place"] &&
                 point.properties["type_of_place"].toLowerCase() ===
-                  item.toLowerCase()
+                item.toLowerCase()
               );
             })
           ) {
@@ -172,7 +172,7 @@ class App extends Component {
         });
         break;
       }
-      case "Speaker": {
+/*       case "Speaker": {
         // third category: speaker name
         filteredStories = this.state.sourceStories.filter(story => {
           if (
@@ -188,31 +188,31 @@ class App extends Component {
         });
         break;
       }
-      case "Topic": {
+ */      case "Topic": {
         // fourth category: topic
         filteredStories = this.state.sourceStories.filter(story => {
-            if (story.topic) {
-              return (
-                story.topic &&
-                story.topic.toLowerCase() === item.toLowerCase()
-              )
-            }
+          if (story.topic) {
+            return (
+              story.topic &&
+              story.topic.toLowerCase() === item.toLowerCase()
+            )
+          }
         });
         break;
       }
-      case "Language": {
+      case "Idioma": {
         // fifth category: language
         filteredStories = this.state.sourceStories.filter(story => {
-            if (story.language) {
-              return (
-                story.language &&
-                story.language.toLowerCase() === item.toLowerCase()
-              )
-            }
+          if (story.language) {
+            return (
+              story.language &&
+              story.language.toLowerCase() === item.toLowerCase()
+            )
+          }
         });
         break;
       }
-      case "Speaker Community": {
+      case "Comunidade": {
         // sixth category: community
         filteredStories = this.state.sourceStories
           .filter((story) => story.speakers
@@ -222,8 +222,8 @@ class App extends Component {
             let n = Object.assign({}, story)
             n.speakers = n.speakers
               .filter(speaker => speaker.speaker_community && speaker.speaker_community.toLowerCase() === item.toLowerCase())
-              return n
-            });
+            return n
+          });
         break;
       }
     }
@@ -239,7 +239,7 @@ class App extends Component {
 
       var activePoint = this.state.activePoint;
       if (activePoint && !filteredPoints.features.some(point => point.id === activePoint.id)) {
-          activePoint = null;
+        activePoint = null;
       }
 
       this.setState({
@@ -300,11 +300,11 @@ class App extends Component {
     this.setState({
       stories: sampleStories,
       points: points,
-      framedView: { center: [this.state.centerLong, this.state.centerLat, 0]},
+      framedView: { center: [this.state.centerLong, this.state.centerLat, 0] },
       activePoint: null,
       activeStory: null,
-      filterCategory: "Select category",
-      filterItem: "Select option",
+      filterCategory: "Escolha uma categoria",
+      filterItem: "Escolha a opção",
       itemOptions: [],
     });
   };

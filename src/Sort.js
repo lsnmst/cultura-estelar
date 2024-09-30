@@ -35,11 +35,11 @@ class Sort extends Component {
   option = value => {
     let label;
     if (value === "most_recent") {
-      label = "Most recent"
+      label = "Mais recentes"
     } else if (value === "alphabetical") {
-      label = "Alphabetical"
+      label = "Em ordem alfabética"
     } else if (value === "reversed_alphabetical") {
-      label = "Reverse alphabetical"
+      label = "Em ordem alfabética inversa"
     } else {
       label = ""
     };

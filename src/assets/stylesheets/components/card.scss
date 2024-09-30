@@ -1,5 +1,10 @@
 $el-shadow: 0 1px 4px $lighter-gray;
 
+.select__menu {
+  font-family: 'MangueiraAlt-Regular', sans-serif !important;
+  color: $maybi-blue;
+}
+
 .cardContainer {
   position: relative;
   width: 45%;
@@ -12,6 +17,7 @@ $el-shadow: 0 1px 4px $lighter-gray;
       top: 0;
       left: 0;
     }
+
     .tab {
       &:after {
         content: '◀';
@@ -27,11 +33,14 @@ $el-shadow: 0 1px 4px $lighter-gray;
     .card {
       left: -100%;
     }
+
     .tab {
       pointer-events: all;
+
       &:after {
         content: '▶';
       }
+
       left: 0;
     }
   }
@@ -44,11 +53,10 @@ $el-shadow: 0 1px 4px $lighter-gray;
     position: absolute;
     height: 100%;
     width: 100%;
-    background: white;
-    border: 1px solid $lightest-gray;
-    border-right: 1px solid $lighter-gray;
-    border-bottom: 1px solid $lighter-gray;
-    background: $off-white;
+    border: 1px solid $yellow-maybi;
+    border-right: 2px solid $yellow-maybi;
+    border-bottom: 1px solid $yellow-maybi;
+    background: $maybi-blue;
     padding: 0.5rem;
     box-shadow: 3px 2px 3px transparentize($dark-gray, 0.9);
     transition: left 0.2s ease-in-out;
@@ -63,7 +71,7 @@ $el-shadow: 0 1px 4px $lighter-gray;
 
   .tab {
     cursor: pointer;
-    color: transparentize(white, 0.6);
+    color: transparentize($maybi-blue, 0.1);
     position: absolute;
     top: 0.5rem;
     right: -2rem; // same as width of tab
@@ -72,7 +80,7 @@ $el-shadow: 0 1px 4px $lighter-gray;
     line-height: 3.9rem;
     text-align: center;
     border-radius: 0 6px 6px 0;
-    background: $dark-blue;
+    background: $yellow-maybi;
     box-shadow: 3px 2px 3px transparentize($dark-gray, 0.9);
     transition: all 0.2s ease-in-out;
   }
@@ -91,6 +99,7 @@ $el-shadow: 0 1px 4px $lighter-gray;
     display: none;
     background-color: $dark-blue;
     padding: 1rem;
+
     * {
       color: white;
     }
@@ -105,13 +114,26 @@ $el-shadow: 0 1px 4px $lighter-gray;
 
     &-filter,
     &-sort {
-      font-family: 'OpenSansCondensed';
-      color: $default-text;
+      font-family: 'MangueiraAlt-Regular';
+      font-size: 1rem;
+      color: $white;
+      margin: 1rem 0 0.5rem 0;
     }
 
     .categoryFilter .storiesSort {
       margin: 0.5rem 0;
     }
+  }
+
+  .select__control {
+    font-family: 'MangueiraAlt-Regular';
+    background: $maybi-light-blue;
+    border: 1px $yellow-maybi solid !important;
+  }
+
+  .select__single-value {
+    color: $white !important;
+    font-size: 0.85rem;
   }
 
   .card--tasks {
@@ -128,60 +150,91 @@ $el-shadow: 0 1px 4px $lighter-gray;
   .stories {
     overflow-x: hidden;
     flex: 5 0 0;
+
     .container {
       padding-bottom: 3rem;
+      color: $maybi-blue;
 
       .description {
         white-space: pre-wrap;
+        color: $maybi-blue !important;
+        font-family: 'MangueiraAlt-Regular', sans-serif;
+        font-weight: 600;
       }
     }
+
     .speakers {
       img {
         width: 50px;
         height: 50px;
         border-radius: 50px;
-        border: 2px solid $black;
+        border: 2px solid $yellow-maybi;
         margin-right: 5px;
       }
+
       padding-bottom: 0.25rem;
     }
+
     li {
+
       &.isActive {
-        border: 3px solid $dark-blue;
+        border: 5px solid $yellow-maybi;
       }
 
       list-style: none;
       padding: 0.75rem;
-      background: white;
+      background: $white;
       margin-bottom: 0.5rem;
+      border: 1px solid $yellow-maybi;
       box-shadow: $el-shadow;
+
       .thumbnail {
         width: 50px;
         height: 50px;
         border-radius: 3px;
         float: right;
         margin: 0 0 1rem 1rem;
+
         &.placeholder {
           background-color: $light-gray;
         }
       }
+
       .title {
         overflow-wrap: break-word;
+        color: $maybi-blue;
+        text-transform: uppercase;
+        font-weight: 900;
       }
+
       p {
         font-size: 0.85rem;
         overflow-wrap: break-word;
         line-height: 1.25;
         margin-top: 1rem;
-        @include ui-font;
         padding-bottom: 1rem;
+
         b {
           font-weight: bold;
         }
       }
     }
   }
+
+  .speakers {
+    font-family: 'MangueiraAlt-Regular', sans-serif !important;
+    font-size: 0.7rem;
+    font-style: italic !important;
+    font-weight: 400 !important;
+    color: $maybi-blue !important;
+  }
 }
+
+.img-player {
+  display: block;
+  margin: auto;
+}
+
 
 // Responsive patches
 
@@ -193,10 +246,12 @@ $el-shadow: 0 1px 4px $lighter-gray;
       .closeMe {
         display: none;
       }
+
       .card {
         top: 0;
         left: -100vw;
       }
+
       .tab {
         &:after {
           content: '';

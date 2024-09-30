@@ -6,6 +6,7 @@ import './d3-celestial/d3.geo.projection.min.js';
 import './d3-celestial/celestial.min.js';
 import './d3-celestial/celestial.css';
 
+
 export default class CelestialMap extends Component {
   constructor(props) {
     super(props);
@@ -21,13 +22,14 @@ export default class CelestialMap extends Component {
     framedView: PropTypes.object,
   };
 
+
   componentDidMount() {
     const centerLong = parseInt(this.props.centerLong);
     const centerLat = parseInt(this.props.centerLat);
 
     var config = {
       projection: "airy",
-      zoomlevel: 1,
+      zoomlevel: 3,
       center: [centerLong, centerLat],
       follow: "center",
       background: { fill: "#333", stroke: "#b3b300", opacity: 1, width: 2 },
@@ -44,10 +46,10 @@ export default class CelestialMap extends Component {
         boundStyle: { stroke: "#ffff00", width: 0.5, opacity: 0.7, dash: [8, 4, 2, 4] }
       },
       stars: {
-        limit: 3,
+        limit: 12,
         propername: true,
         propernameStyle: { fill: "#9999bb", font: "13px 'Nehanda-SpiritMedium','Palatino Linotype', Georgia, Times, 'Times Roman', serif", align: "right", baseline: "bottom" },
-        propernameLimit: 2,
+        propernameLimit: 5,
         designation: true,
         designationStyle: { fill: "#9999bb", font: "11px 'Nehanda-SpiritMedium','Palatino Linotype', Georgia, Times, 'Times Roman', serif", align: "left", baseline: "top" },
         designationLimit: 2.5,
@@ -65,7 +67,7 @@ export default class CelestialMap extends Component {
         nameStyle: { fill: "#00ccff", font: "'MangueiraAlt-Regular'", align: "right", baseline: "top" },
       },
       background: {
-        fill: "#000000",
+        fill: "rgb(40,11,108)",
         opacity: 1,
         stroke: "#000000",
         width: 1.5
@@ -86,12 +88,14 @@ export default class CelestialMap extends Component {
       this.props.framedView !== prevProps.framedView
     ) {
       window.Celestial.rotate(this.props.framedView)
+      // window.Celestial.zoomBy(3)
     }
   }
 
   resetMapToCenter() {
     window.Celestial.rotate({ center: [this.state.centerLong, this.state.centerLat] })
   }
+
 
   render() {
     return <div ref={el => (this.mapContainer = el)} className="celestial-MainMap" id="celestial-map"></div>

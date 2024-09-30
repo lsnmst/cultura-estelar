@@ -8,7 +8,7 @@ const Story = props => {
   const renderSpeakers = speakers => {
     return (
       <div key={`${story.id}-speakers`}>
-{/*         {
+        {/*         {
           speakers.map(speaker => {
             return (
               <img
@@ -58,6 +58,9 @@ const Story = props => {
               />
             ))
           }
+          <p>
+            <b>Artista:</b> {story.author}
+          </p>
           {
             story.language &&
             <p>
