@@ -97,7 +97,7 @@ const sampleStories = [
             "topic": ""
         },*/
     {
-        "title": "Estrela Tinguaçu",
+        "title": "Dois Ovos",
         "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
         "id": 2,
         "author": "Maybí Machacalis",
@@ -108,19 +108,19 @@ const sampleStories = [
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        40.3616667,
-                        21.24797925
+                        -169.519139,
+                        -80.072497
                     ]
                 },
                 "properties": {
-                    "name": "História número 1 Tupi-Guarani",
+                    "name": "Dois Ovos",
                     "description": "",
                     "region": null,
-                    "type_of_place": "41 Arietis",
+                    "type_of_place": "Muscae",
                     "stories": [
                         {
                             "id": 2,
-                            "title": "Estrela Tinguaçu",
+                            "title": "Dois Ovos",
                             "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
                             "created_at": "2023-11-14T10:41:15.498Z",
                             "updated_at": "2023-12-08T03:33:20.768Z",
@@ -141,7 +141,7 @@ const sampleStories = [
             {
                 "id": 2,
                 "name": "História número 1 Tupi-Guarani",
-                "type_of_place": "41 Arietis",
+                "type_of_place": "Muscae",
                 "created_at": "2023-12-08T03:33:05.908Z",
                 "updated_at": "2023-12-08T03:33:05.908Z",
                 "lat": "55.8955",
@@ -182,11 +182,96 @@ const sampleStories = [
         "topic": ""
     },
     {
+        "title": "Estrela Vagalume",
+        "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+        "id": 3,
+        "author": "Maybí Machacalis",
+        "created_at": "2023-11-14T10:41:16.498Z",
+        "points": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        100.3616667,
+                        -26.072497
+                    ]
+                },
+                "properties": {
+                    "name": "Estrela Vagalume",
+                    "description": "",
+                    "region": null,
+                    "type_of_place": "Alpha Canis Majoris",
+                    "stories": [
+                        {
+                            "id": 2,
+                            "title": "Estrela Vagalume",
+                            "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+                            "created_at": "2023-11-14T10:41:15.498Z",
+                            "updated_at": "2023-12-08T03:33:20.768Z",
+                            "permission_level": "anonymous",
+                            "date_interviewed": null,
+                            "language": "English",
+                            "interview_location_id": 1,
+                            "interviewer_id": 1,
+                            "community_id": 1,
+                            "topic": ""
+                        }
+                    ]
+                },
+                "id": 3
+            }
+        ],
+        "places": [
+            {
+                "id": 3,
+                "name": "Estrela Vagalume",
+                "type_of_place": "Alpha Canis Majoris",
+                "created_at": "2023-12-08T03:33:05.908Z",
+                "updated_at": "2023-12-08T03:33:05.908Z",
+                "lat": "55.8955",
+                "long": "42.6742",
+                "region": null,
+                "description": "",
+                "community_id": 1
+            }
+        ],
+        "language": "tupi-guaraní",
+        "media": [
+            {
+                "id": 3,
+                "author": "Maybí Machacalis",
+                "url": "https://lsnmst.github.io/cultura-estelar/images/tupi-3.jpg",
+                "blob": {
+                    "id": 3,
+                    "key": "tupi-3.jpg",
+                    "filename": "tupi-3.jpg",
+                    "content_type": "image/jpeg",
+                    "metadata": {
+                        "identified": true,
+                        "width": 1000,
+                        "height": 1636,
+                        "analyzed": true
+                    }
+                }
+            }
+        ], "speakers": [
+            {
+                "id": 3,
+                "name": "Texto por Gustavo Villa",
+                "speaker_community": "Nome da comunidade"
+            },
+        ],
+        "media_links": [],
+        "permission_level": "anonymous",
+        "topic": ""
+    },
+    {
         "title": "Estrela Tinguaçu",
         "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
         "id": 4,
         "author": "Maybí Machacalis",
-        "created_at": "2023-11-14T10:41:15.498Z",
+        "created_at": "2023-11-14T10:41:17.498Z",
         "points": [
             {
                 "type": "Feature",
@@ -194,7 +279,7 @@ const sampleStories = [
                     "type": "Point",
                     "coordinates": [
                         40.3616667,
-                        21.24797925
+                        12.24797925
                     ]
                 },
                 "properties": {
@@ -258,6 +343,176 @@ const sampleStories = [
         ], "speakers": [
             {
                 "id": 4,
+                "name": "Texto por Gustavo Villa",
+                "speaker_community": "Nome da comunidade"
+            },
+        ],
+        "media_links": [],
+        "permission_level": "anonymous",
+        "topic": ""
+    },
+    {
+        "title": "Ema",
+        "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+        "id": 5,
+        "author": "Maybí Machacalis",
+        "created_at": "2023-11-14T10:41:18.498Z",
+        "points": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -115.519139,
+                        -70.072497
+                    ]
+                },
+                "properties": {
+                    "name": "Ema",
+                    "description": "",
+                    "region": null,
+                    "type_of_place": "Lupus, Centaurus, Ara, Muscae, Scorpious",
+                    "stories": [
+                        {
+                            "id": 5,
+                            "title": "Ema",
+                            "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+                            "created_at": "2023-11-14T10:41:15.498Z",
+                            "updated_at": "2023-12-08T03:33:20.768Z",
+                            "permission_level": "anonymous",
+                            "date_interviewed": null,
+                            "language": "English",
+                            "interview_location_id": 1,
+                            "interviewer_id": 1,
+                            "community_id": 1,
+                            "topic": ""
+                        }
+                    ]
+                },
+                "id": 5
+            }
+        ],
+        "places": [
+            {
+                "id": 5,
+                "name": "Ema",
+                "type_of_place": "Lupus, Centaurus, Ara, Muscae, Scorpious",
+                "created_at": "2023-12-08T03:33:05.908Z",
+                "updated_at": "2023-12-08T03:33:05.908Z",
+                "lat": "55.8955",
+                "long": "42.6742",
+                "region": null,
+                "description": "",
+                "community_id": 1
+            }
+        ],
+        "language": "tupi-guaraní",
+        "media": [
+            {
+                "id": 5,
+                "author": "Maybí Machacalis",
+                "url": "https://lsnmst.github.io/cultura-estelar/images/tupi-5.jpg",
+                "blob": {
+                    "id": 5,
+                    "key": "tupi-5.jpg",
+                    "filename": "tupi-5.jpg",
+                    "content_type": "image/jpeg",
+                    "metadata": {
+                        "identified": true,
+                        "width": 1000,
+                        "height": 1636,
+                        "analyzed": true
+                    }
+                }
+            }
+        ], "speakers": [
+            {
+                "id": 5,
+                "name": "Texto por Gustavo Villa",
+                "speaker_community": "Nome da comunidade"
+            },
+        ],
+        "media_links": [],
+        "permission_level": "anonymous",
+        "topic": ""
+    },
+    {
+        "title": "Cervo",
+        "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+        "id": 6,
+        "author": "Maybí Machacalis",
+        "created_at": "2023-11-14T10:41:19.498Z",
+        "points": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        145.519139,
+                        -65.072497
+                    ]
+                },
+                "properties": {
+                    "name": "Cervo",
+                    "description": "",
+                    "region": null,
+                    "type_of_place": "Vela, Cen, Carina",
+                    "stories": [
+                        {
+                            "id": 6,
+                            "title": "Cervo",
+                            "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+                            "created_at": "2023-11-14T10:41:15.498Z",
+                            "updated_at": "2023-12-08T03:33:20.768Z",
+                            "permission_level": "anonymous",
+                            "date_interviewed": null,
+                            "language": "English",
+                            "interview_location_id": 1,
+                            "interviewer_id": 1,
+                            "community_id": 1,
+                            "topic": ""
+                        }
+                    ]
+                },
+                "id": 6
+            }
+        ],
+        "places": [
+            {
+                "id": 6,
+                "name": "Cervo",
+                "type_of_place": "Vela, Cen, Carina",
+                "created_at": "2023-12-08T03:33:05.908Z",
+                "updated_at": "2023-12-08T03:33:05.908Z",
+                "lat": "55.8955",
+                "long": "42.6742",
+                "region": null,
+                "description": "",
+                "community_id": 1
+            }
+        ],
+        "language": "tupi-guaraní",
+        "media": [
+            {
+                "id": 6,
+                "author": "Maybí Machacalis",
+                "url": "https://lsnmst.github.io/cultura-estelar/images/tupi-6.jpg",
+                "blob": {
+                    "id": 6,
+                    "key": "tupi-6.jpg",
+                    "filename": "tupi-6.jpg",
+                    "content_type": "image/jpeg",
+                    "metadata": {
+                        "identified": true,
+                        "width": 1000,
+                        "height": 1636,
+                        "analyzed": true
+                    }
+                }
+            }
+        ], "speakers": [
+            {
+                "id": 6,
                 "name": "Texto por Gustavo Villa",
                 "speaker_community": "Nome da comunidade"
             },
