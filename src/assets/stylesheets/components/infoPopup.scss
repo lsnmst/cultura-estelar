@@ -13,7 +13,11 @@
   border: 5px $yellow-maybi solid;
 
   @include for-phone-only {
-    display: none;
+    bottom: 0% !important;
+    width: 100%;
+    right: 0%;
+    max-height: 25%;
+    overflow-y: scroll;
   }
 
   &.isShown {
@@ -21,8 +25,8 @@
   }
 
   &.isHidden {
-    display: none;
-    bottom: -999px;
+     display: none;
+     bottom: -999px;
   }
 
   h2 {
