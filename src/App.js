@@ -7,6 +7,7 @@ import bboxPolygon from '@turf/bbox-polygon'
 import CelestialMap from './CelestialMap';
 import Card from './Card';
 import IntroPopup from "./IntroPopup";
+import InfoPopup from "./InfoPopup";
 
 import logo from './assets/images/stellarstories.png';
 import sampleStories from './assets/samplestories';
@@ -352,6 +353,7 @@ class App extends Component {
           itemOptions={this.state.itemOptions}
         />
         <IntroPopup />
+        <InfoPopup />
       </React.Fragment>
     );
   }
