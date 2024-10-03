@@ -1286,7 +1286,7 @@ const sampleStories = [
         "permission_level": "anonymous",
         "topic": ""
     },
-        {
+    {
         "title": "Olhos da Onça",
         "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
         "id": 16,
@@ -1363,6 +1363,941 @@ const sampleStories = [
         ], "speakers": [
             {
                 "id": 16,
+                "name": "Texto por Gustavo Villa",
+                "speaker_community": "Nome da comunidade"
+            },
+        ],
+        "media_links": [],
+        "permission_level": "anonymous",
+        "topic": ""
+    },
+    {
+        "title": "Joykexo",
+        "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+        "id": 17,
+        "author": "Maybí Machacalis",
+        "created_at": "2023-11-14T10:41:30.498Z",
+        "points": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        85.3616667,
+                        -6.072497
+                    ]
+                },
+                "properties": {
+                    "name": "Joykexo",
+                    "description": "",
+                    "region": null,
+                    "type_of_place": "Orion",
+                    "stories": [
+                        {
+                            "id": 17,
+                            "title": "Joykexo",
+                            "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+                            "created_at": "2023-11-14T10:41:15.498Z",
+                            "updated_at": "2023-12-08T03:33:20.768Z",
+                            "permission_level": "anonymous",
+                            "date_interviewed": null,
+                            "language": "English",
+                            "interview_location_id": 1,
+                            "interviewer_id": 1,
+                            "community_id": 1,
+                            "topic": ""
+                        }
+                    ]
+                },
+                "id": 17
+            }
+        ],
+        "places": [
+            {
+                "id": 17,
+                "name": "Joykexo",
+                "type_of_place": "Orion",
+                "created_at": "2023-12-08T03:33:05.908Z",
+                "updated_at": "2023-12-08T03:33:05.908Z",
+                "lat": "55.8955",
+                "long": "42.6742",
+                "region": null,
+                "description": "",
+                "community_id": 1
+            }
+        ],
+        "language": "tupi-guaraní",
+        "media": [
+            {
+                "id": 17,
+                "author": "Maybí Machacalis",
+                "url": "https://lsnmst.github.io/cultura-estelar/images/tupi-17.jpg",
+                "blob": {
+                    "id": 17,
+                    "key": "tupi-17.jpg",
+                    "filename": "tupi-17.jpg",
+                    "content_type": "image/jpeg",
+                    "metadata": {
+                        "identified": true,
+                        "width": 1000,
+                        "height": 1636,
+                        "analyzed": true
+                    }
+                }
+            }
+        ], "speakers": [
+            {
+                "id": 17,
+                "name": "Texto por Gustavo Villa",
+                "speaker_community": "Nome da comunidade"
+            },
+        ],
+        "media_links": [],
+        "permission_level": "anonymous",
+        "topic": ""
+    },
+    {
+        "title": "Via Lactea",
+        "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+        "id": 18,
+        "author": "Maybí Machacalis",
+        "created_at": "2023-11-14T10:41:31.498Z",
+        "points": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -90,
+                        -40
+                    ]
+                },
+                "properties": {
+                    "name": "Via Lactea",
+                    "description": "",
+                    "region": null,
+                    "type_of_place": "Faixa da Via Láctea",
+                    "stories": [
+                        {
+                            "id": 18,
+                            "title": "Via Lactea",
+                            "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+                            "created_at": "2023-11-14T10:41:15.498Z",
+                            "updated_at": "2023-12-08T03:33:20.768Z",
+                            "permission_level": "anonymous",
+                            "date_interviewed": null,
+                            "language": "English",
+                            "interview_location_id": 1,
+                            "interviewer_id": 1,
+                            "community_id": 1,
+                            "topic": ""
+                        }
+                    ]
+                },
+                "id": 18
+            }
+        ],
+        "places": [
+            {
+                "id": 18,
+                "name": "Via Lactea",
+                "type_of_place": "Faixa da Via Láctea",
+                "created_at": "2023-12-08T03:33:05.908Z",
+                "updated_at": "2023-12-08T03:33:05.908Z",
+                "lat": "55.8955",
+                "long": "42.6742",
+                "region": null,
+                "description": "",
+                "community_id": 1
+            }
+        ],
+        "language": "tupi-guaraní",
+        "media": [
+            {
+                "id": 18,
+                "author": "Maybí Machacalis",
+                "url": "https://lsnmst.github.io/cultura-estelar/images/tupi-18.jpg",
+                "blob": {
+                    "id": 18,
+                    "key": "tupi-18.jpg",
+                    "filename": "tupi-18.jpg",
+                    "content_type": "image/jpeg",
+                    "metadata": {
+                        "identified": true,
+                        "width": 1000,
+                        "height": 1636,
+                        "analyzed": true
+                    }
+                }
+            }
+        ], "speakers": [
+            {
+                "id": 18,
+                "name": "Texto por Gustavo Villa",
+                "speaker_community": "Nome da comunidade"
+            },
+        ],
+        "media_links": [],
+        "permission_level": "anonymous",
+        "topic": ""
+    },
+    {
+        "title": "Plêiades",
+        "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+        "id": 19,
+        "author": "Maybí Machacalis",
+        "created_at": "2023-11-14T10:41:32.498Z",
+        "points": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        68.3616667,
+                        9.072497
+                    ]
+                },
+                "properties": {
+                    "name": "Plêiades",
+                    "description": "",
+                    "region": null,
+                    "type_of_place": "Pleiades",
+                    "stories": [
+                        {
+                            "id": 19,
+                            "title": "Plêiades",
+                            "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+                            "created_at": "2023-11-14T10:41:15.498Z",
+                            "updated_at": "2023-12-08T03:33:20.768Z",
+                            "permission_level": "anonymous",
+                            "date_interviewed": null,
+                            "language": "English",
+                            "interview_location_id": 1,
+                            "interviewer_id": 1,
+                            "community_id": 1,
+                            "topic": ""
+                        }
+                    ]
+                },
+                "id": 19
+            }
+        ],
+        "places": [
+            {
+                "id": 19,
+                "name": "Plêiades",
+                "type_of_place": "Pleiades",
+                "created_at": "2023-12-08T03:33:05.908Z",
+                "updated_at": "2023-12-08T03:33:05.908Z",
+                "lat": "55.8955",
+                "long": "42.6742",
+                "region": null,
+                "description": "",
+                "community_id": 1
+            }
+        ],
+        "language": "tupi-guaraní",
+        "media": [
+            {
+                "id": 19,
+                "author": "Maybí Machacalis",
+                "url": "https://lsnmst.github.io/cultura-estelar/images/tupi-19.jpg",
+                "blob": {
+                    "id": 19,
+                    "key": "tupi-19.jpg",
+                    "filename": "tupi-19.jpg",
+                    "content_type": "image/jpeg",
+                    "metadata": {
+                        "identified": true,
+                        "width": 1000,
+                        "height": 1636,
+                        "analyzed": true
+                    }
+                }
+            }
+        ], "speakers": [
+            {
+                "id": 19,
+                "name": "Texto por Gustavo Villa",
+                "speaker_community": "Nome da comunidade"
+            },
+        ],
+        "media_links": [],
+        "permission_level": "anonymous",
+        "topic": ""
+    },
+    {
+        "title": "Queixada da Anta",
+        "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+        "id": 20,
+        "author": "Maybí Machacalis",
+        "created_at": "2023-11-14T10:41:33.498Z",
+        "points": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        68.3616667,
+                        9.072497
+                    ]
+                },
+                "properties": {
+                    "name": "Queixada da Anta",
+                    "description": "",
+                    "region": null,
+                    "type_of_place": "Taurus",
+                    "stories": [
+                        {
+                            "id": 20,
+                            "title": "Queixada da Anta",
+                            "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+                            "created_at": "2023-11-14T10:41:15.498Z",
+                            "updated_at": "2023-12-08T03:33:20.768Z",
+                            "permission_level": "anonymous",
+                            "date_interviewed": null,
+                            "language": "English",
+                            "interview_location_id": 1,
+                            "interviewer_id": 1,
+                            "community_id": 1,
+                            "topic": ""
+                        }
+                    ]
+                },
+                "id": 20
+            }
+        ],
+        "places": [
+            {
+                "id": 20,
+                "name": "Queixada da Anta",
+                "type_of_place": "Taurus",
+                "created_at": "2023-12-08T03:33:05.908Z",
+                "updated_at": "2023-12-08T03:33:05.908Z",
+                "lat": "55.8955",
+                "long": "42.6742",
+                "region": null,
+                "description": "",
+                "community_id": 1
+            }
+        ],
+        "language": "tupi-guaraní",
+        "media": [
+            {
+                "id": 20,
+                "author": "Maybí Machacalis",
+                "url": "https://lsnmst.github.io/cultura-estelar/images/tupi-20.jpg",
+                "blob": {
+                    "id": 20,
+                    "key": "tupi-20.jpg",
+                    "filename": "tupi-20.jpg",
+                    "content_type": "image/jpeg",
+                    "metadata": {
+                        "identified": true,
+                        "width": 1000,
+                        "height": 1636,
+                        "analyzed": true
+                    }
+                }
+            }
+        ], "speakers": [
+            {
+                "id": 20,
+                "name": "Texto por Gustavo Villa",
+                "speaker_community": "Nome da comunidade"
+            },
+        ],
+        "media_links": [],
+        "permission_level": "anonymous",
+        "topic": ""
+    },
+    {
+        "title": "Poço do Tapir",
+        "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+        "id": 21,
+        "author": "Maybí Machacalis",
+        "created_at": "2023-11-14T10:41:34.498Z",
+        "points": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        73.3616667,
+                        -64.072497
+                    ]
+                },
+                "properties": {
+                    "name": "Poço do Tapir",
+                    "description": "",
+                    "region": null,
+                    "type_of_place": "Grande Nuvem de Magalhães",
+                    "stories": [
+                        {
+                            "id": 21,
+                            "title": "Poço do Tapir",
+                            "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+                            "created_at": "2023-11-14T10:41:15.498Z",
+                            "updated_at": "2023-12-08T03:33:20.768Z",
+                            "permission_level": "anonymous",
+                            "date_interviewed": null,
+                            "language": "English",
+                            "interview_location_id": 1,
+                            "interviewer_id": 1,
+                            "community_id": 1,
+                            "topic": ""
+                        }
+                    ]
+                },
+                "id": 21
+            }
+        ],
+        "places": [
+            {
+                "id": 21,
+                "name": "Poço do Tapir",
+                "type_of_place": "Grande Nuvem de Magalhães",
+                "created_at": "2023-12-08T03:33:05.908Z",
+                "updated_at": "2023-12-08T03:33:05.908Z",
+                "lat": "55.8955",
+                "long": "42.6742",
+                "region": null,
+                "description": "",
+                "community_id": 1
+            }
+        ],
+        "language": "tupi-guaraní",
+        "media": [
+            {
+                "id": 21,
+                "author": "Maybí Machacalis",
+                "url": "https://lsnmst.github.io/cultura-estelar/images/tupi-21.jpg",
+                "blob": {
+                    "id": 21,
+                    "key": "tupi-21.jpg",
+                    "filename": "tupi-21.jpg",
+                    "content_type": "image/jpeg",
+                    "metadata": {
+                        "identified": true,
+                        "width": 1000,
+                        "height": 1636,
+                        "analyzed": true
+                    }
+                }
+            }
+        ], "speakers": [
+            {
+                "id": 21,
+                "name": "Texto por Gustavo Villa",
+                "speaker_community": "Nome da comunidade"
+            },
+        ],
+        "media_links": [],
+        "permission_level": "anonymous",
+        "topic": ""
+    },
+    {
+        "title": "Poço do Caititu",
+        "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+        "id": 22,
+        "author": "Maybí Machacalis",
+        "created_at": "2023-11-14T10:41:35.498Z",
+        "points": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        1.3616667,
+                        -68.072497
+                    ]
+                },
+                "properties": {
+                    "name": "Poço do Caititu",
+                    "description": "",
+                    "region": null,
+                    "type_of_place": "Pequena Nuvem de Magalhães",
+                    "stories": [
+                        {
+                            "id": 22,
+                            "title": "Poço do Caititu",
+                            "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+                            "created_at": "2023-11-14T10:41:15.498Z",
+                            "updated_at": "2023-12-08T03:33:20.768Z",
+                            "permission_level": "anonymous",
+                            "date_interviewed": null,
+                            "language": "English",
+                            "interview_location_id": 1,
+                            "interviewer_id": 1,
+                            "community_id": 1,
+                            "topic": ""
+                        }
+                    ]
+                },
+                "id": 22
+            }
+        ],
+        "places": [
+            {
+                "id": 22,
+                "name": "Poço do Caititu",
+                "type_of_place": "Pequena Nuvem de Magalhães",
+                "created_at": "2023-12-08T03:33:05.908Z",
+                "updated_at": "2023-12-08T03:33:05.908Z",
+                "lat": "55.8955",
+                "long": "42.6742",
+                "region": null,
+                "description": "",
+                "community_id": 1
+            }
+        ],
+        "language": "tupi-guaraní",
+        "media": [
+            {
+                "id": 22,
+                "author": "Maybí Machacalis",
+                "url": "https://lsnmst.github.io/cultura-estelar/images/tupi-22.jpg",
+                "blob": {
+                    "id": 22,
+                    "key": "tupi-22.jpg",
+                    "filename": "tupi-22.jpg",
+                    "content_type": "image/jpeg",
+                    "metadata": {
+                        "identified": true,
+                        "width": 1000,
+                        "height": 1636,
+                        "analyzed": true
+                    }
+                }
+            }
+        ], "speakers": [
+            {
+                "id": 22,
+                "name": "Texto por Gustavo Villa",
+                "speaker_community": "Nome da comunidade"
+            },
+        ],
+        "media_links": [],
+        "permission_level": "anonymous",
+        "topic": ""
+    },
+    {
+        "title": "Nhanderu",
+        "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+        "id": 23,
+        "author": "Maybí Machacalis",
+        "created_at": "2023-11-14T10:41:05.498Z",
+        "points": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0,
+                        90
+                    ]
+                },
+                "properties": {
+                    "name": "Nhanderu",
+                    "description": "",
+                    "region": null,
+                    "type_of_place": "Zênite do observador",
+                    "stories": [
+                        {
+                            "id": 23,
+                            "title": "Nhanderu",
+                            "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+                            "created_at": "2023-11-14T10:41:15.498Z",
+                            "updated_at": "2023-12-08T03:33:20.768Z",
+                            "permission_level": "anonymous",
+                            "date_interviewed": null,
+                            "language": "English",
+                            "interview_location_id": 1,
+                            "interviewer_id": 1,
+                            "community_id": 1,
+                            "topic": ""
+                        }
+                    ]
+                },
+                "id": 23
+            }
+        ],
+        "places": [
+            {
+                "id": 23,
+                "name": "Nhanderu",
+                "type_of_place": "Zênite do observador",
+                "created_at": "2023-12-08T03:33:05.908Z",
+                "updated_at": "2023-12-08T03:33:05.908Z",
+                "lat": "55.8955",
+                "long": "42.6742",
+                "region": null,
+                "description": "",
+                "community_id": 1
+            }
+        ],
+        "language": "tupi-guaraní",
+        "media": [
+            {
+                "id": 23,
+                "author": "Maybí Machacalis",
+                "url": "https://lsnmst.github.io/cultura-estelar/images/tupi-23.jpg",
+                "blob": {
+                    "id": 23,
+                    "key": "tupi-23.jpg",
+                    "filename": "tupi-23.jpg",
+                    "content_type": "image/jpeg",
+                    "metadata": {
+                        "identified": true,
+                        "width": 1000,
+                        "height": 1636,
+                        "analyzed": true
+                    }
+                }
+            }
+        ], "speakers": [
+            {
+                "id": 23,
+                "name": "Texto por Gustavo Villa",
+                "speaker_community": "Nome da comunidade"
+            },
+        ],
+        "media_links": [],
+        "permission_level": "anonymous",
+        "topic": ""
+    },
+    {
+        "title": "Encantados",
+        "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+        "id": 24,
+        "author": "Maybí Machacalis",
+        "created_at": "2023-11-14T10:41:04.498Z",
+        "points": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0,
+                        90
+                    ]
+                },
+                "properties": {
+                    "name": "Encantados",
+                    "description": "",
+                    "region": null,
+                    "type_of_place": "Pontos cardeais",
+                    "stories": [
+                        {
+                            "id": 24,
+                            "title": "Encantados",
+                            "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+                            "created_at": "2023-11-14T10:41:15.498Z",
+                            "updated_at": "2023-12-08T03:33:20.768Z",
+                            "permission_level": "anonymous",
+                            "date_interviewed": null,
+                            "language": "English",
+                            "interview_location_id": 1,
+                            "interviewer_id": 1,
+                            "community_id": 1,
+                            "topic": ""
+                        }
+                    ]
+                },
+                "id": 24
+            }
+        ],
+        "places": [
+            {
+                "id": 24,
+                "name": "Encantados",
+                "type_of_place": "Pontos cardeais",
+                "created_at": "2023-12-08T03:33:05.908Z",
+                "updated_at": "2023-12-08T03:33:05.908Z",
+                "lat": "55.8955",
+                "long": "42.6742",
+                "region": null,
+                "description": "",
+                "community_id": 1
+            }
+        ],
+        "language": "tupi-guaraní",
+        "media": [
+            {
+                "id": 24,
+                "author": "Maybí Machacalis",
+                "url": "https://lsnmst.github.io/cultura-estelar/images/tupi-24.jpg",
+                "blob": {
+                    "id": 24,
+                    "key": "tupi-24.jpg",
+                    "filename": "tupi-24.jpg",
+                    "content_type": "image/jpeg",
+                    "metadata": {
+                        "identified": true,
+                        "width": 1000,
+                        "height": 1636,
+                        "analyzed": true
+                    }
+                }
+            }
+        ], "speakers": [
+            {
+                "id": 24,
+                "name": "Texto por Gustavo Villa",
+                "speaker_community": "Nome da comunidade"
+            },
+        ],
+        "media_links": [],
+        "permission_level": "anonymous",
+        "topic": ""
+    },
+    {
+        "title": "Eclipse Solar",
+        "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+        "id": 25,
+        "author": "Maybí Machacalis",
+        "created_at": "2023-11-14T10:03:38.498Z",
+        "points": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -163.2,
+                        -10.75
+                    ]
+                },
+                "properties": {
+                    "name": "Eclipse Solar",
+                    "description": "",
+                    "region": null,
+                    "type_of_place": "Sistema solar",
+                    "stories": [
+                        {
+                            "id": 25,
+                            "title": "Eclipse Solar",
+                            "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+                            "created_at": "2023-11-14T10:41:15.498Z",
+                            "updated_at": "2023-12-08T03:33:20.768Z",
+                            "permission_level": "anonymous",
+                            "date_interviewed": null,
+                            "language": "English",
+                            "interview_location_id": 1,
+                            "interviewer_id": 1,
+                            "community_id": 1,
+                            "topic": ""
+                        }
+                    ]
+                },
+                "id": 25
+            }
+        ],
+        "places": [
+            {
+                "id": 25,
+                "name": "Eclipse Solar",
+                "type_of_place": "Sistema solar",
+                "created_at": "2023-12-08T03:33:05.908Z",
+                "updated_at": "2023-12-08T03:33:05.908Z",
+                "lat": "55.8955",
+                "long": "42.6742",
+                "region": null,
+                "description": "",
+                "community_id": 1
+            }
+        ],
+        "language": "tupi-guaraní",
+        "media": [
+            {
+                "id": 25,
+                "author": "Maybí Machacalis",
+                "url": "https://lsnmst.github.io/cultura-estelar/images/tupi-25.jpg",
+                "blob": {
+                    "id": 25,
+                    "key": "tupi-25.jpg",
+                    "filename": "tupi-25.jpg",
+                    "content_type": "image/jpeg",
+                    "metadata": {
+                        "identified": true,
+                        "width": 1000,
+                        "height": 1636,
+                        "analyzed": true
+                    }
+                }
+            }
+        ], "speakers": [
+            {
+                "id": 25,
+                "name": "Texto por Gustavo Villa",
+                "speaker_community": "Nome da comunidade"
+            },
+        ],
+        "media_links": [],
+        "permission_level": "anonymous",
+        "topic": ""
+    },
+    {
+        "title": "Eclipse Lunar",
+        "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+        "id": 26,
+        "author": "Maybí Machacalis",
+        "created_at": "2023-11-14T10:02:39.498Z",
+        "points": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -163.2,
+                        -10.75
+                    ]
+                },
+                "properties": {
+                    "name": "Eclipse Lunar",
+                    "description": "",
+                    "region": null,
+                    "type_of_place": "Sistema solar",
+                    "stories": [
+                        {
+                            "id": 26,
+                            "title": "Eclipse Lunar",
+                            "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+                            "created_at": "2023-11-14T10:41:15.498Z",
+                            "updated_at": "2023-12-08T03:33:20.768Z",
+                            "permission_level": "anonymous",
+                            "date_interviewed": null,
+                            "language": "English",
+                            "interview_location_id": 1,
+                            "interviewer_id": 1,
+                            "community_id": 1,
+                            "topic": ""
+                        }
+                    ]
+                },
+                "id": 26
+            }
+        ],
+        "places": [
+            {
+                "id": 26,
+                "name": "Eclipse Lunar",
+                "type_of_place": "Sistema solar",
+                "created_at": "2023-12-08T03:33:05.908Z",
+                "updated_at": "2023-12-08T03:33:05.908Z",
+                "lat": "55.8955",
+                "long": "42.6742",
+                "region": null,
+                "description": "",
+                "community_id": 1
+            }
+        ],
+        "language": "tupi-guaraní",
+        "media": [
+            {
+                "id": 26,
+                "author": "Maybí Machacalis",
+                "url": "https://lsnmst.github.io/cultura-estelar/images/tupi-26.jpg",
+                "blob": {
+                    "id": 26,
+                    "key": "tupi-26.jpg",
+                    "filename": "tupi-26.jpg",
+                    "content_type": "image/jpeg",
+                    "metadata": {
+                        "identified": true,
+                        "width": 1000,
+                        "height": 1636,
+                        "analyzed": true
+                    }
+                }
+            }
+        ], "speakers": [
+            {
+                "id": 26,
+                "name": "Texto por Gustavo Villa",
+                "speaker_community": "Nome da comunidade"
+            },
+        ],
+        "media_links": [],
+        "permission_level": "anonymous",
+        "topic": ""
+    },
+    {
+        "title": "Chuva de Meteoros",
+        "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+        "id": 27,
+        "author": "Maybí Machacalis",
+        "created_at": "2023-11-14T10:41:01.498Z",
+        "points": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -163.2,
+                        -10.75
+                    ]
+                },
+                "properties": {
+                    "name": "Chuva de Meteoros",
+                    "description": "",
+                    "region": null,
+                    "type_of_place": "Sistema solar",
+                    "stories": [
+                        {
+                            "id": 27,
+                            "title": "Chuva de Meteoros",
+                            "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+                            "created_at": "2023-11-14T10:41:15.498Z",
+                            "updated_at": "2023-12-08T03:33:20.768Z",
+                            "permission_level": "anonymous",
+                            "date_interviewed": null,
+                            "language": "English",
+                            "interview_location_id": 1,
+                            "interviewer_id": 1,
+                            "community_id": 1,
+                            "topic": ""
+                        }
+                    ]
+                },
+                "id": 27
+            }
+        ],
+        "places": [
+            {
+                "id": 27,
+                "name": "Chuva de Meteoros",
+                "type_of_place": "Sistema solar",
+                "created_at": "2023-12-08T03:33:05.908Z",
+                "updated_at": "2023-12-08T03:33:05.908Z",
+                "lat": "55.8955",
+                "long": "42.6742",
+                "region": null,
+                "description": "",
+                "community_id": 1
+            }
+        ],
+        "language": "tupi-guaraní",
+        "media": [
+            {
+                "id": 27,
+                "author": "Maybí Machacalis",
+                "url": "https://lsnmst.github.io/cultura-estelar/images/tupi-27.jpg",
+                "blob": {
+                    "id": 27,
+                    "key": "tupi-27.jpg",
+                    "filename": "tupi-27.jpg",
+                    "content_type": "image/jpeg",
+                    "metadata": {
+                        "identified": true,
+                        "width": 1000,
+                        "height": 1636,
+                        "analyzed": true
+                    }
+                }
+            }
+        ], "speakers": [
+            {
+                "id": 27,
                 "name": "Texto por Gustavo Villa",
                 "speaker_community": "Nome da comunidade"
             },
