@@ -27,8 +27,8 @@ class App extends Component {
       filterItem: "Escolha a opção",
       itemOptions: [],
       zoom: 1.25,
-      centerLong: -120,
-      centerLat: -35,
+      centerLong: -90,
+      centerLat: -90,
       logoPath: logo
     };
   }
