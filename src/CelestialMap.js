@@ -42,7 +42,7 @@ export default class CelestialMap extends Component {
         namesType: "iau",
         nameStyle: { fill: ["#fec", "#f6c", "#fec"], opacity: 0.6, font: ["bold 13px 'Nehanda-SpiritMedium', 'Lucida Sans Unicode', Trebuchet, Helvetica, Arial, sans-serif", "18px 'Nehanda-SpiritMedium', 'Lucida Sans Unicode', Trebuchet, Helvetica, Arial, sans-serif", "14px 'Nehanda-SpiritMedium','Lucida Sans Unicode', Trebuchet, Helvetica, Arial, sans-serif"], align: "center", baseline: "middle" },
         lines: true,
-        lineStyle: { stroke: ["#99c", "#f6c", "#99c"], width: [1, 1.5, 1], opacity: 0.9 },
+        lineStyle: { stroke: ["#99c", "#f6c", "#99c"], width: [1, 1, 1], opacity: 0.9 },
         bounds: true,
         boundStyle: { stroke: "#ffff00", width: 0.5, opacity: 0.7, dash: [8, 4, 2, 4] }
       },
