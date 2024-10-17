@@ -101,7 +101,7 @@ const sampleStories = [
         "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
         "id": 2,
         "author": "Maybí Machacalis",
-        "created_at": "2023-11-14T10:41:15.498Z",
+        "created_at": "2024-11-17T10:41:15.498Z",
         "points": [
             {
                 "type": "Feature",
@@ -356,7 +356,7 @@ const sampleStories = [
         "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
         "id": 5,
         "author": "Maybí Machacalis",
-        "created_at": "2023-11-14T10:41:18.498Z",
+        "created_at": "2024-11-16T10:41:18.498Z",
         "points": [
             {
                 "type": "Feature",
@@ -441,7 +441,7 @@ const sampleStories = [
         "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
         "id": 6,
         "author": "Maybí Machacalis",
-        "created_at": "2023-11-14T10:41:19.498Z",
+        "created_at": "2024-11-17T21:41:19.498Z",
         "points": [
             {
                 "type": "Feature",
@@ -1376,7 +1376,7 @@ const sampleStories = [
         "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
         "id": 17,
         "author": "Maybí Machacalis",
-        "created_at": "2023-11-14T10:41:30.498Z",
+        "created_at": "2024-11-15T10:41:30.498Z",
         "points": [
             {
                 "type": "Feature",
