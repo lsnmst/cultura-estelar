@@ -134,7 +134,7 @@
                 "name": "Aquarius",
                 "desig": "Aqr",
                 "gen": "Aquarii",
-                "rank": "2",
+                "rank": "3",
                 "en": "Aquarius",
                 "la": "Aquarius",
                 "ar": "الدلو",
@@ -428,7 +428,7 @@
                 "name": "Camelopardalis",
                 "desig": "Cam",
                 "gen": "Camelopardalis",
-                "rank": "2",
+                "rank": "3",
                 "en": "Giraffe",
                 "la": "Camelopardalis",
                 "ar": "الزرافة",
@@ -470,7 +470,7 @@
                 "name": "Cancer",
                 "desig": "Cnc",
                 "gen": "Cancri",
-                "rank": "2",
+                "rank": "3",
                 "en": "Crab",
                 "la": "Cancer",
                 "ar": "السرطان",
@@ -512,7 +512,7 @@
                 "name": "Canes Venatici",
                 "desig": "CVn",
                 "gen": "Canum Venaticorum",
-                "rank": "2",
+                "rank": "3",
                 "en": "Hunting Dogs",
                 "la": "Canes Venatici",
                 "ar": "السلوقيان",
@@ -596,7 +596,7 @@
                 "name": "Canis Minor",
                 "desig": "CMi",
                 "gen": "Canis Minoris",
-                "rank": "2",
+                "rank": "3",
                 "en": "Little Dog",
                 "la": "Canis Minor",
                 "ar": "الكلب الأصغر",
@@ -638,7 +638,7 @@
                 "name": "Capricornus",
                 "desig": "Cap",
                 "gen": "Capricorni",
-                "rank": "2",
+                "rank": "3",
                 "en": "Capricorn",
                 "la": "Capricornus",
                 "ar": "الجدي",
@@ -806,7 +806,7 @@
                 "name": "Cepheus",
                 "desig": "Cep",
                 "gen": "Cephei",
-                "rank": "2",
+                "rank": "3",
                 "en": "Cepheus",
                 "la": "Cepheus",
                 "ar": "الملتهب",
@@ -1100,7 +1100,7 @@
                 "name": "Corona Borealis",
                 "desig": "CrB",
                 "gen": "Coronae Borealis",
-                "rank": "2",
+                "rank": "3",
                 "en": "Northern Crown",
                 "la": "Corona Borealis",
                 "ar": "الإكليل الشمالي",
@@ -1226,7 +1226,7 @@
                 "name": "Crux",
                 "desig": "Cru",
                 "gen": "Crux",
-                "rank": "2",
+                "rank": "3",
                 "en": "Cross",
                 "la": "Crux",
                 "ar": "صليب الجنوب",
@@ -1394,7 +1394,7 @@
                 "name": "Draco",
                 "desig": "Dra",
                 "gen": "Draconis",
-                "rank": "2",
+                "rank": "3",
                 "en": "Dragon",
                 "la": "Draco",
                 "ar": "التنين",
@@ -1646,7 +1646,7 @@
                 "name": "Hercules",
                 "desig": "Her",
                 "gen": "Herculis",
-                "rank": "2",
+                "rank": "3",
                 "en": "Hercules",
                 "la": "Hercules",
                 "ar": "الجاثي",
@@ -1730,7 +1730,7 @@
                 "name": "Hydra",
                 "desig": "Hya",
                 "gen": "Hydrae",
-                "rank": "2",
+                "rank": "3",
                 "en": "Sea Serpent",
                 "la": "Hydra",
                 "ar": "الحية",
@@ -2024,7 +2024,7 @@
                 "name": "Libra",
                 "desig": "Lib",
                 "gen": "Librae",
-                "rank": "2",
+                "rank": "3",
                 "en": "Balance",
                 "la": "Libra",
                 "ar": "الميزان",
@@ -2150,7 +2150,7 @@
                 "name": "Lyra",
                 "desig": "Lyr",
                 "gen": "Lyrae",
-                "rank": "2",
+                "rank": "3",
                 "en": "Lyre",
                 "la": "Lyra",
                 "ar": "القيثارة",
@@ -2276,7 +2276,7 @@
                 "name": "Monoceros",
                 "desig": "Mon",
                 "gen": "Monocerotis",
-                "rank": "2",
+                "rank": "3",
                 "en": "Unicorn",
                 "la": "Monoceros",
                 "ar": "وحيد القرن",
@@ -2444,7 +2444,7 @@
                 "name": "Ophiuchus",
                 "desig": "Oph",
                 "gen": "Ophiuchi",
-                "rank": "2",
+                "rank": "3",
                 "en": "Ophiuchus",
                 "la": "Ophiuchus",
                 "ar": "الحواء",
@@ -2528,7 +2528,7 @@
                 "name": "Pavo",
                 "desig": "Pav",
                 "gen": "Pavonis",
-                "rank": "2",
+                "rank": "3",
                 "en": "Peacock",
                 "la": "Pavo",
                 "ar": "الطاووس",
@@ -2654,7 +2654,7 @@
                 "name": "Phoenix",
                 "desig": "Phe",
                 "gen": "Phoenicis",
-                "rank": "2",
+                "rank": "3",
                 "en": "Phoenix",
                 "la": "Phoenix",
                 "ar": "العنقاء",
@@ -2738,7 +2738,7 @@
                 "name": "Pisces",
                 "desig": "Psc",
                 "gen": "Piscium",
-                "rank": "2",
+                "rank": "3",
                 "en": "Fishes",
                 "la": "Pisces",
                 "ar": "الحوت",
@@ -2780,7 +2780,7 @@
                 "name": "Piscis Austrinus",
                 "desig": "PsA",
                 "gen": "Piscis Austrini",
-                "rank": "2",
+                "rank": "3",
                 "en": "Southern Fish",
                 "la": "Piscis Austrinus",
                 "ar": "الحوت الجنوبي",
@@ -2822,7 +2822,7 @@
                 "name": "Puppis",
                 "desig": "Pup",
                 "gen": "Puppis",
-                "rank": "2",
+                "rank": "3",
                 "en": "Poop Deck",
                 "la": "Puppis",
                 "ar": "الكوثل",
@@ -3410,7 +3410,7 @@
                 "name": "Triangulum Australe",
                 "desig": "TrA",
                 "gen": "Trianguli Australis",
-                "rank": "2",
+                "rank": "3",
                 "en": "Southern Triangle",
                 "la": "Triangulum Australe",
                 "ar": "المثلث الجنوبي",
@@ -3536,7 +3536,7 @@
                 "name": "Ursa Minor",
                 "desig": "UMi",
                 "gen": "Ursae Minoris",
-                "rank": "2",
+                "rank": "3",
                 "en": "Little Dipper",
                 "la": "Ursa Minor",
                 "ar": "الدب الأصغر",
@@ -3578,7 +3578,7 @@
                 "name": "Vela",
                 "desig": "Vel",
                 "gen": "Velorum",
-                "rank": "2",
+                "rank": "3",
                 "en": "Sails",
                 "la": "Vela",
                 "ar": "الشجاع",
@@ -3748,25 +3748,6 @@
                 "gen": "Colibri",
                 "rank": "2",
                 "en": "Colibri",
-                "la": "Colibri",
-                "ar": "Colibri",
-                "zh": "Colibri",
-                "cz": "Colibri",
-                "fa": "Colibri",
-                "ee": "Colibri",
-                "fi": "Colibri",
-                "fr": "Colibri",
-                "de": "Colibri",
-                "el": "Colibri",
-                "it": "Colibri",
-                "ja": "Colibri",
-                "ko": "Colibri",
-                "hi": "Colibri",
-                "ru": "Colibri",
-                "es": "Colibri",
-                "tr": "Colibri",
-                "he": "Colibri",
-                "sw": "Colibri",
                 "display": [
                 ]
             },
@@ -3775,6 +3756,106 @@
                 "coordinates": [
                     -170,
                     -21
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Queixada-da-anta",
+            "properties": {
+                "name": "Queixada da anta",
+                "desig": "Queixada da anta",
+                "gen": "Queixada da anta",
+                "rank": "2",
+                "en": "Queixada da anta",
+                "display": [
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    70,
+                    14.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Joykexo",
+            "properties": {
+                "name": "Joykexo",
+                "desig": "Joykexo",
+                "gen": "Joykexo",
+                "rank": "2",
+                "en": "Joykexo",
+                "display": [
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    82,
+                    -1.2
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Ema",
+            "properties": {
+                "name": "Ema",
+                "desig": "Ema",
+                "gen": "Ema",
+                "rank": "2",
+                "en": "Ema",
+                "display": [
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -120,
+                    -43.4
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Ovos",
+            "properties": {
+                "name": "Dois Ovos",
+                "desig": "Dois Ovos",
+                "gen": "Dois Ovos",
+                "rank": "2",
+                "en": "Dois Ovos",
+                "display": [
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -179,
+                    -68.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Cervo",
+            "properties": {
+                "name": "Cervo",
+                "desig": "Cervo",
+                "gen": "Cervo",
+                "rank": "2",
+                "en": "Cervo",
+                "display": [
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -228.5,
+                    -50
                 ]
             }
         }

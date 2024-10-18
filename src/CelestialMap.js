@@ -29,7 +29,7 @@ export default class CelestialMap extends Component {
 
     var config = {
       projection: "airy",
-      zoomlevel: 3,
+      zoomlevel: 2,
       center: [centerLong, centerLat],
       follow: "center",
       background: { fill: "#333", stroke: "#b3b300", opacity: 1, width: 2 },
@@ -40,9 +40,9 @@ export default class CelestialMap extends Component {
       constellations: {
         names: true,
         namesType: "iau",
-        nameStyle: { fill: ["#fec", "#f6c", "#fec"], opacity: 0.6, font: ["bold 13px 'Nehanda-SpiritMedium', 'Lucida Sans Unicode', Trebuchet, Helvetica, Arial, sans-serif", "18px 'Nehanda-SpiritMedium', 'Lucida Sans Unicode', Trebuchet, Helvetica, Arial, sans-serif", "14px 'Nehanda-SpiritMedium','Lucida Sans Unicode', Trebuchet, Helvetica, Arial, sans-serif"], align: "center", baseline: "middle" },
+        nameStyle: { fill: ["#fec", "#f6c", "#fec"], opacity: [0.3,0.7,0.3], font: ["bold 13px 'Nehanda-SpiritMedium', 'Lucida Sans Unicode', Trebuchet, Helvetica, Arial, sans-serif", "bold 20px 'Nehanda-SpiritMedium', 'Lucida Sans Unicode', Trebuchet, Helvetica, Arial, sans-serif", "12px 'Nehanda-SpiritMedium','Lucida Sans Unicode', Trebuchet, Helvetica, Arial, sans-serif"], align: "center", baseline: "middle" },
         lines: true,
-        lineStyle: { stroke: ["#99c", "#f6c", "#99c"], width: [1, 1, 1], opacity: 0.9 },
+        lineStyle: { stroke: ["#99c", "#f6c", "#99c"], width: [1, 1, 1], opacity: 0.7 },
         bounds: true,
         boundStyle: { stroke: "#ffff00", width: 0.5, opacity: 0.7, dash: [8, 4, 2, 4] }
       },

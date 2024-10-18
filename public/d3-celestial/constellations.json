@@ -3854,8 +3854,28 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -228.5,
-                    -50
+                    -232.5,
+                    -57
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Seriema",
+            "properties": {
+                "name": "Seriema",
+                "desig": "Seriema",
+                "gen": "Seriema",
+                "rank": "2",
+                "en": "Seriema",
+                "display": [
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.6,
+                    -35
                 ]
             }
         }
