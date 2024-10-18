@@ -3898,6 +3898,26 @@
                     -16.6
                 ]
             }
+        },
+        {
+            "type": "Feature",
+            "id": "Velho",
+            "properties": {
+                "name": "Homen Velho",
+                "desig": "Homen Velho",
+                "gen": "Homen Velho",
+                "rank": "2",
+                "en": "Homen Velho",
+                "display": [
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    80,
+                    8
+                ]
+            }
         }
     ]
 }
