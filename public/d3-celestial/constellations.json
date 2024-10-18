@@ -3878,6 +3878,26 @@
                     -35
                 ]
             }
+        },
+        {
+            "type": "Feature",
+            "id": "Vagalume",
+            "properties": {
+                "name": "Estrela Vagalume",
+                "desig": "Estrela Vagalume",
+                "gen": "Estrela Vagalume",
+                "rank": "2",
+                "en": "Estrela Vagalume",
+                "display": [
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    108.3,
+                    -16.6
+                ]
+            }
         }
     ]
 }

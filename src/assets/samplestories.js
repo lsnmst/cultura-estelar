@@ -186,15 +186,15 @@ const sampleStories = [
         "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
         "id": 3,
         "author": "Maybí Machacalis",
-        "created_at": "2023-11-14T10:41:16.498Z",
+        "created_at": "2024-11-20T10:41:16.498Z",
         "points": [
             {
                 "type": "Feature",
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        100.3616667,
-                        -26.072497
+                        101.3,
+                        -16.6
                     ]
                 },
                 "properties": {
