@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cultura-estelar/static/css/main.1d5e4337.css",
-    "main.js": "/cultura-estelar/static/js/main.9f190f9b.js",
+    "main.js": "/cultura-estelar/static/js/main.c99f3ccf.js",
     "static/media/OpenSansCondensed-Bold.ttf": "/cultura-estelar/static/media/OpenSansCondensed-Bold.07d2f62d6fdec88a9ab8.ttf",
     "static/media/MangueiraAlt-Regular.ttf": "/cultura-estelar/static/media/MangueiraAlt-Regular.a19cf75c6948459a6428.ttf",
     "static/media/MangueiraAlt-Thin.ttf": "/cultura-estelar/static/media/MangueiraAlt-Thin.7a12f34288432c941493.ttf",
@@ -9,10 +9,10 @@
     "static/media/Nehanda-SpiritMedium.ttf": "/cultura-estelar/static/media/Nehanda-SpiritMedium.666454d576cb4c3649c4.ttf",
     "index.html": "/cultura-estelar/index.html",
     "main.1d5e4337.css.map": "/cultura-estelar/static/css/main.1d5e4337.css.map",
-    "main.9f190f9b.js.map": "/cultura-estelar/static/js/main.9f190f9b.js.map"
+    "main.c99f3ccf.js.map": "/cultura-estelar/static/js/main.c99f3ccf.js.map"
   },
   "entrypoints": [
     "static/css/main.1d5e4337.css",
-    "static/js/main.9f190f9b.js"
+    "static/js/main.c99f3ccf.js"
   ]
 }

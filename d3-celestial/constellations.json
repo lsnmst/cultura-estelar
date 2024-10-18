@@ -3854,8 +3854,48 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -228.5,
-                    -50
+                    -232.5,
+                    -57
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Seriema",
+            "properties": {
+                "name": "Seriema",
+                "desig": "Seriema",
+                "gen": "Seriema",
+                "rank": "2",
+                "en": "Seriema",
+                "display": [
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.6,
+                    -35
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Vagalume",
+            "properties": {
+                "name": "Estrela Vagalume",
+                "desig": "Estrela Vagalume",
+                "gen": "Estrela Vagalume",
+                "rank": "2",
+                "en": "Estrela Vagalume",
+                "display": [
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    108.3,
+                    -16.6
                 ]
             }
         }
