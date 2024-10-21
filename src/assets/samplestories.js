@@ -526,7 +526,7 @@ const sampleStories = [
         "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
         "id": 7,
         "author": "Maybí Machacalis",
-        "created_at": "2023-11-14T10:41:20.498Z",
+        "created_at": "2024-11-21T22:41:20.498Z",
         "points": [
             {
                 "type": "Feature",
@@ -951,15 +951,15 @@ const sampleStories = [
         "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
         "id": 12,
         "author": "Maybí Machacalis",
-        "created_at": "2023-11-14T10:41:25.498Z",
+        "created_at": "2024-11-21T18:41:25.498Z",
         "points": [
             {
                 "type": "Feature",
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        -20.3616667,
-                        8.072497
+                    -7.7,
+                    15.3
                     ]
                 },
                 "properties": {
@@ -1716,16 +1716,16 @@ const sampleStories = [
         "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
         "id": 21,
         "author": "Maybí Machacalis",
-        "created_at": "2023-11-14T10:41:34.498Z",
+        "created_at": "2024-11-21T10:41:34.498Z",
         "points": [
             {
                 "type": "Feature",
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        73.3616667,
-                        -64.072497
-                    ]
+                        83,
+                        -73.5
+                        ]
                 },
                 "properties": {
                     "name": "Poço do Tapir",
@@ -1801,7 +1801,7 @@ const sampleStories = [
         "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
         "id": 22,
         "author": "Maybí Machacalis",
-        "created_at": "2023-11-14T10:41:35.498Z",
+        "created_at": "2024-11-21T12:41:35.498Z",
         "points": [
             {
                 "type": "Feature",

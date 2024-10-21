@@ -3918,6 +3918,126 @@
                     8
                 ]
             }
+        },
+        {
+            "type": "Feature",
+            "id": "crux",
+            "properties": {
+                "name": "Pata da Ema",
+                "desig": "Pata da Ema",
+                "gen": "Pata da Ema",
+                "rank": "2",
+                "en": "Pata da Ema",
+                "display": [
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -169.1,
+                    -56
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "poco-tapir",
+            "properties": {
+                "name": "Poço do Tapir",
+                "desig": "Poço do Tapir",
+                "gen": "Poço do Tapir",
+                "rank": "2",
+                "en": "Poço do Tapir",
+                "display": [
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    83,
+                    -63.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "poco-caititu",
+            "properties": {
+                "name": "Poço do Caititu",
+                "desig": "Poço do Caititu",
+                "gen": "Poço do Caititu",
+                "rank": "2",
+                "en": "Poço do Caititu",
+                "display": [
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20,
+                    -75.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "pleiades",
+            "properties": {
+                "name": "Plêiades",
+                "desig": "Plêiades",
+                "gen": "Plêiades",
+                "rank": "2",
+                "en": "Plêiades",
+                "display": [
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    50.8,
+                    28.1
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "tinguacu",
+            "properties": {
+                "name": "Estrela Tinguaçu",
+                "desig": "Estrela Tinguaçu",
+                "gen": "Estrela Tinguaçu",
+                "rank": "2",
+                "en": "Estrela Tinguaçu",
+                "display": [
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    42.5,
+                    33.2
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "arapuca",
+            "properties": {
+                "name": "Arapuca",
+                "desig": "Arapuca",
+                "gen": "Arapuca",
+                "rank": "2",
+                "en": "Arapuca",
+                "display": [
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -7.7,
+                    15.3
+                ]
+            }
         }
     ]
 }
