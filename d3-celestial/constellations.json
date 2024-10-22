@@ -4038,6 +4038,46 @@
                     15.3
                 ]
             }
+        },
+        {
+            "type": "Feature",
+            "id": "tapir",
+            "properties": {
+                "name": "Tapir",
+                "desig": "Tapir",
+                "gen": "Tapir",
+                "rank": "2",
+                "en": "Tapir",
+                "display": [
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -10,
+                    63
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "cobra",
+            "properties": {
+                "name": "Cobra",
+                "desig": "Cobra",
+                "gen": "Cobra",
+                "rank": "2",
+                "en": "Cobra",
+                "display": [
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112,
+                    -30
+                ]
+            }
         }
     ]
 }
