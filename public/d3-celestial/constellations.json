@@ -4078,6 +4078,46 @@
                     -30
                 ]
             }
+        },
+        {
+            "type": "Feature",
+            "id": "canoa",
+            "properties": {
+                "name": "Canoa",
+                "desig": "Canoa",
+                "gen": "Canoa",
+                "rank": "2",
+                "en": "Canoa",
+                "display": [
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    192.75,
+                    58.05
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "jabuti",
+            "properties": {
+                "name": "Jabuti",
+                "desig": "Jabuti",
+                "gen": "Jabuti",
+                "rank": "2",
+                "en": "Jabuti",
+                "display": [
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.5,
+                    30.9
+                ]
+            }
         }
     ]
 }
