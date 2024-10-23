@@ -98,9 +98,14 @@ const sampleStories = [
         },*/
     {
         "title": "Dois Ovos",
-        "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+        "desc": "Introdução<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida nulla mauris, ac rhoncus sem ornare vel.<br /><br />Mito<br />Ut leo arcu, imperdiet at dictum vitae, vehicula eu dui.<br /><br />Significado<br />Morbi viverra consectetur nisl. Donec sit amet nibh ex.<br /><br />Relação com o Cosmos<br />Morbi tincidunt lacinia vulputate. Maecenas quis eleifend magna. In quis dignissim tellus.",        
         "id": 2,
-        "author": "Maybí Machacalis",
+        "author": "Maybí Machacalis + o que a imagem representa",
+        "elementos_naturais": "elementos da natureza, como rios, montanhas ou animais",
+        "sazonalidade": "época do ano ou estação",
+        "context": "contexto da história dentro da cosmologia Tupi-Guarani ou contexto indigena no geral",
+        "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
+        "edu":"Como a história pode ser usada em sala de aula ou em atividades culturais, tornando-a uma ferramenta educativa prática.",
         "created_at": "2024-11-17T10:41:15.498Z",
         "points": [
             {
@@ -183,9 +188,14 @@ const sampleStories = [
     },
     {
         "title": "Estrela Vagalume",
-        "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+        "desc": "Introdução<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida nulla mauris, ac rhoncus sem ornare vel.<br /><br />Mito<br />Ut leo arcu, imperdiet at dictum vitae, vehicula eu dui.<br /><br />Significado<br />Morbi viverra consectetur nisl. Donec sit amet nibh ex.<br /><br />Relação com o Cosmos<br />Morbi tincidunt lacinia vulputate. Maecenas quis eleifend magna. In quis dignissim tellus.",        
         "id": 3,
-        "author": "Maybí Machacalis",
+        "author": "Maybí Machacalis + o que a imagem representa",
+        "elementos_naturais": "elementos da natureza, como rios, montanhas ou animais",
+        "sazonalidade": "época do ano ou estação",
+        "context": "contexto da história dentro da cosmologia Tupi-Guarani ou contexto indigena no geral",
+        "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
+        "edu":"Como a história pode ser usada em sala de aula ou em atividades culturais, tornando-a uma ferramenta educativa prática.",
         "created_at": "2024-11-20T10:41:16.498Z",
         "points": [
             {
@@ -268,9 +278,14 @@ const sampleStories = [
     },
     {
         "title": "Estrela Tinguaçu",
-        "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+        "desc": "Introdução<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida nulla mauris, ac rhoncus sem ornare vel.<br /><br />Mito<br />Ut leo arcu, imperdiet at dictum vitae, vehicula eu dui.<br /><br />Significado<br />Morbi viverra consectetur nisl. Donec sit amet nibh ex.<br /><br />Relação com o Cosmos<br />Morbi tincidunt lacinia vulputate. Maecenas quis eleifend magna. In quis dignissim tellus.",        
         "id": 4,
-        "author": "Maybí Machacalis",
+        "author": "Maybí Machacalis + o que a imagem representa",
+        "elementos_naturais": "elementos da natureza, como rios, montanhas ou animais",
+        "sazonalidade": "época do ano ou estação",
+        "context": "contexto da história dentro da cosmologia Tupi-Guarani ou contexto indigena no geral",
+        "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
+        "edu":"Como a história pode ser usada em sala de aula ou em atividades culturais, tornando-a uma ferramenta educativa prática.",
         "created_at": "2023-11-14T10:41:17.498Z",
         "points": [
             {
@@ -353,9 +368,14 @@ const sampleStories = [
     },
     {
         "title": "Ema",
-        "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+        "desc": "Introdução<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida nulla mauris, ac rhoncus sem ornare vel.<br /><br />Mito<br />Ut leo arcu, imperdiet at dictum vitae, vehicula eu dui.<br /><br />Significado<br />Morbi viverra consectetur nisl. Donec sit amet nibh ex.<br /><br />Relação com o Cosmos<br />Morbi tincidunt lacinia vulputate. Maecenas quis eleifend magna. In quis dignissim tellus.",        
         "id": 5,
-        "author": "Maybí Machacalis",
+        "author": "Maybí Machacalis + o que a imagem representa",
+        "elementos_naturais": "elementos da natureza, como rios, montanhas ou animais",
+        "sazonalidade": "época do ano ou estação",
+        "context": "contexto da história dentro da cosmologia Tupi-Guarani ou contexto indigena no geral",
+        "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
+        "edu":"Como a história pode ser usada em sala de aula ou em atividades culturais, tornando-a uma ferramenta educativa prática.",
         "created_at": "2024-11-16T10:41:18.498Z",
         "points": [
             {
@@ -438,9 +458,14 @@ const sampleStories = [
     },
     {
         "title": "Cervo",
-        "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+        "desc": "Introdução<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida nulla mauris, ac rhoncus sem ornare vel.<br /><br />Mito<br />Ut leo arcu, imperdiet at dictum vitae, vehicula eu dui.<br /><br />Significado<br />Morbi viverra consectetur nisl. Donec sit amet nibh ex.<br /><br />Relação com o Cosmos<br />Morbi tincidunt lacinia vulputate. Maecenas quis eleifend magna. In quis dignissim tellus.",        
         "id": 6,
-        "author": "Maybí Machacalis",
+        "author": "Maybí Machacalis + o que a imagem representa",
+        "elementos_naturais": "elementos da natureza, como rios, montanhas ou animais",
+        "sazonalidade": "época do ano ou estação",
+        "context": "contexto da história dentro da cosmologia Tupi-Guarani ou contexto indigena no geral",
+        "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
+        "edu":"Como a história pode ser usada em sala de aula ou em atividades culturais, tornando-a uma ferramenta educativa prática.",
         "created_at": "2024-11-17T21:41:19.498Z",
         "points": [
             {
@@ -523,9 +548,14 @@ const sampleStories = [
     },
     {
         "title": "Tapir",
-        "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+        "desc": "Introdução<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida nulla mauris, ac rhoncus sem ornare vel.<br /><br />Mito<br />Ut leo arcu, imperdiet at dictum vitae, vehicula eu dui.<br /><br />Significado<br />Morbi viverra consectetur nisl. Donec sit amet nibh ex.<br /><br />Relação com o Cosmos<br />Morbi tincidunt lacinia vulputate. Maecenas quis eleifend magna. In quis dignissim tellus.",        
         "id": 7,
-        "author": "Maybí Machacalis",
+        "author": "Maybí Machacalis + o que a imagem representa",
+        "elementos_naturais": "elementos da natureza, como rios, montanhas ou animais",
+        "sazonalidade": "época do ano ou estação",
+        "context": "contexto da história dentro da cosmologia Tupi-Guarani ou contexto indigena no geral",
+        "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
+        "edu":"Como a história pode ser usada em sala de aula ou em atividades culturais, tornando-a uma ferramenta educativa prática.",
         "created_at": "2024-11-21T22:41:20.498Z",
         "points": [
             {
@@ -608,10 +638,15 @@ const sampleStories = [
     },
     {
         "title": "Homen Velho",
-        "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+        "desc": "Introdução<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida nulla mauris, ac rhoncus sem ornare vel.<br /><br />Mito<br />Ut leo arcu, imperdiet at dictum vitae, vehicula eu dui.<br /><br />Significado<br />Morbi viverra consectetur nisl. Donec sit amet nibh ex.<br /><br />Relação com o Cosmos<br />Morbi tincidunt lacinia vulputate. Maecenas quis eleifend magna. In quis dignissim tellus.",        
         "id": 8,
-        "author": "Maybí Machacalis",
-        "created_at": "2024-11-21T10:41:21.498Z",
+        "author": "Maybí Machacalis + o que a imagem representa",
+        "elementos_naturais": "elementos da natureza, como rios, montanhas ou animais",
+        "sazonalidade": "época do ano ou estação",
+        "context": "contexto da história dentro da cosmologia Tupi-Guarani ou contexto indigena no geral",
+        "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
+        "edu":"Como a história pode ser usada em sala de aula ou em atividades culturais, tornando-a uma ferramenta educativa prática.",
+        "created_at": "2024-12-21T10:41:21.498Z",
         "points": [
             {
                 "type": "Feature",
@@ -693,9 +728,14 @@ const sampleStories = [
     },
     {
         "title": "Seriema",
-        "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+        "desc": "Introdução<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida nulla mauris, ac rhoncus sem ornare vel.<br /><br />Mito<br />Ut leo arcu, imperdiet at dictum vitae, vehicula eu dui.<br /><br />Significado<br />Morbi viverra consectetur nisl. Donec sit amet nibh ex.<br /><br />Relação com o Cosmos<br />Morbi tincidunt lacinia vulputate. Maecenas quis eleifend magna. In quis dignissim tellus.",        
         "id": 9,
-        "author": "Maybí Machacalis",
+        "author": "Maybí Machacalis + o que a imagem representa",
+        "elementos_naturais": "elementos da natureza, como rios, montanhas ou animais",
+        "sazonalidade": "época do ano ou estação",
+        "context": "contexto da história dentro da cosmologia Tupi-Guarani ou contexto indigena no geral",
+        "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
+        "edu":"Como a história pode ser usada em sala de aula ou em atividades culturais, tornando-a uma ferramenta educativa prática.",
         "created_at": "2024-11-18T21:41:22.498Z",
         "points": [
             {
@@ -778,9 +818,14 @@ const sampleStories = [
     },
     {
         "title": "Canoa",
-        "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+        "desc": "Introdução<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida nulla mauris, ac rhoncus sem ornare vel.<br /><br />Mito<br />Ut leo arcu, imperdiet at dictum vitae, vehicula eu dui.<br /><br />Significado<br />Morbi viverra consectetur nisl. Donec sit amet nibh ex.<br /><br />Relação com o Cosmos<br />Morbi tincidunt lacinia vulputate. Maecenas quis eleifend magna. In quis dignissim tellus.",        
         "id": 10,
-        "author": "Maybí Machacalis",
+        "author": "Maybí Machacalis + o que a imagem representa",
+        "elementos_naturais": "elementos da natureza, como rios, montanhas ou animais",
+        "sazonalidade": "época do ano ou estação",
+        "context": "contexto da história dentro da cosmologia Tupi-Guarani ou contexto indigena no geral",
+        "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
+        "edu":"Como a história pode ser usada em sala de aula ou em atividades culturais, tornando-a uma ferramenta educativa prática.",
         "created_at": "2024-11-21T23:41:24.508Z",
         "points": [
             {
@@ -863,9 +908,14 @@ const sampleStories = [
     },
     {
         "title": "Cobra",
-        "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+        "desc": "Introdução<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida nulla mauris, ac rhoncus sem ornare vel.<br /><br />Mito<br />Ut leo arcu, imperdiet at dictum vitae, vehicula eu dui.<br /><br />Significado<br />Morbi viverra consectetur nisl. Donec sit amet nibh ex.<br /><br />Relação com o Cosmos<br />Morbi tincidunt lacinia vulputate. Maecenas quis eleifend magna. In quis dignissim tellus.",        
         "id": 11,
-        "author": "Maybí Machacalis",
+        "author": "Maybí Machacalis + o que a imagem representa",
+        "elementos_naturais": "elementos da natureza, como rios, montanhas ou animais",
+        "sazonalidade": "época do ano ou estação",
+        "context": "contexto da história dentro da cosmologia Tupi-Guarani ou contexto indigena no geral",
+        "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
+        "edu":"Como a história pode ser usada em sala de aula ou em atividades culturais, tornando-a uma ferramenta educativa prática.",
         "created_at": "2024-11-21T23:41:24.498Z",
         "points": [
             {
@@ -948,9 +998,14 @@ const sampleStories = [
     },
     {
         "title": "Arapuca",
-        "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+        "desc": "Introdução<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida nulla mauris, ac rhoncus sem ornare vel.<br /><br />Mito<br />Ut leo arcu, imperdiet at dictum vitae, vehicula eu dui.<br /><br />Significado<br />Morbi viverra consectetur nisl. Donec sit amet nibh ex.<br /><br />Relação com o Cosmos<br />Morbi tincidunt lacinia vulputate. Maecenas quis eleifend magna. In quis dignissim tellus.",        
         "id": 12,
-        "author": "Maybí Machacalis",
+        "author": "Maybí Machacalis + o que a imagem representa",
+        "elementos_naturais": "elementos da natureza, como rios, montanhas ou animais",
+        "sazonalidade": "época do ano ou estação",
+        "context": "contexto da história dentro da cosmologia Tupi-Guarani ou contexto indigena no geral",
+        "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
+        "edu":"Como a história pode ser usada em sala de aula ou em atividades culturais, tornando-a uma ferramenta educativa prática.",
         "created_at": "2024-11-21T18:41:25.498Z",
         "points": [
             {
@@ -958,8 +1013,8 @@ const sampleStories = [
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                    -7.7,
-                    15.3
+                        -7.7,
+                        15.3
                     ]
                 },
                 "properties": {
@@ -1033,9 +1088,14 @@ const sampleStories = [
     },
     {
         "title": "Colibri",
-        "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+        "desc": "Introdução<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida nulla mauris, ac rhoncus sem ornare vel.<br /><br />Mito<br />Ut leo arcu, imperdiet at dictum vitae, vehicula eu dui.<br /><br />Significado<br />Morbi viverra consectetur nisl. Donec sit amet nibh ex.<br /><br />Relação com o Cosmos<br />Morbi tincidunt lacinia vulputate. Maecenas quis eleifend magna. In quis dignissim tellus.",        
         "id": 13,
-        "author": "Maybí Machacalis",
+        "author": "Maybí Machacalis + o que a imagem representa",
+        "elementos_naturais": "elementos da natureza, como rios, montanhas ou animais",
+        "sazonalidade": "época do ano ou estação",
+        "context": "contexto da história dentro da cosmologia Tupi-Guarani ou contexto indigena no geral",
+        "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
+        "edu":"Como a história pode ser usada em sala de aula ou em atividades culturais, tornando-a uma ferramenta educativa prática.",
         "created_at": "2024-11-14T10:41:26.498Z",
         "points": [
             {
@@ -1118,9 +1178,14 @@ const sampleStories = [
     },
     {
         "title": "Jabuti",
-        "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+        "desc": "Introdução<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida nulla mauris, ac rhoncus sem ornare vel.<br /><br />Mito<br />Ut leo arcu, imperdiet at dictum vitae, vehicula eu dui.<br /><br />Significado<br />Morbi viverra consectetur nisl. Donec sit amet nibh ex.<br /><br />Relação com o Cosmos<br />Morbi tincidunt lacinia vulputate. Maecenas quis eleifend magna. In quis dignissim tellus.",        
         "id": 14,
-        "author": "Maybí Machacalis",
+        "author": "Maybí Machacalis + o que a imagem representa",
+        "elementos_naturais": "elementos da natureza, como rios, montanhas ou animais",
+        "sazonalidade": "época do ano ou estação",
+        "context": "contexto da história dentro da cosmologia Tupi-Guarani ou contexto indigena no geral",
+        "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
+        "edu":"Como a história pode ser usada em sala de aula ou em atividades culturais, tornando-a uma ferramenta educativa prática.",
         "created_at": "2024-11-21T23:41:24.609Z",
         "points": [
             {
@@ -1203,9 +1268,14 @@ const sampleStories = [
     },
     {
         "title": "Pata da Ema",
-        "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+        "desc": "Introdução<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida nulla mauris, ac rhoncus sem ornare vel.<br /><br />Mito<br />Ut leo arcu, imperdiet at dictum vitae, vehicula eu dui.<br /><br />Significado<br />Morbi viverra consectetur nisl. Donec sit amet nibh ex.<br /><br />Relação com o Cosmos<br />Morbi tincidunt lacinia vulputate. Maecenas quis eleifend magna. In quis dignissim tellus.",        
         "id": 15,
-        "author": "Maybí Machacalis",
+        "author": "Maybí Machacalis + o que a imagem representa",
+        "elementos_naturais": "elementos da natureza, como rios, montanhas ou animais",
+        "sazonalidade": "época do ano ou estação",
+        "context": "contexto da história dentro da cosmologia Tupi-Guarani ou contexto indigena no geral",
+        "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
+        "edu":"Como a história pode ser usada em sala de aula ou em atividades culturais, tornando-a uma ferramenta educativa prática.",
         "created_at": "2023-11-14T10:41:28.498Z",
         "points": [
             {
@@ -1288,9 +1358,14 @@ const sampleStories = [
     },
     {
         "title": "Olhos da Onça",
-        "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+        "desc": "Introdução<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida nulla mauris, ac rhoncus sem ornare vel.<br /><br />Mito<br />Ut leo arcu, imperdiet at dictum vitae, vehicula eu dui.<br /><br />Significado<br />Morbi viverra consectetur nisl. Donec sit amet nibh ex.<br /><br />Relação com o Cosmos<br />Morbi tincidunt lacinia vulputate. Maecenas quis eleifend magna. In quis dignissim tellus.",        
         "id": 16,
-        "author": "Maybí Machacalis",
+        "author": "Maybí Machacalis + o que a imagem representa",
+        "elementos_naturais": "elementos da natureza, como rios, montanhas ou animais",
+        "sazonalidade": "época do ano ou estação",
+        "context": "contexto da história dentro da cosmologia Tupi-Guarani ou contexto indigena no geral",
+        "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
+        "edu":"Como a história pode ser usada em sala de aula ou em atividades culturais, tornando-a uma ferramenta educativa prática.",
         "created_at": "2023-11-14T10:41:29.498Z",
         "points": [
             {
@@ -1373,9 +1448,14 @@ const sampleStories = [
     },
     {
         "title": "Joykexo",
-        "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+        "desc": "Introdução<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida nulla mauris, ac rhoncus sem ornare vel.<br /><br />Mito<br />Ut leo arcu, imperdiet at dictum vitae, vehicula eu dui.<br /><br />Significado<br />Morbi viverra consectetur nisl. Donec sit amet nibh ex.<br /><br />Relação com o Cosmos<br />Morbi tincidunt lacinia vulputate. Maecenas quis eleifend magna. In quis dignissim tellus.",        
         "id": 17,
-        "author": "Maybí Machacalis",
+        "author": "Maybí Machacalis + o que a imagem representa",
+        "elementos_naturais": "elementos da natureza, como rios, montanhas ou animais",
+        "sazonalidade": "época do ano ou estação",
+        "context": "contexto da história dentro da cosmologia Tupi-Guarani ou contexto indigena no geral",
+        "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
+        "edu":"Como a história pode ser usada em sala de aula ou em atividades culturais, tornando-a uma ferramenta educativa prática.",
         "created_at": "2024-11-15T10:41:30.498Z",
         "points": [
             {
@@ -1458,9 +1538,14 @@ const sampleStories = [
     },
     {
         "title": "Via Lactea",
-        "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+        "desc": "Introdução<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida nulla mauris, ac rhoncus sem ornare vel.<br /><br />Mito<br />Ut leo arcu, imperdiet at dictum vitae, vehicula eu dui.<br /><br />Significado<br />Morbi viverra consectetur nisl. Donec sit amet nibh ex.<br /><br />Relação com o Cosmos<br />Morbi tincidunt lacinia vulputate. Maecenas quis eleifend magna. In quis dignissim tellus.",        
         "id": 18,
-        "author": "Maybí Machacalis",
+        "author": "Maybí Machacalis + o que a imagem representa",
+        "elementos_naturais": "elementos da natureza, como rios, montanhas ou animais",
+        "sazonalidade": "época do ano ou estação",
+        "context": "contexto da história dentro da cosmologia Tupi-Guarani ou contexto indigena no geral",
+        "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
+        "edu":"Como a história pode ser usada em sala de aula ou em atividades culturais, tornando-a uma ferramenta educativa prática.",
         "created_at": "2023-11-14T10:41:31.498Z",
         "points": [
             {
@@ -1543,9 +1628,14 @@ const sampleStories = [
     },
     {
         "title": "Plêiades",
-        "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+        "desc": "Introdução<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida nulla mauris, ac rhoncus sem ornare vel.<br /><br />Mito<br />Ut leo arcu, imperdiet at dictum vitae, vehicula eu dui.<br /><br />Significado<br />Morbi viverra consectetur nisl. Donec sit amet nibh ex.<br /><br />Relação com o Cosmos<br />Morbi tincidunt lacinia vulputate. Maecenas quis eleifend magna. In quis dignissim tellus.",        
         "id": 19,
-        "author": "Maybí Machacalis",
+        "author": "Maybí Machacalis + o que a imagem representa",
+        "elementos_naturais": "elementos da natureza, como rios, montanhas ou animais",
+        "sazonalidade": "época do ano ou estação",
+        "context": "contexto da história dentro da cosmologia Tupi-Guarani ou contexto indigena no geral",
+        "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
+        "edu":"Como a história pode ser usada em sala de aula ou em atividades culturais, tornando-a uma ferramenta educativa prática.",
         "created_at": "2023-11-14T10:41:32.498Z",
         "points": [
             {
@@ -1628,9 +1718,14 @@ const sampleStories = [
     },
     {
         "title": "Queixada da Anta",
-        "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+        "desc": "Introdução<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida nulla mauris, ac rhoncus sem ornare vel.<br /><br />Mito<br />Ut leo arcu, imperdiet at dictum vitae, vehicula eu dui.<br /><br />Significado<br />Morbi viverra consectetur nisl. Donec sit amet nibh ex.<br /><br />Relação com o Cosmos<br />Morbi tincidunt lacinia vulputate. Maecenas quis eleifend magna. In quis dignissim tellus.",        
         "id": 20,
-        "author": "Maybí Machacalis",
+        "author": "Maybí Machacalis + o que a imagem representa",
+        "elementos_naturais": "elementos da natureza, como rios, montanhas ou animais",
+        "sazonalidade": "época do ano ou estação",
+        "context": "contexto da história dentro da cosmologia Tupi-Guarani ou contexto indigena no geral",
+        "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
+        "edu":"Como a história pode ser usada em sala de aula ou em atividades culturais, tornando-a uma ferramenta educativa prática.",
         "created_at": "2024-11-14T10:41:33.498Z",
         "points": [
             {
@@ -1713,9 +1808,14 @@ const sampleStories = [
     },
     {
         "title": "Poço do Tapir",
-        "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+        "desc": "Introdução<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida nulla mauris, ac rhoncus sem ornare vel.<br /><br />Mito<br />Ut leo arcu, imperdiet at dictum vitae, vehicula eu dui.<br /><br />Significado<br />Morbi viverra consectetur nisl. Donec sit amet nibh ex.<br /><br />Relação com o Cosmos<br />Morbi tincidunt lacinia vulputate. Maecenas quis eleifend magna. In quis dignissim tellus.",        
         "id": 21,
-        "author": "Maybí Machacalis",
+        "author": "Maybí Machacalis + o que a imagem representa",
+        "elementos_naturais": "elementos da natureza, como rios, montanhas ou animais",
+        "sazonalidade": "época do ano ou estação",
+        "context": "contexto da história dentro da cosmologia Tupi-Guarani ou contexto indigena no geral",
+        "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
+        "edu":"Como a história pode ser usada em sala de aula ou em atividades culturais, tornando-a uma ferramenta educativa prática.",
         "created_at": "2024-11-21T10:41:34.498Z",
         "points": [
             {
@@ -1725,7 +1825,7 @@ const sampleStories = [
                     "coordinates": [
                         83,
                         -73.5
-                        ]
+                    ]
                 },
                 "properties": {
                     "name": "Poço do Tapir",
@@ -1798,9 +1898,14 @@ const sampleStories = [
     },
     {
         "title": "Poço do Caititu",
-        "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+        "desc": "Introdução<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida nulla mauris, ac rhoncus sem ornare vel.<br /><br />Mito<br />Ut leo arcu, imperdiet at dictum vitae, vehicula eu dui.<br /><br />Significado<br />Morbi viverra consectetur nisl. Donec sit amet nibh ex.<br /><br />Relação com o Cosmos<br />Morbi tincidunt lacinia vulputate. Maecenas quis eleifend magna. In quis dignissim tellus.",        
         "id": 22,
-        "author": "Maybí Machacalis",
+        "author": "Maybí Machacalis + o que a imagem representa",
+        "elementos_naturais": "elementos da natureza, como rios, montanhas ou animais",
+        "sazonalidade": "época do ano ou estação",
+        "context": "contexto da história dentro da cosmologia Tupi-Guarani ou contexto indigena no geral",
+        "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
+        "edu":"Como a história pode ser usada em sala de aula ou em atividades culturais, tornando-a uma ferramenta educativa prática.",
         "created_at": "2024-11-21T12:41:35.498Z",
         "points": [
             {
@@ -1883,9 +1988,14 @@ const sampleStories = [
     },
     {
         "title": "Nhanderu",
-        "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+        "desc": "Introdução<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida nulla mauris, ac rhoncus sem ornare vel.<br /><br />Mito<br />Ut leo arcu, imperdiet at dictum vitae, vehicula eu dui.<br /><br />Significado<br />Morbi viverra consectetur nisl. Donec sit amet nibh ex.<br /><br />Relação com o Cosmos<br />Morbi tincidunt lacinia vulputate. Maecenas quis eleifend magna. In quis dignissim tellus.",        
         "id": 23,
-        "author": "Maybí Machacalis",
+        "author": "Maybí Machacalis + o que a imagem representa",
+        "elementos_naturais": "elementos da natureza, como rios, montanhas ou animais",
+        "sazonalidade": "época do ano ou estação",
+        "context": "contexto da história dentro da cosmologia Tupi-Guarani ou contexto indigena no geral",
+        "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
+        "edu":"Como a história pode ser usada em sala de aula ou em atividades culturais, tornando-a uma ferramenta educativa prática.",
         "created_at": "2023-11-14T10:41:05.498Z",
         "points": [
             {
@@ -1968,9 +2078,14 @@ const sampleStories = [
     },
     {
         "title": "Encantados",
-        "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+        "desc": "Introdução<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida nulla mauris, ac rhoncus sem ornare vel.<br /><br />Mito<br />Ut leo arcu, imperdiet at dictum vitae, vehicula eu dui.<br /><br />Significado<br />Morbi viverra consectetur nisl. Donec sit amet nibh ex.<br /><br />Relação com o Cosmos<br />Morbi tincidunt lacinia vulputate. Maecenas quis eleifend magna. In quis dignissim tellus.",        
         "id": 24,
-        "author": "Maybí Machacalis",
+        "author": "Maybí Machacalis + o que a imagem representa",
+        "elementos_naturais": "elementos da natureza, como rios, montanhas ou animais",
+        "sazonalidade": "época do ano ou estação",
+        "context": "contexto da história dentro da cosmologia Tupi-Guarani ou contexto indigena no geral",
+        "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
+        "edu":"Como a história pode ser usada em sala de aula ou em atividades culturais, tornando-a uma ferramenta educativa prática.",
         "created_at": "2023-11-14T10:41:04.498Z",
         "points": [
             {
@@ -2053,9 +2168,14 @@ const sampleStories = [
     },
     {
         "title": "Eclipse Solar",
-        "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+        "desc": "Introdução<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida nulla mauris, ac rhoncus sem ornare vel.<br /><br />Mito<br />Ut leo arcu, imperdiet at dictum vitae, vehicula eu dui.<br /><br />Significado<br />Morbi viverra consectetur nisl. Donec sit amet nibh ex.<br /><br />Relação com o Cosmos<br />Morbi tincidunt lacinia vulputate. Maecenas quis eleifend magna. In quis dignissim tellus.",        
         "id": 25,
-        "author": "Maybí Machacalis",
+        "author": "Maybí Machacalis + o que a imagem representa",
+        "elementos_naturais": "elementos da natureza, como rios, montanhas ou animais",
+        "sazonalidade": "época do ano ou estação",
+        "context": "contexto da história dentro da cosmologia Tupi-Guarani ou contexto indigena no geral",
+        "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
+        "edu":"Como a história pode ser usada em sala de aula ou em atividades culturais, tornando-a uma ferramenta educativa prática.",
         "created_at": "2023-11-14T10:03:38.498Z",
         "points": [
             {
@@ -2138,9 +2258,14 @@ const sampleStories = [
     },
     {
         "title": "Eclipse Lunar",
-        "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+        "desc": "Introdução<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida nulla mauris, ac rhoncus sem ornare vel.<br /><br />Mito<br />Ut leo arcu, imperdiet at dictum vitae, vehicula eu dui.<br /><br />Significado<br />Morbi viverra consectetur nisl. Donec sit amet nibh ex.<br /><br />Relação com o Cosmos<br />Morbi tincidunt lacinia vulputate. Maecenas quis eleifend magna. In quis dignissim tellus.",        
         "id": 26,
-        "author": "Maybí Machacalis",
+        "author": "Maybí Machacalis + o que a imagem representa",
+        "elementos_naturais": "elementos da natureza, como rios, montanhas ou animais",
+        "sazonalidade": "época do ano ou estação",
+        "context": "contexto da história dentro da cosmologia Tupi-Guarani ou contexto indigena no geral",
+        "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
+        "edu":"Como a história pode ser usada em sala de aula ou em atividades culturais, tornando-a uma ferramenta educativa prática.",
         "created_at": "2023-11-14T10:02:39.498Z",
         "points": [
             {
@@ -2223,9 +2348,14 @@ const sampleStories = [
     },
     {
         "title": "Chuva de Meteoros",
-        "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+        "desc": "Introdução<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida nulla mauris, ac rhoncus sem ornare vel.<br /><br />Mito<br />Ut leo arcu, imperdiet at dictum vitae, vehicula eu dui.<br /><br />Significado<br />Morbi viverra consectetur nisl. Donec sit amet nibh ex.<br /><br />Relação com o Cosmos<br />Morbi tincidunt lacinia vulputate. Maecenas quis eleifend magna. In quis dignissim tellus.",        
         "id": 27,
-        "author": "Maybí Machacalis",
+        "author": "Maybí Machacalis + o que a imagem representa",
+        "elementos_naturais": "elementos da natureza, como rios, montanhas ou animais",
+        "sazonalidade": "época do ano ou estação",
+        "context": "contexto da história dentro da cosmologia Tupi-Guarani ou contexto indigena no geral",
+        "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
+        "edu":"Como a história pode ser usada em sala de aula ou em atividades culturais, tornando-a uma ferramenta educativa prática.",
         "created_at": "2023-11-14T10:41:01.498Z",
         "points": [
             {

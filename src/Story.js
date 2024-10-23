@@ -48,6 +48,8 @@ const Story = props => {
             {story.title}
             {story.permission_level === "restricted" && " 🔒"}
           </h6>
+          <p className="cultural_context" ><i>Contexto cultural e histórico:<br /></i> {story.context}</p>
+          <hr style={{ borderColor: "rgb(252, 206,85)", backgroundColor: "rgb(252, 206,85)", width: "70%" }} />
           <p className="description" dangerouslySetInnerHTML={{ __html: story.desc }}></p>
           {
             story.media &&
@@ -58,7 +60,7 @@ const Story = props => {
               />
             ))
           }
-          <p>
+          <p className="author">
             <b>Artista:</b> {story.author}
           </p>
           {
@@ -67,6 +69,18 @@ const Story = props => {
               <b>Idioma:</b> {story.language}
             </p>
           }
+          <p className="cultural_context" ><i>Origem da história <br /></i> {story.origin}</p>
+
+          <div className="tipbox" >
+            <p className="" ><i>Sugestões de uso educativo <br /></i> {story.edu}</p>
+
+            <div style={{display:"flex", flexWrap:"nowrap"}}>
+              <p className="insta"></p>
+              <p className="author" style={{marginLeft:"5px"}}><a href="https://www.instagram.com/observatorioseichu/" target="_blank" rel="noopener noreferrer">Observatório Astronômico Seichú</a></p>
+            </div>
+
+          </div>
+
         </div>
       </li>
     </React.Fragment>
