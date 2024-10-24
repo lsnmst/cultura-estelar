@@ -271,6 +271,55 @@ background-size: 22px 22px
 /* background-clip: border-box | padding-box | content-box; */
 /* background-blend-mode: multiply | screen | overlay; */}
 
+.modalbutton {
+  margin-top: 15px;
+}
+
+.modalpad {
+  padding: 50px;
+}
+
+.modalbutton button {
+  font-family: 'MangueiraAlt-Regular', sans-serif !important;
+  font-size: 0.8rem;
+  font-weight: 900 !important;
+  color: $maybi-blue !important;
+  border: none;
+  background-color: $yellow-maybi;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.modaltitle {
+  font-weight: bolder;
+  font-size: 1.2rem;
+  text-transform:uppercase;
+  font-style: normal;
+  margin-bottom: 15px;
+}
+
+.modaldescription {
+  white-space: pre-wrap;
+  color: $maybi-blue !important;
+  font-family: 'MangueiraAlt-Regular', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+
+.ReactModal__Overlay {
+  background-color: rgba(40,11,108,0.85) !important;
+  font-family: 'MangueiraAlt-Regular', sans-serif !important;
+  font-size: 0.75rem;
+  font-style: italic !important;
+  font-weight: 400 !important;
+  color: $maybi-blue !important;
+}
+
+
+
+
 // Responsive patches
 
 @include for-phone-only {
@@ -351,4 +400,9 @@ background-size: 22px 22px
       border-radius: 0;
     }
   }
+
+  .modalpad {
+    padding: 10px;
+  }
+
 }

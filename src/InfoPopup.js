@@ -1,4 +1,5 @@
 import React, { PureComponent } from "react";
+import Modaltupi from "./Modal";
 
 class InfoPopup extends PureComponent {
 
@@ -17,13 +18,17 @@ class InfoPopup extends PureComponent {
 
   render() {
     return (
-      <div className={this.state.isPopped ? 'info-card isShown' : 'info-card isHidden'}>
-        <h3>Cultura estelar Tupi-Guarani</h3>
-        <p>Uma breve introdução às histórias apresentadas poderia ser colocada aqui. Referências podem ser feitas às comunidades indígenas onde essas histórias são contadas, ao livro de Gustavo para um estudo mais profundo, ao trabalho da Maybi, à propriedade intelectual com referência a <a href="https://localcontexts.org/" target="_blank" rel="noreferrer"> Local Contexts</a></p>
-        <div className="info-card--actions">
-          <span className="count" onClick={this.handleInfoPopup}>Fechar</span>
+      <>
+        <div className={this.state.isPopped ? 'info-card isShown' : 'info-card isHidden'}>
+          <h3>Cultura estelar Tupi-Guarani</h3>
+          <p>Temos que garantir a acessibilidade mas prender o leitor desde o primeiro momento, acho que podemos fornecer um resumo claro e informativo sobre o tema.</p>
+          <Modaltupi />
+          <div className="info-card--actions">
+            <span className="count" onClick={this.handleInfoPopup}>Fechar</span>
+          </div>
         </div>
-      </div>
+
+      </>
     );
   }
 
