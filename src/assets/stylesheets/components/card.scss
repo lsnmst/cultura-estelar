@@ -232,7 +232,7 @@ $el-shadow: 0 1px 4px $lighter-gray;
       p {
         font-size: 0.85rem;
         overflow-wrap: break-word;
-        line-height: 1.25;
+        line-height: 1.38;
         margin-top: 1rem;
         padding-bottom: 1rem;
 
@@ -288,6 +288,18 @@ background-size: 22px 22px
   background-color: $yellow-maybi;
   cursor: pointer;
   padding: 5px;
+}
+
+.modalxbutton button {
+  font-family: 'MangueiraAlt-Regular', sans-serif !important;
+  font-size: 1.1rem;
+  font-weight: 900 !important;
+  color: $maybi-blue !important;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+  padding: 5px;
+  float: right;
 }
 
 .modaltitle {

@@ -41,7 +41,11 @@ class Modaltupi extends React.Component {
           isOpen={this.state.showModal}
           contentLabel="Minimal Modal Example"
         >
+
+          <div className='modalxbutton'><button onClick={this.handleCloseModal}>X</button></div>
+
           <div className='modalpad'>
+
             <div className='modaltitle'>Cultura estelar Tupi-Guarani</div>
 
             <div className="modaldescription">
@@ -90,7 +94,7 @@ class Modaltupi extends React.Component {
 
 
 
-              <div className='modalbutton'><button onClick={this.handleCloseModal}>Fechar</button></div>
+            <div className='modalbutton'><button onClick={this.handleCloseModal}>Fechar</button></div>
           </div>
         </ReactModal>
       </div>

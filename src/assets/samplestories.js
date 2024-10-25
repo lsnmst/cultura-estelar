@@ -188,15 +188,15 @@ const sampleStories = [
     },
     {
         "title": "Estrela Vagalume",
-        "desc": "Introdução<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida nulla mauris, ac rhoncus sem ornare vel.<br /><br />Mito<br />Ut leo arcu, imperdiet at dictum vitae, vehicula eu dui.<br /><br />Significado<br />Morbi viverra consectetur nisl. Donec sit amet nibh ex.<br /><br />Relação com o Cosmos<br />Morbi tincidunt lacinia vulputate. Maecenas quis eleifend magna. In quis dignissim tellus.",        
+        "desc": "INTRODUÇÃO<br />Qual criança nunca se encantou com um campo apinhado de vaga-lumes? Esse pequeno inseto ilumina o imaginário nativo brasileiro e representa, na visão de muitos povos indígenas, uma entidade de luz e mistério.<br /><br />MITO<br />Para os Satere-Mawé, o Mantéru não deve ser capturado. Segundo os mais velhos, aquele que tocar um vaga-lume terá má sorte. Para os Baniwa, ele simboliza brilho e discrição, e seu clã Tooke-idakeenai conta que o filho do líder usou sua luz para se orientar na floresta, mantendo o caminho seguro e evitando curiosos.<br /><br />SIGNIFICADO<br />Para cada povo, o vaga-lume assume significados de sorte, sendo um guia luminoso em meio a mata escura e respeito. Ele é um símbolo de conexão entre o mundo terreno e os mistérios noturnos da floresta.<br /><br />RELAÇÃO COM O COSMOS<br />Nas tradições Tupi-Guarani, o vaga-lume é associado à estrela Sirius, descrita como 'SOUÄNRAN' pelos Tupinambá, significando 'semelhante a um vaga-lume'. A observação de Sirius ao entardecer revela uma tonalidade esverdeada, especialmente durante as queimadas no cerrado, o que fortalece essa conexão cósmica. Diversas culturas, incluindo a egípcia, Maori, havaiana e outros povos polinésios, também associaram Sirius a um elemento sagrado em suas cosmologias, conferindo-lhe uma presença universal.",        
         "id": 3,
-        "author": "Maybí Machacalis + o que a imagem representa",
+        "author": "Maybí Machacalis. A imagem de Maybí ilustra o vaga-lume na constelaçãp de Canis Major.",
         "elementos_naturais": "elementos da natureza, como rios, montanhas ou animais",
         "sazonalidade": "época do ano ou estação",
-        "context": "contexto da história dentro da cosmologia Tupi-Guarani ou contexto indigena no geral",
-        "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
-        "edu":"Como a história pode ser usada em sala de aula ou em atividades culturais, tornando-a uma ferramenta educativa prática.",
-        "created_at": "2024-11-20T10:41:16.498Z",
+        "context": "O vaga-lume, ou Mantéru, ocupa um papel de destaque nas cosmologias indígenas do Brasil. Entre os Satere-Mawé, e Baniwa, povos da Amazônia este inseto luminescente representa não apenas um fenômeno natural, mas também crenças profundas sobre sorte, discrição e, se trata de um guia na floresta. Para os Tupinambá, o vaga-lume é associado à estrela Sirius, uma referência cósmica interpretada por diversas culturas ao redor do mundo.",
+        "origin": "Esta narrativa é compartilhada por diversas culturas indígenas brasileiras, incluindo os Satere-Mawé, Baniwa e Tupinambá, destacando tanto crenças locais quanto interpretações culturais universais.",
+        "edu":"A história pode ser explorada em sala de aula para incentivar o respeito à natureza e ao mundo noturno, promovendo discussões sobre a diversidade cultural, a mitologia estelar e o papel dos insetos no ecossistema. Além disso, a narrativa permite uma reflexão sobre a integração entre o mundo físico, visível, e o espiritual, vivido e experienciado, ampliando a compreensão dos alunos sobre a relação entre natureza e cultura.",
+        "created_at": "2025-11-20T10:41:16.498Z",
         "points": [
             {
                 "type": "Feature",
@@ -268,7 +268,7 @@ const sampleStories = [
         ], "speakers": [
             {
                 "id": 3,
-                "name": "Texto por Gustavo Villa",
+                "name": "Texto por Gustavo Villa e Marina Gomide",
                 "speaker_community": "Nome da comunidade"
             },
         ],
@@ -278,14 +278,14 @@ const sampleStories = [
     },
     {
         "title": "Estrela Tinguaçu",
-        "desc": "Introdução<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida nulla mauris, ac rhoncus sem ornare vel.<br /><br />Mito<br />Ut leo arcu, imperdiet at dictum vitae, vehicula eu dui.<br /><br />Significado<br />Morbi viverra consectetur nisl. Donec sit amet nibh ex.<br /><br />Relação com o Cosmos<br />Morbi tincidunt lacinia vulputate. Maecenas quis eleifend magna. In quis dignissim tellus.",        
+        "desc": "Introdução<br />Qual criança nunca se encantou com um campo apinhado de vaga-lumes? Esse pequeno inseto ilumina o imaginário nativo brasileiro e representa, na visão de muitos povos indígenas, uma entidade de luz e mistério.<br /><br />Mito<br />Para os Satere-Mawé, o Mantéru não deve ser capturado. Segundo os mais velhos, aquele que tocar um vaga-lume terá má sorte. Para os Baniwa, ele simboliza brilho e discrição, e seu clã Tooke-idakeenai conta que o filho do líder usou sua luz para se orientar na floresta, mantendo o caminho seguro e evitando curiosos.<br /><br />Significado<br />Para cada povo, o vaga-lume assume significados de sorte, sendo um guia luminoso em meio a mata escura e respeito. Ele é um símbolo de conexão entre o mundo terreno e os mistérios noturnos da floresta.<br /><br />Relação com o Cosmos<br />Nas tradições Tupi-Guarani, o vaga-lume é associado à estrela Sirius, descrita como 'SOUÄNRAN' pelos Tupinambá, significando 'semelhante a um vaga-lume'. A observação de Sirius ao entardecer revela uma tonalidade esverdeada, especialmente durante as queimadas no cerrado, o que fortalece essa conexão cósmica. Diversas culturas, incluindo a egípcia, Maori, havaiana e outros povos polinésios, também associaram Sirius a um elemento sagrado em suas cosmologias, conferindo-lhe uma presença universal.",        
         "id": 4,
-        "author": "Maybí Machacalis + o que a imagem representa",
+        "author": "Maybí Machacalis. A imagem de Maybí ilustra o vaga-lume na constelaçãp de Canis Major.",
         "elementos_naturais": "elementos da natureza, como rios, montanhas ou animais",
         "sazonalidade": "época do ano ou estação",
-        "context": "contexto da história dentro da cosmologia Tupi-Guarani ou contexto indigena no geral",
-        "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
-        "edu":"Como a história pode ser usada em sala de aula ou em atividades culturais, tornando-a uma ferramenta educativa prática.",
+        "context": "O vaga-lume, ou Mantéru, ocupa um papel de destaque nas cosmologias indígenas do Brasil. Entre os Satere-Mawé, e Baniwa, povos da Amazônia este inseto luminescente representa não apenas um fenômeno natural, mas também crenças profundas sobre sorte, discrição e, se trata de um guia na floresta. Para os Tupinambá, o vaga-lume é associado à estrela Sirius, uma referência cósmica interpretada por diversas culturas ao redor do mundo.",
+        "origin": "Esta narrativa é compartilhada por diversas culturas indígenas brasileiras, incluindo os Satere-Mawé, Baniwa e Tupinambá, destacando tanto crenças locais quanto interpretações culturais universais.",
+        "edu":"A história pode ser explorada em sala de aula para incentivar o respeito à natureza e ao mundo noturno, promovendo discussões sobre a diversidade cultural, a mitologia estelar e o papel dos insetos no ecossistema. Além disso, a narrativa permite uma reflexão sobre a integração entre o mundo físico, visível, e o espiritual, vivido e experienciado, ampliando a compreensão dos alunos sobre a relação entre natureza e cultura.",
         "created_at": "2023-11-14T10:41:17.498Z",
         "points": [
             {

@@ -22,7 +22,7 @@ class App extends Component {
       stories: sampleStories,
       activePoint: null,
       activeStory: null,
-      filterOptions: ["Name", "Corpo celestial", "Elementos Naturais", "Sazonalidade", "Speaker", "Topic", "Idioma", "Comunidade"],
+      filterOptions: ["Título", "Corpo celestial", "Elementos Naturais", "Sazonalidade", "Speaker", "Topic", "Idioma", "Comunidade"],
       filterCategory: "Escolha uma categoria",
       filterItem: "Escolha a opção",
       itemOptions: [],
@@ -74,6 +74,16 @@ class App extends Component {
               .flat()
           );
           filterMap[category] = Array.from(typeOfPlaceSet).filter(item => item).sort();
+          break;
+        }
+        case "Título": {
+          // category: Title
+          const nameSet = new Set(
+            this.state.sourceStories
+              .map(story => story.title)
+              .flat()
+          );
+          filterMap[category] = Array.from(nameSet).filter(item => item).sort();
           break;
         }
         case "Elementos Naturais": {
@@ -165,6 +175,18 @@ class App extends Component {
         });
         break;
       }
+      case "Topic": {
+        // category: topic
+        filteredStories = this.state.sourceStories.filter(story => {
+          if (story.topic) {
+            return (
+              story.topic &&
+              story.topic.toLowerCase() === item.toLowerCase()
+            )
+          }
+        });
+        break;
+      }
       case "Sazonalidade": {
         //  category: Sazonalidade
         filteredStories = this.state.sourceStories.filter(story => {
@@ -177,13 +199,13 @@ class App extends Component {
         });
         break;
       }
-      case "Topic": {
-        // category: topic
+      case "Título": {
+        // category: title
         filteredStories = this.state.sourceStories.filter(story => {
-          if (story.topic) {
+          if (story.title) {
             return (
-              story.topic &&
-              story.topic.toLowerCase() === item.toLowerCase()
+              story.title &&
+              story.title.toLowerCase() === item.toLowerCase()
             )
           }
         });
