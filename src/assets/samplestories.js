@@ -156,7 +156,7 @@ const sampleStories = [
                 "community_id": 1
             }
         ],
-        "language": "tupi-guaraní",
+        "language": "Tupi-Guarani",
         "media": [
             {
                 "id": 2,
@@ -191,7 +191,7 @@ const sampleStories = [
         "desc": "INTRODUÇÃO<br />Qual criança nunca se encantou com um campo apinhado de vaga-lumes? Esse pequeno inseto ilumina o imaginário nativo brasileiro e representa, na visão de muitos povos indígenas, uma entidade de luz e mistério.<br /><br />MITO<br />Para os Satere-Mawé, o Mantéru não deve ser capturado. Segundo os mais velhos, aquele que tocar um vaga-lume terá má sorte. Para os Baniwa, ele simboliza brilho e discrição, e seu clã Tooke-idakeenai conta que o filho do líder usou sua luz para se orientar na floresta, mantendo o caminho seguro e evitando curiosos.<br /><br />SIGNIFICADO<br />Para cada povo, o vaga-lume assume significados de sorte, sendo um guia luminoso em meio a mata escura e respeito. Ele é um símbolo de conexão entre o mundo terreno e os mistérios noturnos da floresta.<br /><br />RELAÇÃO COM O COSMOS<br />Nas tradições Tupi-Guarani, o vaga-lume é associado à estrela Sirius, descrita como 'SOUÄNRAN' pelos Tupinambá, significando 'semelhante a um vaga-lume'. A observação de Sirius ao entardecer revela uma tonalidade esverdeada, especialmente durante as queimadas no cerrado, o que fortalece essa conexão cósmica. Diversas culturas, incluindo a egípcia, Maori, havaiana e outros povos polinésios, também associaram Sirius a um elemento sagrado em suas cosmologias, conferindo-lhe uma presença universal.",        
         "id": 3,
         "author": "Maybí Machacalis. A imagem de Maybí ilustra o vaga-lume na constelaçãp de Canis Major.",
-        "elementos_naturais": "elementos da natureza, como rios, montanhas ou animais",
+        "elementos_naturais": "Animais",
         "sazonalidade": "época do ano ou estação",
         "context": "O vaga-lume, ou Mantéru, ocupa um papel de destaque nas cosmologias indígenas do Brasil. Entre os Satere-Mawé, e Baniwa, povos da Amazônia este inseto luminescente representa não apenas um fenômeno natural, mas também crenças profundas sobre sorte, discrição e, se trata de um guia na floresta. Para os Tupinambá, o vaga-lume é associado à estrela Sirius, uma referência cósmica interpretada por diversas culturas ao redor do mundo.",
         "origin": "Esta narrativa é compartilhada por diversas culturas indígenas brasileiras, incluindo os Satere-Mawé, Baniwa e Tupinambá, destacando tanto crenças locais quanto interpretações culturais universais.",
@@ -204,7 +204,7 @@ const sampleStories = [
                     "type": "Point",
                     "coordinates": [
                         101.3,
-                        -16.6
+                        -26.6
                     ]
                 },
                 "properties": {
@@ -246,7 +246,7 @@ const sampleStories = [
                 "community_id": 1
             }
         ],
-        "language": "tupi-guaraní",
+        "language": "Tupi-Guarani",
         "media": [
             {
                 "id": 3,
@@ -281,7 +281,7 @@ const sampleStories = [
         "desc": "Introdução<br />Qual criança nunca se encantou com um campo apinhado de vaga-lumes? Esse pequeno inseto ilumina o imaginário nativo brasileiro e representa, na visão de muitos povos indígenas, uma entidade de luz e mistério.<br /><br />Mito<br />Para os Satere-Mawé, o Mantéru não deve ser capturado. Segundo os mais velhos, aquele que tocar um vaga-lume terá má sorte. Para os Baniwa, ele simboliza brilho e discrição, e seu clã Tooke-idakeenai conta que o filho do líder usou sua luz para se orientar na floresta, mantendo o caminho seguro e evitando curiosos.<br /><br />Significado<br />Para cada povo, o vaga-lume assume significados de sorte, sendo um guia luminoso em meio a mata escura e respeito. Ele é um símbolo de conexão entre o mundo terreno e os mistérios noturnos da floresta.<br /><br />Relação com o Cosmos<br />Nas tradições Tupi-Guarani, o vaga-lume é associado à estrela Sirius, descrita como 'SOUÄNRAN' pelos Tupinambá, significando 'semelhante a um vaga-lume'. A observação de Sirius ao entardecer revela uma tonalidade esverdeada, especialmente durante as queimadas no cerrado, o que fortalece essa conexão cósmica. Diversas culturas, incluindo a egípcia, Maori, havaiana e outros povos polinésios, também associaram Sirius a um elemento sagrado em suas cosmologias, conferindo-lhe uma presença universal.",        
         "id": 4,
         "author": "Maybí Machacalis. A imagem de Maybí ilustra o vaga-lume na constelaçãp de Canis Major.",
-        "elementos_naturais": "elementos da natureza, como rios, montanhas ou animais",
+        "elementos_naturais": "Animais",
         "sazonalidade": "época do ano ou estação",
         "context": "O vaga-lume, ou Mantéru, ocupa um papel de destaque nas cosmologias indígenas do Brasil. Entre os Satere-Mawé, e Baniwa, povos da Amazônia este inseto luminescente representa não apenas um fenômeno natural, mas também crenças profundas sobre sorte, discrição e, se trata de um guia na floresta. Para os Tupinambá, o vaga-lume é associado à estrela Sirius, uma referência cósmica interpretada por diversas culturas ao redor do mundo.",
         "origin": "Esta narrativa é compartilhada por diversas culturas indígenas brasileiras, incluindo os Satere-Mawé, Baniwa e Tupinambá, destacando tanto crenças locais quanto interpretações culturais universais.",
@@ -336,7 +336,7 @@ const sampleStories = [
                 "community_id": 1
             }
         ],
-        "language": "tupi-guaraní",
+        "language": "Tupi-Guarani",
         "media": [
             {
                 "id": 4,
@@ -426,7 +426,7 @@ const sampleStories = [
                 "community_id": 1
             }
         ],
-        "language": "tupi-guaraní",
+        "language": "Tupi-Guarani",
         "media": [
             {
                 "id": 5,
@@ -461,7 +461,7 @@ const sampleStories = [
         "desc": "Introdução<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida nulla mauris, ac rhoncus sem ornare vel.<br /><br />Mito<br />Ut leo arcu, imperdiet at dictum vitae, vehicula eu dui.<br /><br />Significado<br />Morbi viverra consectetur nisl. Donec sit amet nibh ex.<br /><br />Relação com o Cosmos<br />Morbi tincidunt lacinia vulputate. Maecenas quis eleifend magna. In quis dignissim tellus.",        
         "id": 6,
         "author": "Maybí Machacalis + o que a imagem representa",
-        "elementos_naturais": "elementos da natureza, como rios, montanhas ou animais",
+        "elementos_naturais": "Animais",
         "sazonalidade": "época do ano ou estação",
         "context": "contexto da história dentro da cosmologia Tupi-Guarani ou contexto indigena no geral",
         "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
@@ -516,7 +516,7 @@ const sampleStories = [
                 "community_id": 1
             }
         ],
-        "language": "tupi-guaraní",
+        "language": "Tupi-Guarani",
         "media": [
             {
                 "id": 6,
@@ -551,7 +551,7 @@ const sampleStories = [
         "desc": "Introdução<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida nulla mauris, ac rhoncus sem ornare vel.<br /><br />Mito<br />Ut leo arcu, imperdiet at dictum vitae, vehicula eu dui.<br /><br />Significado<br />Morbi viverra consectetur nisl. Donec sit amet nibh ex.<br /><br />Relação com o Cosmos<br />Morbi tincidunt lacinia vulputate. Maecenas quis eleifend magna. In quis dignissim tellus.",        
         "id": 7,
         "author": "Maybí Machacalis + o que a imagem representa",
-        "elementos_naturais": "elementos da natureza, como rios, montanhas ou animais",
+        "elementos_naturais": "Animais",
         "sazonalidade": "época do ano ou estação",
         "context": "contexto da história dentro da cosmologia Tupi-Guarani ou contexto indigena no geral",
         "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
@@ -606,7 +606,7 @@ const sampleStories = [
                 "community_id": 1
             }
         ],
-        "language": "tupi-guaraní",
+        "language": "Tupi-Guarani",
         "media": [
             {
                 "id": 7,
@@ -696,7 +696,7 @@ const sampleStories = [
                 "community_id": 1
             }
         ],
-        "language": "tupi-guaraní",
+        "language": "Tupi-Guarani",
         "media": [
             {
                 "id": 8,
@@ -731,7 +731,7 @@ const sampleStories = [
         "desc": "Introdução<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida nulla mauris, ac rhoncus sem ornare vel.<br /><br />Mito<br />Ut leo arcu, imperdiet at dictum vitae, vehicula eu dui.<br /><br />Significado<br />Morbi viverra consectetur nisl. Donec sit amet nibh ex.<br /><br />Relação com o Cosmos<br />Morbi tincidunt lacinia vulputate. Maecenas quis eleifend magna. In quis dignissim tellus.",        
         "id": 9,
         "author": "Maybí Machacalis + o que a imagem representa",
-        "elementos_naturais": "elementos da natureza, como rios, montanhas ou animais",
+        "elementos_naturais": "Animais",
         "sazonalidade": "época do ano ou estação",
         "context": "contexto da história dentro da cosmologia Tupi-Guarani ou contexto indigena no geral",
         "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
@@ -786,7 +786,7 @@ const sampleStories = [
                 "community_id": 1
             }
         ],
-        "language": "tupi-guaraní",
+        "language": "Tupi-Guarani",
         "media": [
             {
                 "id": 9,
@@ -876,7 +876,7 @@ const sampleStories = [
                 "community_id": 1
             }
         ],
-        "language": "tupi-guaraní",
+        "language": "Tupi-Guarani",
         "media": [
             {
                 "id": 10,
@@ -911,7 +911,7 @@ const sampleStories = [
         "desc": "Introdução<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida nulla mauris, ac rhoncus sem ornare vel.<br /><br />Mito<br />Ut leo arcu, imperdiet at dictum vitae, vehicula eu dui.<br /><br />Significado<br />Morbi viverra consectetur nisl. Donec sit amet nibh ex.<br /><br />Relação com o Cosmos<br />Morbi tincidunt lacinia vulputate. Maecenas quis eleifend magna. In quis dignissim tellus.",        
         "id": 11,
         "author": "Maybí Machacalis + o que a imagem representa",
-        "elementos_naturais": "elementos da natureza, como rios, montanhas ou animais",
+        "elementos_naturais": "Animais",
         "sazonalidade": "época do ano ou estação",
         "context": "contexto da história dentro da cosmologia Tupi-Guarani ou contexto indigena no geral",
         "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
@@ -966,7 +966,7 @@ const sampleStories = [
                 "community_id": 1
             }
         ],
-        "language": "tupi-guaraní",
+        "language": "Tupi-Guarani",
         "media": [
             {
                 "id": 11,
@@ -1001,7 +1001,7 @@ const sampleStories = [
         "desc": "Introdução<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida nulla mauris, ac rhoncus sem ornare vel.<br /><br />Mito<br />Ut leo arcu, imperdiet at dictum vitae, vehicula eu dui.<br /><br />Significado<br />Morbi viverra consectetur nisl. Donec sit amet nibh ex.<br /><br />Relação com o Cosmos<br />Morbi tincidunt lacinia vulputate. Maecenas quis eleifend magna. In quis dignissim tellus.",        
         "id": 12,
         "author": "Maybí Machacalis + o que a imagem representa",
-        "elementos_naturais": "elementos da natureza, como rios, montanhas ou animais",
+        "elementos_naturais": "Animais",
         "sazonalidade": "época do ano ou estação",
         "context": "contexto da história dentro da cosmologia Tupi-Guarani ou contexto indigena no geral",
         "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
@@ -1056,7 +1056,7 @@ const sampleStories = [
                 "community_id": 1
             }
         ],
-        "language": "tupi-guaraní",
+        "language": "Tupi-Guarani",
         "media": [
             {
                 "id": 12,
@@ -1091,7 +1091,7 @@ const sampleStories = [
         "desc": "Introdução<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida nulla mauris, ac rhoncus sem ornare vel.<br /><br />Mito<br />Ut leo arcu, imperdiet at dictum vitae, vehicula eu dui.<br /><br />Significado<br />Morbi viverra consectetur nisl. Donec sit amet nibh ex.<br /><br />Relação com o Cosmos<br />Morbi tincidunt lacinia vulputate. Maecenas quis eleifend magna. In quis dignissim tellus.",        
         "id": 13,
         "author": "Maybí Machacalis + o que a imagem representa",
-        "elementos_naturais": "elementos da natureza, como rios, montanhas ou animais",
+        "elementos_naturais": "Animais",
         "sazonalidade": "época do ano ou estação",
         "context": "contexto da história dentro da cosmologia Tupi-Guarani ou contexto indigena no geral",
         "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
@@ -1146,7 +1146,7 @@ const sampleStories = [
                 "community_id": 1
             }
         ],
-        "language": "tupi-guaraní",
+        "language": "Tupi-Guarani",
         "media": [
             {
                 "id": 13,
@@ -1236,7 +1236,7 @@ const sampleStories = [
                 "community_id": 1
             }
         ],
-        "language": "tupi-guaraní",
+        "language": "Tupi-Guarani",
         "media": [
             {
                 "id": 14,
@@ -1326,7 +1326,7 @@ const sampleStories = [
                 "community_id": 1
             }
         ],
-        "language": "tupi-guaraní",
+        "language": "Tupi-Guarani",
         "media": [
             {
                 "id": 15,
@@ -1416,7 +1416,7 @@ const sampleStories = [
                 "community_id": 1
             }
         ],
-        "language": "tupi-guaraní",
+        "language": "Tupi-Guarani",
         "media": [
             {
                 "id": 16,
@@ -1506,7 +1506,7 @@ const sampleStories = [
                 "community_id": 1
             }
         ],
-        "language": "tupi-guaraní",
+        "language": "Tupi-Guarani",
         "media": [
             {
                 "id": 17,
@@ -1596,7 +1596,7 @@ const sampleStories = [
                 "community_id": 1
             }
         ],
-        "language": "tupi-guaraní",
+        "language": "Tupi-Guarani",
         "media": [
             {
                 "id": 18,
@@ -1686,7 +1686,7 @@ const sampleStories = [
                 "community_id": 1
             }
         ],
-        "language": "tupi-guaraní",
+        "language": "Tupi-Guarani",
         "media": [
             {
                 "id": 19,
@@ -1776,7 +1776,7 @@ const sampleStories = [
                 "community_id": 1
             }
         ],
-        "language": "tupi-guaraní",
+        "language": "Tupi-Guarani",
         "media": [
             {
                 "id": 20,
@@ -1866,7 +1866,7 @@ const sampleStories = [
                 "community_id": 1
             }
         ],
-        "language": "tupi-guaraní",
+        "language": "Tupi-Guarani",
         "media": [
             {
                 "id": 21,
@@ -1956,7 +1956,7 @@ const sampleStories = [
                 "community_id": 1
             }
         ],
-        "language": "tupi-guaraní",
+        "language": "Tupi-Guarani",
         "media": [
             {
                 "id": 22,
@@ -2046,7 +2046,7 @@ const sampleStories = [
                 "community_id": 1
             }
         ],
-        "language": "tupi-guaraní",
+        "language": "Tupi-Guarani",
         "media": [
             {
                 "id": 23,
@@ -2136,7 +2136,7 @@ const sampleStories = [
                 "community_id": 1
             }
         ],
-        "language": "tupi-guaraní",
+        "language": "Tupi-Guarani",
         "media": [
             {
                 "id": 24,
@@ -2226,7 +2226,7 @@ const sampleStories = [
                 "community_id": 1
             }
         ],
-        "language": "tupi-guaraní",
+        "language": "Tupi-Guarani",
         "media": [
             {
                 "id": 25,
@@ -2316,7 +2316,7 @@ const sampleStories = [
                 "community_id": 1
             }
         ],
-        "language": "tupi-guaraní",
+        "language": "Tupi-Guarani",
         "media": [
             {
                 "id": 26,
@@ -2406,7 +2406,7 @@ const sampleStories = [
                 "community_id": 1
             }
         ],
-        "language": "tupi-guaraní",
+        "language": "Tupi-Guarani",
         "media": [
             {
                 "id": 27,

@@ -22,7 +22,7 @@ class App extends Component {
       stories: sampleStories,
       activePoint: null,
       activeStory: null,
-      filterOptions: ["Título", "Corpo celestial", "Elementos Naturais", "Sazonalidade", "Speaker", "Topic", "Idioma", "Comunidade"],
+      filterOptions: ["Título", "Corpo celestial", "Conexão com elementos naturais", "Sazonalidade", "Speaker", "Topic", "Idioma", "Comunidade"],
       filterCategory: "Escolha uma categoria",
       filterItem: "Escolha a opção",
       itemOptions: [],
@@ -62,7 +62,7 @@ class App extends Component {
     let filterMap = {};
     this.state.filterOptions.sort().map(category => {
       switch (category) {
-        case "Corpo celestial": {
+        /* case "Corpo celestial": {
           // category: Type of Celestial Body
           const typeOfPlaceSet = new Set(
             this.state.sourceStories
@@ -75,7 +75,7 @@ class App extends Component {
           );
           filterMap[category] = Array.from(typeOfPlaceSet).filter(item => item).sort();
           break;
-        }
+        } */
         case "Título": {
           // category: Title
           const nameSet = new Set(
@@ -86,7 +86,7 @@ class App extends Component {
           filterMap[category] = Array.from(nameSet).filter(item => item).sort();
           break;
         }
-        case "Elementos Naturais": {
+        case "Conexão com elementos naturais": {
           // category: Elementos Naturais
           const naturaisSet = new Set(
             this.state.sourceStories
@@ -146,7 +146,7 @@ class App extends Component {
   handleFilter = (category, item) => {
     let filteredStories = [];
     switch (category) {
-      case "Corpo celestial": {
+/*       case "Corpo celestial": {
         // category: type of celestial body
         filteredStories = this.state.sourceStories.filter(story => {
           if (
@@ -163,7 +163,7 @@ class App extends Component {
         });
         break;
       }
-      case "Elementos Naturais": {
+ */      case "Conexão com elementos naturais": {
         // category: elementos naturais
         filteredStories = this.state.sourceStories.filter(story => {
           if (story.elementos_naturais) {
