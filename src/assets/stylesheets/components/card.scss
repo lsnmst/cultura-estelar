@@ -157,7 +157,7 @@ $el-shadow: 0 1px 4px $lighter-gray;
 
       .cultural_context {
         color: rgb(142, 133, 165) !important;
-        font-size: 0.8rem;
+        font-size: 0.85rem;
       }
 
       .description {
@@ -165,11 +165,12 @@ $el-shadow: 0 1px 4px $lighter-gray;
         color: $maybi-blue !important;
         font-family: 'MangueiraAlt-Regular', sans-serif;
         font-weight: 600;
+        font-size: 0.85rem;
       }
 
       .title {
         font-weight: bolder;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
       }
 
       .author {
@@ -232,7 +233,7 @@ $el-shadow: 0 1px 4px $lighter-gray;
       p {
         font-size: 0.85rem;
         overflow-wrap: break-word;
-        line-height: 1.38;
+        line-height: 1.48;
         margin-top: 1rem;
         padding-bottom: 1rem;
 
