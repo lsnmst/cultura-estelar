@@ -6,9 +6,9 @@
     top: 0 !important;
     background-color: $maybi-blue;
 
-        @include for-phone-only {
-            background-color: $yellow-maybi;
-        }
+    @include for-phone-only {
+        background-color: $yellow-maybi;
+    }
 
 
     canvas {
@@ -16,11 +16,11 @@
         // height: 100%!important;
         background-color: $maybi-blue;
 
-        @include for-phone-only {
-            max-width: 100%;
-            border-top: 10px $yellow-maybi solid;
-            border-bottom: 1px $yellow-maybi solid;
-        }
+        // @include for-phone-only {
+        //     max-width: 100%;
+        //     border-top: 10px $yellow-maybi solid;
+        //     border-bottom: 1px $yellow-maybi solid;
+        // }
     }
 
     #celestial-zoomin,
@@ -30,11 +30,17 @@
     }
 }
 
-// @include for-phone-only {
-//     .celestial-MainMap canvas {
-//         max-width: 100%!important;
-//         height: 85%!important;
-//         top: 10%!important;
-//         float: none;
-//     }
-//  }
+@include for-phone-only {
+
+    canvas {
+        translate: -35%;
+    }
+
+    .celestial-MainMap canvas {
+        min-width: 1000px;
+        width: 100% !important;
+        height: auto !important;
+        //top: 10%!important;
+        float: none;
+    }
+}
