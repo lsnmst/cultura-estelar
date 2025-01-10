@@ -13,14 +13,7 @@
 
     canvas {
         max-width: 100% !important;
-        // height: 100%!important;
         background-color: $maybi-blue;
-
-        // @include for-phone-only {
-        //     max-width: 100%;
-        //     border-top: 10px $yellow-maybi solid;
-        //     border-bottom: 1px $yellow-maybi solid;
-        // }
     }
 
     #celestial-zoomin,
@@ -40,7 +33,6 @@
         min-width: 1000px;
         width: 100% !important;
         height: auto !important;
-        //top: 10%!important;
         float: none;
     }
 }
