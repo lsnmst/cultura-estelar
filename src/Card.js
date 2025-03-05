@@ -47,7 +47,7 @@ class Card extends Component {
     return (
       <div className={this.state.isToggleOn ? 'cardContainer onCanvas' : 'cardContainer offCanvas'}>
         <div className="tab" onClick={this.handleTray}>
-          <div className="arrow" />
+        <div className="opentab">Conheça as histórias</div><div className="arrow" /> 
         </div>
         <div className="closeMe" onClick={this.handleTray} />
         <div className="card">

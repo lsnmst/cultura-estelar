@@ -16,7 +16,7 @@
     bottom: 0% !important;
     width: 100%;
     right: 0%;
-    max-height: 25%;
+    max-height: 35%;
     overflow-y: scroll;
   }
 
@@ -31,11 +31,11 @@
 
   h2 {
     flex: 1;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     margin: 0 0 0.5rem;
     background: $yellow-maybi;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
     padding: 1rem;
     margin: -1rem -1rem 1rem -1rem;
     color: $maybi-blue;

@@ -49,6 +49,10 @@ $el-shadow: 0 1px 4px $lighter-gray;
     display: none;
   }
 
+  .opentab {
+    display: none;
+  }
+
   .card {
     position: absolute;
     height: 100%;
@@ -288,7 +292,7 @@ background-size: 22px 22px
   border: none;
   background-color: $yellow-maybi;
   cursor: pointer;
-  padding: 5px;
+  padding: 10px;
 }
 
 .modalxbutton button {
@@ -350,9 +354,23 @@ background-size: 22px 22px
       }
 
       .tab {
+
+        width: 10rem;
         &:after {
-          content: '';
+          content: '' !important;
         }
+
+        .opentab {
+          display: unset !important;
+          font-size: 0.8rem;
+          max-width: 70%;
+          line-height: 1rem;
+          padding: 10px;
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+      
       }
     }
 
@@ -363,6 +381,13 @@ background-size: 22px 22px
         top: 0;
         left: 0;
       }
+
+      .tab {
+        &:after {
+          content: '' !important;
+        }
+      }
+    
     }
 
     .closeMe {
