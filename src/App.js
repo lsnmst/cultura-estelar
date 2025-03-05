@@ -10,6 +10,7 @@ import IntroPopup from "./IntroPopup";
 import InfoPopup from "./InfoPopup";
 
 import logo from './assets/images/stellarstories.png';
+import logoinfo from './assets/images/stellarstories_info.png';
 import sampleStories from './assets/samplestories';
 
 class App extends Component {
@@ -29,7 +30,8 @@ class App extends Component {
       zoom: 1.25,
       centerLong: -90,
       centerLat: -90,
-      logoPath: logo
+      logoPath: logo,
+      logoinfoPath: logoinfo
     };
   }
 
@@ -356,6 +358,7 @@ class App extends Component {
           clearFilteredStories={this.resetStoriesAndMap}
           onStoryClick={this.handleStoryClick}
           logo_path={this.state.logoPath}
+          logoinfo_path={this.state.logoinfoPath}
           filterCategory={this.state.filterCategory}
           filterItem={this.state.filterItem}
           handleFilterCategoryChange={this.handleFilterCategoryChange}

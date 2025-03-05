@@ -21,6 +21,7 @@ class Card extends Component {
     handleStoriesChanged: PropTypes.func,
     onStoryClick: PropTypes.func,
     logo_path: PropTypes.string,
+    logoinfo_path: PropTypes.string,
     activeStory: PropTypes.object,
     filterCategory: PropTypes.string,
     filterItem: PropTypes.string,
@@ -47,7 +48,11 @@ class Card extends Component {
     return (
       <div className={this.state.isToggleOn ? 'cardContainer onCanvas' : 'cardContainer offCanvas'}>
         <div className="tab" onClick={this.handleTray}>
-        <div className="opentab">Conheça as histórias</div><div className="arrow" /> 
+          <div className="opentab">Conheça as histórias</div>
+          <div className="arrow" />
+          <div className="card--infologo" style={{ backgroundColor: "rgb(40,11,108)"}}>
+            <img src={this.props.logoinfo_path} alt="Stellarstories" />
+          </div>
         </div>
         <div className="closeMe" onClick={this.handleTray} />
         <div className="card">

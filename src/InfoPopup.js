@@ -20,12 +20,15 @@ class InfoPopup extends PureComponent {
     return (
       <>
         <div className={this.state.isPopped ? 'info-card isShown' : 'info-card isHidden'}>
-          <div className="info-card--actions" style={{position:"fixed", marginTop:"0px", marginRight:"0px"}} >
+          <div className="info-card--actions" style={{ position: "fixed", marginTop: "0px", marginRight: "0px" }} >
             <span className="count" onClick={this.handleInfoPopup}><b>X</b></span>
           </div>
           <h2>Cultura estelar Tupi-Guarani</h2>
-          <p>Temos que garantir a acessibilidade mas prender o leitor desde o primeiro momento, acho que podemos fornecer um resumo claro e informativo sobre o tema.</p>
-          <p>Temos que garantir a acessibilidade mas prender o leitor desde o primeiro momento, acho que podemos fornecer um resumo claro e informativo sobre o tema.</p>
+          <div style={{ overflowY: "scroll", maxHeight: "200px" }}>
+            <p>Temos que garantir a acessibilidade mas prender o leitor desde o primeiro momento, acho que podemos fornecer um resumo claro e informativo sobre o tema.</p>
+            <p>Temos que garantir a acessibilidade mas prender o leitor desde o primeiro momento, acho que podemos fornecer um resumo claro e informativo sobre o tema.</p>
+            <p>Temos que garantir a acessibilidade mas prender o leitor desde o primeiro momento, acho que podemos fornecer um resumo claro e informativo sobre o tema.</p>
+          </div>
           <Modaltupi />
         </div>
 
