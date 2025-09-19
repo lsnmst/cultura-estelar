@@ -12,6 +12,7 @@ class StoryList extends Component {
     handleFilter: PropTypes.func,
     clearFilteredStories: PropTypes.func,
     onStoryClick: PropTypes.func,
+    onStoryHover: PropTypes.func,
     filterMap: PropTypes.object,
     categories: PropTypes.array,
     activeStory: PropTypes.object,
@@ -50,12 +51,13 @@ class StoryList extends Component {
       storyClass = `story${index}`;
     }
     return (
-        <Story
-          story={story}
-          onStoryClick={this.props.onStoryClick}
-          storyClass={storyClass}
-          key={key}
-        />
+      <Story
+        story={story}
+        onStoryClick={this.props.onStoryClick}
+        onStoryHover={this.props.onStoryHover}
+        storyClass={storyClass}
+        key={key}
+      />
     );
   };
 
@@ -80,7 +82,7 @@ class StoryList extends Component {
         </div>
         <div className="stories">
           <ReactList
-            ref={list => this._list = list }
+            ref={list => this._list = list}
             itemRenderer={this.renderStory}
             length={this.props.stories ? this.props.stories.length : 0}
             type='variable'

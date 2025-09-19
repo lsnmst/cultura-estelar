@@ -729,96 +729,6 @@ const sampleStories = [
         "topic": ""
     },
     {
-        "title": "Arapuca",
-        "desc": "Introdução<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida nulla mauris, ac rhoncus sem ornare vel.<br /><br />Mito<br />Ut leo arcu, imperdiet at dictum vitae, vehicula eu dui.<br /><br />Significado<br />Morbi viverra consectetur nisl. Donec sit amet nibh ex.<br /><br />Relação com o Cosmos<br />Morbi tincidunt lacinia vulputate. Maecenas quis eleifend magna. In quis dignissim tellus.",
-        "id": 12,
-        "author": "Maybí Machacalis + o que a imagem representa",
-        "elementos_naturais": "Animais",
-        "sazonalidade": "época do ano ou estação",
-        "context": "contexto da história dentro da cosmologia Tupi-Guarani ou contexto indigena no geral",
-        "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
-        "edu": "Como a história pode ser usada em sala de aula ou em atividades culturais, tornando-a uma ferramenta educativa prática.",
-        "created_at": "2020-11-21T18:41:25.498Z",
-        "points": [
-            {
-                "type": "Feature",
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        -7.7,
-                        15.3
-                    ]
-                },
-                "properties": {
-                    "name": "Arapuca",
-                    "description": "",
-                    "region": null,
-                    "type_of_place": "Pegasus, Andromeda, Triangulum, Aries, Taurus",
-                    "stories": [
-                        {
-                            "id": 12,
-                            "title": "Arapuca",
-                            "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
-                            "created_at": "2023-11-14T10:41:15.498Z",
-                            "updated_at": "2023-12-08T03:33:20.768Z",
-                            "permission_level": "anonymous",
-                            "date_interviewed": null,
-                            "language": "English",
-                            "interview_location_id": 1,
-                            "interviewer_id": 1,
-                            "community_id": 1,
-                            "topic": ""
-                        }
-                    ]
-                },
-                "id": 12
-            }
-        ],
-        "places": [
-            {
-                "id": 12,
-                "name": "Arapuca",
-                "type_of_place": "Pegasus, Andromeda, Triangulum, Aries, Taurus",
-                "created_at": "2023-12-08T03:33:05.908Z",
-                "updated_at": "2023-12-08T03:33:05.908Z",
-                "lat": "55.8955",
-                "long": "42.6742",
-                "region": null,
-                "description": "",
-                "community_id": 1
-            }
-        ],
-        "language": "Tupi-Guarani",
-        "media": [
-            {
-                "id": 12,
-                "author": "Maybí Machacalis",
-                "url": "https://lsnmst.github.io/cultura-estelar/images/tupi-12.jpg",
-                "blob": {
-                    "id": 12,
-                    "key": "tupi-12.jpg",
-                    "filename": "tupi-12.jpg",
-                    "content_type": "image/jpeg",
-                    "metadata": {
-                        "identified": true,
-                        "width": 1000,
-                        "height": 1636,
-                        "analyzed": true
-                    }
-                }
-            }
-        ], "speakers": [
-            {
-                "id": 12,
-                "name": "Texto por Gustavo Villa",
-                "speaker_community": "Nome da comunidade"
-            },
-        ],
-        "media_links": [],
-        "permission_level": "anonymous",
-        "topic": ""
-    },
-    {
         "title": "Colibri",
         "desc": "Introdução<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida nulla mauris, ac rhoncus sem ornare vel.<br /><br />Mito<br />Ut leo arcu, imperdiet at dictum vitae, vehicula eu dui.<br /><br />Significado<br />Morbi viverra consectetur nisl. Donec sit amet nibh ex.<br /><br />Relação com o Cosmos<br />Morbi tincidunt lacinia vulputate. Maecenas quis eleifend magna. In quis dignissim tellus.",
         "id": 13,
@@ -2171,6 +2081,112 @@ const sampleStories = [
 
     */
     {
+        "title": "Aka'Ekorá a Arapuca",
+        "desc": "",
+        "id": 4,
+        "author": "Maybí Machacalis + o que a imagem representa",
+        "elementos_naturais": "Animais",
+        "sazonalidade": "época do ano ou estação",
+        "context": "contexto da história dentro da cosmologia Tupi-Guarani ou contexto indigena no geral",
+        "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
+        "edu": "Como a história pode ser usada em sala de aula ou em atividades culturais, tornando-a uma ferramenta educativa prática.",
+        "created_at": "1904-01-01T00:00:00.498Z",
+        "points": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -7.7,
+                        15.3
+                    ]
+                },
+                "properties": {
+                    "name": "Arapuca",
+                    "description": "",
+                    "region": null,
+                    "type_of_place": "Pegasus, Andromeda, Triangulum, Aries, Taurus",
+                    "stories": [
+                        {
+                            "id": 4,
+                            "title": "Arapuca",
+                            "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+                            "created_at": "1904-01-01T00:00:00.498Z",
+                            "updated_at": "1904-01-01T00:00:00.498Z",
+                            "permission_level": "anonymous",
+                            "date_interviewed": null,
+                            "language": "English",
+                            "interview_location_id": 1,
+                            "interviewer_id": 1,
+                            "community_id": 1,
+                            "topic": ""
+                        }
+                    ]
+                },
+                "id": 4
+            }
+        ],
+        "places": [
+            {
+                "id": 4,
+                "name": "Arapuca",
+                "type_of_place": "Pegasus, Andromeda, Triangulum, Aries, Taurus",
+                "created_at": "1904-01-01T00:00:00.498Z",
+                "updated_at": "1904-01-01T00:00:00.498Z",
+                "lat": "55.8955",
+                "long": "42.6742",
+                "region": null,
+                "description": "",
+                "community_id": 1
+            }
+        ],
+        "language": "Tupi-Guarani",
+        "media": [
+            {
+                "id": 5,
+                "url": "https://lsnmst.github.io/cultura-estelar/video/arapuca.mp4",
+                "blob": {
+                    "id": 5,
+                    "key": "arapuca.mp4",
+                    "filename": "arapuca.mp4",
+                    "content_type": "video/mp4",
+                    "metadata": {
+                        "identified": true,
+                        "width": 1920,
+                        "height": 1080,
+                        "analyzed": true
+                    }
+                }
+            },
+            {
+                "id": 4,
+                "author": "Maybí Machacalis",
+                "url": "https://lsnmst.github.io/cultura-estelar/images/tupi-12.jpg",
+                "blob": {
+                    "id": 12,
+                    "key": "tupi-12.jpg",
+                    "filename": "tupi-12.jpg",
+                    "content_type": "image/jpeg",
+                    "metadata": {
+                        "identified": true,
+                        "width": 1000,
+                        "height": 1636,
+                        "analyzed": true
+                    }
+                }
+            }
+        ], "speakers": [
+            {
+                "id": 4,
+                "name": "Textos e vídeos por Gustavo Villa e Marina Gomide",
+                "speaker_community": "Nome da comunidade"
+            },
+        ],
+        "media_links": [],
+        "permission_level": "anonymous",
+        "topic": ""
+    },
+    {
         "title": "Estrela Vagalume",
         "desc": "INTRODUÇÃO<br />Qual criança nunca se encantou com um campo apinhado de vaga-lumes? Esse pequeno inseto ilumina o imaginário nativo brasileiro e representa, na visão de muitos povos indígenas, uma entidade de luz e mistério.<br /><br />MITO<br />Para os Satere-Mawé, o Mantéru não deve ser capturado. Segundo os mais velhos, aquele que tocar um vaga-lume terá má sorte. Para os Baniwa, ele simboliza brilho e discrição, e seu clã Tooke-idakeenai conta que o filho do líder usou sua luz para se orientar na floresta, mantendo o caminho seguro e evitando curiosos.<br /><br />SIGNIFICADO<br />Para cada povo, o vaga-lume assume significados de sorte, sendo um guia luminoso em meio a mata escura e respeito. Ele é um símbolo de conexão entre o mundo terreno e os mistérios noturnos da floresta.<br /><br />RELAÇÃO COM O COSMOS<br />Nas tradições Tupi-Guarani, o vaga-lume é associado à estrela Sirius, descrita como 'SOUÄNRAN' pelos Tupinambá, significando 'semelhante a um vaga-lume'. A observação de Sirius ao entardecer revela uma tonalidade esverdeada, especialmente durante as queimadas no cerrado, o que fortalece essa conexão cósmica. Diversas culturas, incluindo a egípcia, Maori, havaiana e outros povos polinésios, também associaram Sirius a um elemento sagrado em suas cosmologias, conferindo-lhe uma presença universal.",
         "id": 3,
@@ -2180,7 +2196,7 @@ const sampleStories = [
         "context": "O vaga-lume, ou Mantéru, ocupa um papel de destaque nas cosmologias indígenas do Brasil. Entre os Satere-Mawé, e Baniwa, povos da Amazônia este inseto luminescente representa não apenas um fenômeno natural, mas também crenças profundas sobre sorte, discrição e, se trata de um guia na floresta. Para os Tupinambá, o vaga-lume é associado à estrela Sirius, uma referência cósmica interpretada por diversas culturas ao redor do mundo.",
         "origin": "Esta narrativa é compartilhada por diversas culturas indígenas brasileiras, incluindo os Satere-Mawé, Baniwa e Tupinambá, destacando tanto crenças locais quanto interpretações culturais universais.",
         "edu": "A história pode ser explorada em sala de aula para incentivar o respeito à natureza e ao mundo noturno, promovendo discussões sobre a diversidade cultural, a mitologia estelar e o papel dos insetos no ecossistema. Além disso, a narrativa permite uma reflexão sobre a integração entre o mundo físico, visível, e o espiritual, vivido e experienciado, ampliando a compreensão dos alunos sobre a relação entre natureza e cultura.",
-        "created_at": "2024-10-25T12:46:16.498Z",
+        "created_at": "1903-01-01T00:00:00.498Z",
         "points": [
             {
                 "type": "Feature",
@@ -2198,11 +2214,11 @@ const sampleStories = [
                     "type_of_place": "Vagalume (Sirius)",
                     "stories": [
                         {
-                            "id": 1,
+                            "id": 3,
                             "title": "Estrela Vagalume",
                             "desc": "INTRODUÇÃO<br />Qual criança nunca se encantou com um campo apinhado de vaga-lumes? Esse pequeno inseto ilumina o imaginário nativo brasileiro e representa, na visão de muitos povos indígenas, uma entidade de luz e mistério.<br /><br />MITO<br />Para os Satere-Mawé, o Mantéru não deve ser capturado. Segundo os mais velhos, aquele que tocar um vaga-lume terá má sorte. Para os Baniwa, ele simboliza brilho e discrição, e seu clã Tooke-idakeenai conta que o filho do líder usou sua luz para se orientar na floresta, mantendo o caminho seguro e evitando curiosos.<br /><br />SIGNIFICADO<br />Para cada povo, o vaga-lume assume significados de sorte, sendo um guia luminoso em meio a mata escura e respeito. Ele é um símbolo de conexão entre o mundo terreno e os mistérios noturnos da floresta.<br /><br />RELAÇÃO COM O COSMOS<br />Nas tradições Tupi-Guarani, o vaga-lume é associado à estrela Sirius, descrita como 'SOUÄNRAN' pelos Tupinambá, significando 'semelhante a um vaga-lume'. A observação de Sirius ao entardecer revela uma tonalidade esverdeada, especialmente durante as queimadas no cerrado, o que fortalece essa conexão cósmica. Diversas culturas, incluindo a egípcia, Maori, havaiana e outros povos polinésios, também associaram Sirius a um elemento sagrado em suas cosmologias, conferindo-lhe uma presença universal.",
-                            "created_at": "2024-10-25T12:46:16.498Z",
-                            "updated_at": "2024-10-25T12:46:16.498Z",
+                            "created_at": "1903-01-01T00:00:00.498Z",
+                            "updated_at": "1903-01-01T00:00:00.498Z",
                             "permission_level": "anonymous",
                             "date_interviewed": null,
                             "language": "Português",
@@ -2213,7 +2229,7 @@ const sampleStories = [
                         }
                     ]
                 },
-                "id": 1
+                "id": 3
             }
         ],
         "places": [
@@ -2221,8 +2237,8 @@ const sampleStories = [
                 "id": 1,
                 "name": "Estrela Vagalume",
                 "type_of_place": "Vagalume (Sirius)",
-                "created_at": "2024-10-25T12:46:16.498Z",
-                "updated_at": "2024-10-25T12:46:16.498Z",
+                "created_at": "1903-01-01T00:00:00.498Z",
+                "updated_at": "1903-01-01T00:00:00.498Z",
                 "lat": "101.3,",
                 "long": "-26.6",
                 "region": null,
@@ -2233,11 +2249,11 @@ const sampleStories = [
         "language": "Tupi-Guarani",
         "media": [
             {
-                "id": 1,
+                "id": 3,
                 "author": "Maybí Machacalis",
                 "url": "https://lsnmst.github.io/cultura-estelar/images/tupi-3.jpg",
                 "blob": {
-                    "id": 1,
+                    "id": 3,
                     "key": "tupi-3.jpg",
                     "filename": "tupi-3.jpg",
                     "content_type": "image/jpeg",
@@ -2251,8 +2267,8 @@ const sampleStories = [
             }
         ], "speakers": [
             {
-                "id": 1,
-                "name": "Texto por Gustavo Villa e Marina Gomide",
+                "id": 3,
+                "name": "Textos e vídeos por Gustavo Villa e Marina Gomide",
                 "speaker_community": "Nome da comunidade"
             },
         ],
@@ -2262,7 +2278,7 @@ const sampleStories = [
     },
     {
         "title": "Seriema",
-        "desc": "INTRODUÇÃO<br />A seriema é uma ave com plumagem cinza-amarelada e vocalização característica. Seu nome, originário do tupi, é 'sari'ama'. Para muitos povos indígenas do Brasil, a seriema tem significado cultural e espiritual, endêmica de campos limpos do cerrado, conectando-se a este ecossistema, e aos ciclos naturais.<br /><br />MITO<br />Entre os Tupi-Guarani, a constelação de Azim representa a seriema e simboliza prudência. Segundo uma lenda Tembé, a ave carrega 'dois ovinhos' sobre a cabeça para protegê-los de predadores. Ela surge no céu em setembro, marcando a colheita e o início de um novo ciclo agrícola.<br /><br />SIGNIFICADO<br />A seriema é vista como um guia dos ciclos naturais e um símbolo de prudência. Nos rituais Bororo, a ave só pode ser consumida após cerimônias conduzidas pelo pajé, refletindo seu valor espiritual e seu papel na preservação de tradições ancestrais.<br /><br />RELAÇÃO COM O COSMOS<br />A constelação de Azim, associada à seriema, é formada por manchas da Via Láctea e partes de constelações como Escorpião e Sagitário. Azim aparece no céu entre agosto e setembro, acompanhando a estação seca e marcando o período da Festa da Moça Nova dos povos tupi-guarani, um ritual de iniciação importante. A estrela Kaus Australis, a mais brilhante dessa região, é também conhecida entre os Kalapalo como parte da 'cesta de pesca de Taugi', integrando a conexão entre o céu e a terra nos mitos indígenas.",        
+        "desc": "INTRODUÇÃO<br />A seriema é uma ave com plumagem cinza-amarelada e vocalização característica. Seu nome, originário do tupi, é 'sari'ama'. Para muitos povos indígenas do Brasil, a seriema tem significado cultural e espiritual, endêmica de campos limpos do cerrado, conectando-se a este ecossistema, e aos ciclos naturais.<br /><br />MITO<br />Entre os Tupi-Guarani, a constelação de Azim representa a seriema e simboliza prudência. Segundo uma lenda Tembé, a ave carrega 'dois ovinhos' sobre a cabeça para protegê-los de predadores. Ela surge no céu em setembro, marcando a colheita e o início de um novo ciclo agrícola.<br /><br />SIGNIFICADO<br />A seriema é vista como um guia dos ciclos naturais e um símbolo de prudência. Nos rituais Bororo, a ave só pode ser consumida após cerimônias conduzidas pelo pajé, refletindo seu valor espiritual e seu papel na preservação de tradições ancestrais.<br /><br />RELAÇÃO COM O COSMOS<br />A constelação de Azim, associada à seriema, é formada por manchas da Via Láctea e partes de constelações como Escorpião e Sagitário. Azim aparece no céu entre agosto e setembro, acompanhando a estação seca e marcando o período da Festa da Moça Nova dos povos tupi-guarani, um ritual de iniciação importante. A estrela Kaus Australis, a mais brilhante dessa região, é também conhecida entre os Kalapalo como parte da 'cesta de pesca de Taugi', integrando a conexão entre o céu e a terra nos mitos indígenas.",
         "id": 2,
         "author": "Maybí Machacalis. A imagem representa a seriema dentro da constelação de escorpião, corona, autrallis e sagitário.",
         "elementos_naturais": "Animais",
@@ -2270,7 +2286,7 @@ const sampleStories = [
         "context": "A ave seriema, assim como sua constelação Azim, é parte do ciclo natural e espiritual dos povos indígenas brasileiros, especialmente entre os Tupi-Guarani, Bororo, Xavante, Paresi e Kalapalo, povos macro-jê, representando prudência, conexão com o cerrado e marcos sazonais.",
         "origin": "Tradições Tupi-Guarani e povos Macro-Jê do planalto central brasileiro",
         "edu": "Utilize o mito da seriema para introduzir temas interdisciplinares, como astronomia, ecologia e cultura indígena. Estimule os alunos a observar como a constelação de Azim orienta práticas agrícolas e rituais dos povos Tupi-Guarani, marcando o ritmo da natureza e dos ciclos de vida. Incentive comparações entre o papel simbólico da seriema e suas adaptações ao cerrado, demonstrando a relação entre ciência e mitologia nas tradições indígenas. Além disso, explore paralelos entre as tradições astronômicas Tupi-Guarani e as de outros povos de língua Macro-Jê, evidenciando as conexões culturais e espirituais entre diferentes etnias.",
-        "created_at": "2024-11-12T23:01:22.498Z",
+        "created_at": "1902-01-01T00:00:00.498Z",
         "points": [
             {
                 "type": "Feature",
@@ -2290,9 +2306,9 @@ const sampleStories = [
                         {
                             "id": 2,
                             "title": "Seriema",
-                            "desc": "INTRODUÇÃO<br />A seriema é uma ave com plumagem cinza-amarelada e vocalização característica. Seu nome, originário do tupi, é 'sari'ama'. Para muitos povos indígenas do Brasil, a seriema tem significado cultural e espiritual, endêmica de campos limpos do cerrado, conectando-se a este ecossistema, e aos ciclos naturais.<br /><br />MITO<br />Entre os Tupi-Guarani, a constelação de Azim representa a seriema e simboliza prudência. Segundo uma lenda Tembé, a ave carrega 'dois ovinhos' sobre a cabeça para protegê-los de predadores. Ela surge no céu em setembro, marcando a colheita e o início de um novo ciclo agrícola.<br /><br />SIGNIFICADO<br />A seriema é vista como um guia dos ciclos naturais e um símbolo de prudência. Nos rituais Bororo, a ave só pode ser consumida após cerimônias conduzidas pelo pajé, refletindo seu valor espiritual e seu papel na preservação de tradições ancestrais.<br /><br />RELAÇÃO COM O COSMOS<br />A constelação de Azim, associada à seriema, é formada por manchas da Via Láctea e partes de constelações como Escorpião e Sagitário. Azim aparece no céu entre agosto e setembro, acompanhando a estação seca e marcando o período da Festa da Moça Nova dos povos tupi-guarani, um ritual de iniciação importante. A estrela Kaus Australis, a mais brilhante dessa região, é também conhecida entre os Kalapalo como parte da 'cesta de pesca de Taugi', integrando a conexão entre o céu e a terra nos mitos indígenas.",        
-                            "created_at": "2024-11-12T23:01:22.498Z",
-                            "updated_at": "2024-11-12T23:01:22.498Z",
+                            "desc": "INTRODUÇÃO<br />A seriema é uma ave com plumagem cinza-amarelada e vocalização característica. Seu nome, originário do tupi, é 'sari'ama'. Para muitos povos indígenas do Brasil, a seriema tem significado cultural e espiritual, endêmica de campos limpos do cerrado, conectando-se a este ecossistema, e aos ciclos naturais.<br /><br />MITO<br />Entre os Tupi-Guarani, a constelação de Azim representa a seriema e simboliza prudência. Segundo uma lenda Tembé, a ave carrega 'dois ovinhos' sobre a cabeça para protegê-los de predadores. Ela surge no céu em setembro, marcando a colheita e o início de um novo ciclo agrícola.<br /><br />SIGNIFICADO<br />A seriema é vista como um guia dos ciclos naturais e um símbolo de prudência. Nos rituais Bororo, a ave só pode ser consumida após cerimônias conduzidas pelo pajé, refletindo seu valor espiritual e seu papel na preservação de tradições ancestrais.<br /><br />RELAÇÃO COM O COSMOS<br />A constelação de Azim, associada à seriema, é formada por manchas da Via Láctea e partes de constelações como Escorpião e Sagitário. Azim aparece no céu entre agosto e setembro, acompanhando a estação seca e marcando o período da Festa da Moça Nova dos povos tupi-guarani, um ritual de iniciação importante. A estrela Kaus Australis, a mais brilhante dessa região, é também conhecida entre os Kalapalo como parte da 'cesta de pesca de Taugi', integrando a conexão entre o céu e a terra nos mitos indígenas.",
+                            "created_at": "1902-01-01T00:00:00.498Z",
+                            "updated_at": "1902-01-01T00:00:00.498Z",
                             "permission_level": "anonymous",
                             "date_interviewed": null,
                             "language": "English",
@@ -2311,8 +2327,8 @@ const sampleStories = [
                 "id": 2,
                 "name": "Seriema",
                 "type_of_place": "Constelação de Azim / Kaus Australis",
-                "created_at": "2024-11-12T23:01:22.498Z",
-                "updated_at": "2024-11-12T23:01:22.498Z",
+                "created_at": "1902-01-01T00:00:00.498Z",
+                "updated_at": "1902-01-01T00:00:00.498Z",
                 "lat": "-75.519139",
                 "long": "-48.072497",
                 "region": null,
@@ -2342,7 +2358,7 @@ const sampleStories = [
         ], "speakers": [
             {
                 "id": 2,
-                "name": "Texto por Gustavo Villa e Marina Gomide",
+                "name": "Textos e vídeos por Gustavo Villa e Marina Gomide",
                 "speaker_community": "Nome da comunidade"
             },
         ],
@@ -2360,7 +2376,7 @@ const sampleStories = [
         "context": "A estrela Tinguaçu (ou Bharani, na tradição indiana) é uma referência astronômica importante para várias culturas, inclusive no Brasil e na Índia, onde é ligada ao ciclo das Plêiades e a eventos cerimoniais.",
         "origin": "Tradições Guarani e védicas",
         "edu": "Este mito do Tinguaçu pode ser usado em sala de aula para explorar temas de astronomia, mitologia indígena e como diferentes culturas interpretam o céu. Encoraje os alunos a comparar as tradições indígenas e indianas, mostrando a conexão cultural através da observação astronômica.",
-        "created_at": "2024-11-12T23:02:17.498Z",
+        "created_at": "1901-01-01T00:00:00.498Z",
         "points": [
             {
                 "type": "Feature",
@@ -2378,11 +2394,11 @@ const sampleStories = [
                     "type_of_place": "41 Arietis",
                     "stories": [
                         {
-                            "id": 3,
+                            "id": 1,
                             "title": "Estrela Tinguaçu",
                             "desc": "INTRODUÇÃO<br />A alma-de-gato, também conhecida como Tinguaçu, é um pássaro de plumagem metálica e cauda longa. Em tupi-guarani, “tinguaçu” significa 'pássaro de bico grande'. Além de seu nome, o pássaro também representa um símbolo importante em mitos indígenas.<br /><br />MITO<br />Em uma lenda Guarani, o Tinguaçu age como mensageiro. Quando sete seres mágicos causaram problemas na aldeia, o sábio Pa’i Sumé e sua irmã Porãsy decidiram enfrentá-los. Porãsy embriagou os seres e, com o alerta do Tinguaçu, os Guarani souberam o momento certo para selar a entrada da caverna onde eles estavam, protegendo a aldeia.<br /><br />SIGNIFICADO<br />O Tinguaçu é visto como um guia e protetor, uma figura que simboliza a vigilância e a sabedoria espiritual no povo Guarani.<br /><br />RELAÇÃO COM O COSMOS<br />Os Tupinambá associavam a estrela Tingaçu ao anúncio das Plêiades, marcando o início de um ciclo importante antes do solstício de inverno, geralmente aparecendo 15 dias antes desta constelação. Da mesma forma, na Índia, a estrela Bharani (41 Arietis) marca cerimônias significativas e é associada ao nascer das Plêiades, revelando como culturas distantes usam estrelas para guiar práticas espirituais.",
-                            "created_at": "2024-11-12T23:02:17.498Z",
-                            "updated_at": "2024-11-12T23:02:17.498Z",
+                            "created_at": "1901-01-01T00:00:00.498Z",
+                            "updated_at": "1901-01-01T00:00:00.498Z",
                             "permission_level": "anonymous",
                             "date_interviewed": null,
                             "language": "Português",
@@ -2393,16 +2409,16 @@ const sampleStories = [
                         }
                     ]
                 },
-                "id": 3
+                "id": 1
             }
         ],
         "places": [
             {
-                "id": 3,
+                "id": 1,
                 "name": "Estrela Tinguaçu",
                 "type_of_place": "41 Arietis",
-                "created_at": "2024-11-12T23:02:17.498Z",
-                "updated_at": "2024-11-12T23:02:17.498Z",
+                "created_at": "1901-01-01T00:00:00.498Z",
+                "updated_at": "1901-01-01T00:00:00.498Z",
                 "lat": "55.8955",
                 "long": "42.6742",
                 "region": null,
@@ -2413,11 +2429,11 @@ const sampleStories = [
         "language": "Tupi-Guarani",
         "media": [
             {
-                "id": 3,
+                "id": 1,
                 "author": "Maybí Machacalis",
                 "url": "https://lsnmst.github.io/cultura-estelar/images/tupi-4.jpg",
                 "blob": {
-                    "id": 3,
+                    "id": 1,
                     "key": "tupi-4.jpg",
                     "filename": "tupi-4.jpg",
                     "content_type": "image/jpeg",
@@ -2431,8 +2447,8 @@ const sampleStories = [
             }
         ], "speakers": [
             {
-                "id": 3,
-                "name": "Texto por Gustavo Villa e Marina Gomide",
+                "id": 1,
+                "name": "Textos e vídeos por Gustavo Villa e Marina Gomide",
                 "speaker_community": "Nome da comunidade"
             },
         ],

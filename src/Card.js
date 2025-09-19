@@ -20,6 +20,7 @@ class Card extends Component {
     stories: PropTypes.array,
     handleStoriesChanged: PropTypes.func,
     onStoryClick: PropTypes.func,
+    onStoryHover: PropTypes.func,
     logo_path: PropTypes.string,
     logoinfo_path: PropTypes.string,
     activeStory: PropTypes.object,
@@ -34,7 +35,8 @@ class Card extends Component {
     filterMap: {},
     categories: [],
     clearFilteredStories: () => { },
-    handleFilter: () => { }
+    handleFilter: () => { },
+    onStoryHover: () => { },
   }
 
   handleTray = () => {
@@ -50,7 +52,7 @@ class Card extends Component {
         <div className="tab" onClick={this.handleTray}>
           <div className="opentab">Conheça as histórias</div>
           <div className="arrow" />
-          <div className="card--infologo" style={{ backgroundColor: "rgb(40,11,108)"}}>
+          <div className="card--infologo" style={{ backgroundColor: "rgb(40,11,108)" }}>
             <img src={this.props.logoinfo_path} alt="Stellarstories" />
           </div>
         </div>
@@ -66,6 +68,7 @@ class Card extends Component {
               stories={this.props.stories}
               handleStoriesChanged={this.props.handleStoriesChanged}
               onStoryClick={this.props.onStoryClick}
+              onStoryHover={this.props.onStoryHover}
               handleFilter={this.props.handleFilter}
               clearFilteredStories={this.props.clearFilteredStories}
               filterMap={this.props.filterMap}

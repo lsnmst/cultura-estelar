@@ -301,6 +301,17 @@ class App extends Component {
     this.setState({ stories: stories });
   };
 
+  handleStoryHover = (story) => {
+    if (!story.points || story.points.length === 0) return;
+
+    const point = story.points[0]; // pick the first point
+    const framedView = {
+      center: [point.geometry.coordinates[0], point.geometry.coordinates[1], 0]
+    };
+
+    this.setState({ framedView });
+  }
+
   handleStoryClick = story => {
     // set active to first point in story
     const point = story.points[0];
@@ -357,6 +368,7 @@ class App extends Component {
           handleFilter={this.handleFilter}
           clearFilteredStories={this.resetStoriesAndMap}
           onStoryClick={this.handleStoryClick}
+          onStoryHover={this.handleStoryHover}
           logo_path={this.state.logoPath}
           logoinfo_path={this.state.logoinfoPath}
           filterCategory={this.state.filterCategory}

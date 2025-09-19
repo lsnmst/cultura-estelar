@@ -17,7 +17,7 @@ class StoryMedia extends PureComponent {
     const { file } = this.props;
     return (
       <audio id={`audio-player${file.blob.id}`} controls>
-        <source src={file.url} type={file.blob.content_type} key={this.props.key} />
+        <source src={file.url} type={file.blob.content_type} />
       </audio>
     );
   }
@@ -27,47 +27,48 @@ class StoryMedia extends PureComponent {
     const { explicitVideoHeight } = this.state;
     return (
       <img
-        id = {`img${file.blob.id}`}
+        id={`img${file.blob.id}`}
         className="img-player"
         width="80%"
-        key={this.props.key}
         ref="img"
         src={file.url}
-        >
-        </img>
+      >
+      </img>
     )
   }
 
   renderVideo() {
     const { file } = this.props;
-    const { explicitVideoHeight } = this.state;
+    if (!file || !file.url) {
+      console.error("Video file missing or URL incorrect", file);
+      return null;
+    }
+
     return (
       <video
         id={`video-player${file.blob.id}`}
         className="video-player"
-        height={explicitVideoHeight}
         playsInline
         controls
-        disablePictureInPicture={true}
+        disablePictureInPicture
         controlsList='nodownload'
-        key={this.props.key}
         ref="video"
       >
-        <source src={file.url} type={file.blob.content_type} />
+        <source src={file.url} type="video/mp4" />
+        Your browser does not support the video tag.
       </video>
     );
   }
 
+
   render() {
-    if (this.props.file.blob.content_type.indexOf("video") !== -1)
-    {
+    if (this.props.file.blob.content_type.indexOf("video") !== -1) {
       return this.renderVideo();
     }
-    else if (this.props.file.blob.content_type.indexOf("audio") !== -1)
-    {
+    else if (this.props.file.blob.content_type.indexOf("audio") !== -1) {
       return this.renderAudio();
     }
-    else{
+    else {
       return this.renderImage();
     }
   }

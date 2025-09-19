@@ -19,7 +19,7 @@ class IntroPopup extends PureComponent {
     return (
       <div className={this.state.isPopped ? 'intro-card isShown' : 'intro-card isHidden'}>
         <div className="info-card--actions" style={{ position: "fixed", marginTop: "0px", marginRight: "0px" }} >
-          <span className="count" onClick={this.handleInfoPopup}><b>X</b></span>
+          <span className="count" onClick={this.handleIntroPopup}><b>X</b></span>
         </div>
         {/* <h2>Introdução</h2> */}
         <h2>O que é Stellarstories?</h2>

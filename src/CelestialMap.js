@@ -29,7 +29,7 @@ export default class CelestialMap extends Component {
 
     var config = {
       projection: "airy",
-      zoomlevel: 2,
+      zoomlevel: 1.2,
       center: [centerLong, centerLat],
       follow: "center",
       background: { fill: "#333", stroke: "#b3b300", opacity: 1, width: 2 },
@@ -40,16 +40,16 @@ export default class CelestialMap extends Component {
       constellations: {
         names: true,
         namesType: "iau",
-        nameStyle: { fill: ["#fec", "#f6c", "#fec"], opacity: [0.3,0.7,0.3], font: ["bold 13px 'Nehanda-SpiritMedium', 'Lucida Sans Unicode', Trebuchet, Helvetica, Arial, sans-serif", "bold 20px 'Nehanda-SpiritMedium', 'Lucida Sans Unicode', Trebuchet, Helvetica, Arial, sans-serif", "12px 'Nehanda-SpiritMedium','Lucida Sans Unicode', Trebuchet, Helvetica, Arial, sans-serif"], align: "center", baseline: "middle" },
+        nameStyle: { fill: ["#fec", "#f6c", "#fec"], opacity: [0.3, 0.7, 0.3], font: ["bold 13px 'Nehanda-SpiritMedium', 'Lucida Sans Unicode', Trebuchet, Helvetica, Arial, sans-serif", "bold 20px 'Nehanda-SpiritMedium', 'Lucida Sans Unicode', Trebuchet, Helvetica, Arial, sans-serif", "12px 'Nehanda-SpiritMedium','Lucida Sans Unicode', Trebuchet, Helvetica, Arial, sans-serif"], align: "center", baseline: "middle" },
         lines: true,
-        lineStyle: { stroke: ["#99c", "#f6c", "#99c"], width: [1, 1, 1], opacity: 0.7 },
+        lineStyle: { stroke: ["#99c", "#f6c", "#99c"], width: [1, 1.35, 1], opacity: 0.7 },
         bounds: true,
         boundStyle: { stroke: "#ffff00", width: 0.5, opacity: 0.7, dash: [8, 4, 2, 4] }
       },
       stars: {
         limit: 12,
         propername: true,
-        propernameStyle: { fill: "#9999bb", font: "13px 'Nehanda-SpiritMedium','Palatino Linotype', Georgia, Times, 'Times Roman', serif", align: "right", baseline: "bottom" },
+        propernameStyle: { fill: "#9999bbbe", font: "13px 'Nehanda-SpiritMedium','Palatino Linotype', Georgia, Times, 'Times Roman', serif", align: "right", baseline: "bottom" },
         propernameLimit: 5,
         designation: true,
         designationStyle: { fill: "#9999bb", font: "11px 'Nehanda-SpiritMedium','Palatino Linotype', Georgia, Times, 'Times Roman', serif", align: "left", baseline: "top" },
@@ -84,12 +84,8 @@ export default class CelestialMap extends Component {
   }
 
   componentDidUpdate(prevProps) {
-    if (
-      this.props.framedView &&
-      this.props.framedView !== prevProps.framedView
-    ) {
-      window.Celestial.rotate(this.props.framedView)
-      //window.Celestial.zoomBy(2)
+    if (this.props.framedView && this.props.framedView !== prevProps.framedView) {
+      window.Celestial.rotate(this.props.framedView);
     }
   }
 

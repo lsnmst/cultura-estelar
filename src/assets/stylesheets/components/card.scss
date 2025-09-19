@@ -214,8 +214,14 @@ $el-shadow: 0 1px 4px $lighter-gray;
 
     li {
 
+      &:hover {
+        border: 3px solid $yellow-maybi;
+      }
+
       &.isActive {
         border: 5px solid $yellow-maybi;
+        transform: none;
+        box-shadow: none;
       }
 
       list-style: none;
