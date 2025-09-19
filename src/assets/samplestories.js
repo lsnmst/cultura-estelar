@@ -2084,7 +2084,7 @@ const sampleStories = [
         "title": "Aka'Ekorá a Arapuca",
         "desc": "",
         "id": 4,
-        "author": "Maybí Machacalis + o que a imagem representa",
+        "author": "Textos e vídeos por Gustavo Villa e Marina Gomide, ilustração por Maybí Machacalis",
         "elementos_naturais": "Animais",
         "sazonalidade": "época do ano ou estação",
         "context": "contexto da história dentro da cosmologia Tupi-Guarani ou contexto indigena no geral",

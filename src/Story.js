@@ -50,21 +50,32 @@ const Story = props => {
         role="presentation"
         style={{ cursor: "pointer" }}
       >
+        {/*         
         <div className="speakers">
           {renderSpeakers(story.speakers)}
         </div>
+        */}
+
         <div className="container">
           <h6 className="title">
             {story.title}
             {story.permission_level === "restricted" && " 🔒"}
           </h6>
+
+          {/* <hr style={{ borderColor: "rgb(252, 206,85)", backgroundColor: "rgb(252, 206,85)", width: "70%" }} /> */}
+
+
+          <div className="storymedia">
+            {story.media && story.media.map(file => (
+              <StoryMedia file={file} key={file.id} />
+            ))}
+          </div>
+
+          <p className="author"><b>Artistas:</b> {story.author}</p>
+
           <p className="cultural_context"><i>Contexto cultural e histórico:<br /></i> {story.context}</p>
-          <hr style={{ borderColor: "rgb(252, 206,85)", backgroundColor: "rgb(252, 206,85)", width: "70%" }} />
           <p className="description" dangerouslySetInnerHTML={{ __html: story.desc }}></p>
-          {story.media && story.media.map(file => (
-            <StoryMedia file={file} key={file.id} />
-          ))}
-          <p className="author"><b>Artista:</b> {story.author}</p>
+
           {/* {story.language && <p><b>Idioma:</b> {story.language}</p>} */}
           {/* <p className="cultural_context"><i>Origem da história <br /></i> {story.origin}</p> */}
 
@@ -79,6 +90,7 @@ const Story = props => {
               </p>
             </div>
           </div>
+
         </div>
       </li>
     </React.Fragment>

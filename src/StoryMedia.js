@@ -37,29 +37,59 @@ class StoryMedia extends PureComponent {
     )
   }
 
+
+  generatePoster = (videoUrl) => {
+    const hiddenVideo = document.createElement('video');
+    hiddenVideo.src = videoUrl;
+    hiddenVideo.crossOrigin = "anonymous";
+    hiddenVideo.muted = true;
+    hiddenVideo.playsInline = true;
+    hiddenVideo.style.display = 'none';
+
+    hiddenVideo.addEventListener('loadeddata', () => {
+      hiddenVideo.currentTime = 5;
+    });
+
+    hiddenVideo.addEventListener('seeked', () => {
+      const canvas = document.createElement('canvas');
+      canvas.width = hiddenVideo.videoWidth;
+      canvas.height = hiddenVideo.videoHeight;
+
+      const ctx = canvas.getContext('2d');
+      ctx.drawImage(hiddenVideo, 0, 0, canvas.width, canvas.height);
+
+      try {
+        const dataUrl = canvas.toDataURL('image/jpeg');
+        this.setState({ poster: dataUrl });
+      } catch (error) {
+        console.error('Error generating poster:', error);
+      }
+    });
+
+    document.body.appendChild(hiddenVideo);
+  };
+
   renderVideo() {
     const { file } = this.props;
-    if (!file || !file.url) {
-      console.error("Video file missing or URL incorrect", file);
-      return null;
-    }
+    const { explicitVideoHeight } = this.state;
 
     return (
       <video
-        id={`video-player${file.blob.id}`}
+        id={`video-player-${file.blob.id}`}
         className="video-player"
+        height={explicitVideoHeight}
         playsInline
         controls
         disablePictureInPicture
-        controlsList='nodownload'
-        ref="video"
+        controlsList="nodownload"
+        crossOrigin="anonymous"
+        poster={this.state.poster}
       >
         <source src={file.url} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
     );
   }
-
 
   render() {
     if (this.props.file.blob.content_type.indexOf("video") !== -1) {
@@ -75,6 +105,11 @@ class StoryMedia extends PureComponent {
 
   componentDidMount() {
     const video = this.refs.video;
+
+    const { file } = this.props;
+    if (file.blob.content_type.includes("video")) {
+      this.generatePoster(file.url);
+    }
 
     if (!!video === true) {
       video.addEventListener('loadeddata', (event) => {
