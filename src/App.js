@@ -11,13 +11,13 @@ import InfoPopup from "./InfoPopup";
 
 import logo from './assets/images/stellarstories.png';
 import logoinfo from './assets/images/stellarstories_info.png';
-import sampleStories from './assets/samplestories';
+import sampleStories from './assets/stories/samplestories.pt';
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      framedView: null, // store information about how view should be laid out
+      framedView: null, 
       points: {},
       sourceStories: sampleStories,
       stories: sampleStories,
@@ -27,9 +27,9 @@ class App extends Component {
       filterCategory: "Escolha uma categoria",
       filterItem: "Escolha a opção",
       itemOptions: [],
-      zoom: 1.25,
-      centerLong: -90,
-      centerLat: -90,
+      zoom: 1,
+      centerLong: 45,
+      centerLat: 10,
       logoPath: logo,
       logoinfoPath: logoinfo
     };
@@ -146,122 +146,58 @@ class App extends Component {
   };
 
   handleFilter = (category, item) => {
-    let filteredStories = [];
-    switch (category) {
-/*       case "Corpo celestial": {
-        // category: type of celestial body
-        filteredStories = this.state.sourceStories.filter(story => {
-          if (
-            story.points.some(point => {
-              return (
-                point.properties["type_of_place"] &&
-                point.properties["type_of_place"].toLowerCase() ===
-                item.toLowerCase()
-              );
-            })
-          ) {
-            return story;
-          }
-        });
-        break;
-      }
- */      case "Conexão com elementos naturais": {
-        // category: elementos naturais
-        filteredStories = this.state.sourceStories.filter(story => {
-          if (story.elementos_naturais) {
-            return (
-              story.elementos_naturais &&
-              story.elementos_naturais.toLowerCase() === item.toLowerCase()
-            )
-          }
-        });
-        break;
-      }
-      case "Topic": {
-        // category: topic
-        filteredStories = this.state.sourceStories.filter(story => {
-          if (story.topic) {
-            return (
-              story.topic &&
-              story.topic.toLowerCase() === item.toLowerCase()
-            )
-          }
-        });
-        break;
-      }
-      case "Sazonalidade": {
-        //  category: Sazonalidade
-        filteredStories = this.state.sourceStories.filter(story => {
-          if (story.sazonalidade) {
-            return (
-              story.sazonalidade &&
-              story.sazonalidade.toLowerCase() === item.toLowerCase()
-            )
-          }
-        });
-        break;
-      }
-      case "Título": {
-        // category: title
-        filteredStories = this.state.sourceStories.filter(story => {
-          if (story.title) {
-            return (
-              story.title &&
-              story.title.toLowerCase() === item.toLowerCase()
-            )
-          }
-        });
-        break;
-      }
-      case "Idioma": {
-        // category: language
-        filteredStories = this.state.sourceStories.filter(story => {
-          if (story.language) {
-            return (
-              story.language &&
-              story.language.toLowerCase() === item.toLowerCase()
-            )
-          }
-        });
-        break;
-      }
-      case "Comunidade": {
-        // category: community
-        filteredStories = this.state.sourceStories
-          .filter((story) => story.speakers
-            .some(speaker => speaker.speaker_community && speaker.speaker_community.toLowerCase() === item.toLowerCase())
-          )
-          .map(story => {
-            let n = Object.assign({}, story)
-            n.speakers = n.speakers
-              .filter(speaker => speaker.speaker_community && speaker.speaker_community.toLowerCase() === item.toLowerCase())
-            return n
-          });
-        break;
-      }
-    }
-    if (filteredStories) {
-      const filteredPoints = this.getPointsFromStories(filteredStories);
+    if (!category || !item) return;
 
+    const normalizedItem = item.trim().toLowerCase();
+
+    let filteredStories = this.state.sourceStories.filter(story => {
+      switch (category) {
+        case "Título":
+          return story.title && story.title.trim().toLowerCase() === normalizedItem;
+
+        case "Conexão com elementos naturais":
+          return story.elementos_naturais && story.elementos_naturais.trim().toLowerCase() === normalizedItem;
+
+        case "Sazonalidade":
+          return story.sazonalidade && story.sazonalidade.trim().toLowerCase() === normalizedItem;
+
+        case "Topic":
+          return story.topic && story.topic.trim().toLowerCase() === normalizedItem;
+
+        case "Idioma":
+          return story.language && story.language.trim().toLowerCase() === normalizedItem;
+
+        case "Comunidade":
+          return story.speakers?.some(
+            speaker => speaker.speaker_community && speaker.speaker_community.trim().toLowerCase() === normalizedItem
+          );
+
+        default:
+          return true;
+      }
+    });
+
+    const filteredPoints = this.getPointsFromStories(filteredStories);
+
+    let framedView = null;
+    if (filteredPoints.features.length > 0) {
       const bounds = bbox(filteredPoints);
       const bboxPoly = bboxPolygon(bounds);
       const centerPoint = center(bboxPoly).geometry.coordinates;
-      const framedView = {
-        center: [centerPoint[0], centerPoint[1], 0]
-      };
-
-      var activePoint = this.state.activePoint;
-      if (activePoint && !filteredPoints.features.some(point => point.id === activePoint.id)) {
-        activePoint = null;
-      }
-
-      this.setState({
-        stories: filteredStories,
-        points: filteredPoints,
-        framedView,
-        activePoint
-      });
+      framedView = { center: [centerPoint[0], centerPoint[1], 0] };
     }
+
+    let activePoint = this.state.activePoint;
+    if (activePoint && !filteredPoints.features.some(point => point.id === activePoint.id)) {
+      activePoint = null;
+    }
+
+    this.setState({
+      stories: filteredStories,
+      points: filteredPoints,
+      framedView,
+      activePoint
+    });
   };
 
   handleFilterCategoryChange = option => {
@@ -304,7 +240,7 @@ class App extends Component {
   handleStoryHover = (story) => {
     if (!story.points || story.points.length === 0) return;
 
-    const point = story.points[0]; // pick the first point
+    const point = story.points[0]; 
     const framedView = {
       center: [point.geometry.coordinates[0], point.geometry.coordinates[1], 0]
     };
@@ -313,7 +249,6 @@ class App extends Component {
   }
 
   handleStoryClick = story => {
-    // set active to first point in story
     const point = story.points[0];
     const framedView = { center: [point.geometry.coordinates[0], point.geometry.coordinates[1], 0] };
     this.setState({ activePoint: point, activeStory: story, framedView });
@@ -333,7 +268,6 @@ class App extends Component {
     });
   };
 
-  // build category list based that excludes empty category sets
   buildFilterCategories = () => {
     const variableCategories = this.state.filterOptions;
     let categories = this.filterMap();
@@ -378,7 +312,7 @@ class App extends Component {
           itemOptions={this.state.itemOptions}
         />
         <IntroPopup />
-        <InfoPopup />
+        {/* <InfoPopup /> */}
       </React.Fragment>
     );
   }

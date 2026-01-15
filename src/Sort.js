@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Select from 'react-select';
 import PropTypes from 'prop-types';
+import { useTranslation } from "./i18n-lite";
 
 const SORT_CRITERIA = ['most_recent', 'alphabetical', 'reversed_alphabetical'];
 

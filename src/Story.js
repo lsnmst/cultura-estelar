@@ -1,9 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
 import StoryMedia from "./StoryMedia";
+import { useTranslation } from "./i18n-lite";
 
 const Story = props => {
   const { story, storyClass, onStoryClick, onStoryHover } = props;
+  const { t } = useTranslation();
 
   const handleMouseEnter = () => {
     if (onStoryHover && story.points && story.points.length > 0) {
@@ -28,7 +30,8 @@ const Story = props => {
             );
           })
         }
- */}        <p style={{ fontWeight: 'bold' }}>
+        */}
+        <p style={{ fontWeight: 'bold' }}>
           {
             speakers.map(speaker => {
               return speaker.name

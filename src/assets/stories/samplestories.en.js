@@ -1,4 +1,4 @@
-const sampleStories = [
+const storiesPt = [
     /*   
 
     {
@@ -2081,15 +2081,15 @@ const sampleStories = [
 
     */
     {
-        "title": "Aka'Ekorá a Arapuca",
+        "title": "Guirá Nhandu",
         "desc": "",
-        "id": 4,
+        "id": 8,
         "author": "Textos e vídeos por Gustavo Villa e Marina Gomide, ilustração por Maybí Machacalis",
         "elementos_naturais": "Animais",
         "sazonalidade": "época do ano ou estação",
-        "context": "contexto da história dentro da cosmologia Tupi-Guarani ou contexto indigena no geral",
+        "context": "-",
         "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
-        "edu": "Como a história pode ser usada em sala de aula ou em atividades culturais, tornando-a uma ferramenta educativa prática.",
+        "edu": "-",
         "created_at": "1904-01-01T00:00:00.498Z",
         "points": [
             {
@@ -2097,8 +2097,433 @@ const sampleStories = [
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        -7.7,
-                        15.3
+                        -115.519139,
+                        -70.072497
+                    ]
+                },
+                "properties": {
+                    "name": "Guirá Nhandu",
+                    "description": "",
+                    "region": null,
+                    "type_of_place": "Musca, Centaurus, Triangulum Australe, Ara, Scorpious, Lupus, Circinus",
+                    "stories": [
+                        {
+                            "id": 8,
+                            "title": "Guirá Nhandu",
+                            "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+                            "created_at": "1904-01-01T00:00:00.498Z",
+                            "updated_at": "1904-01-01T00:00:00.498Z",
+                            "permission_level": "anonymous",
+                            "date_interviewed": null,
+                            "language": "English",
+                            "interview_location_id": 1,
+                            "interviewer_id": 1,
+                            "community_id": 1,
+                            "topic": ""
+                        }
+                    ]
+                },
+                "id": 8
+            }
+        ],
+        "places": [
+            {
+                "id": 8,
+                "name": "Guirá Nhandu",
+                "type_of_place": "Musca, Centaurus, Triangulum Australe, Ara, Scorpious, Lupus, Circinus",
+                "created_at": "1904-01-01T00:00:00.498Z",
+                "updated_at": "1904-01-01T00:00:00.498Z",
+                "lat": "55.8955",
+                "long": "42.6742",
+                "region": null,
+                "description": "",
+                "community_id": 1
+            }
+        ],
+        "language": "Tupi-Guarani",
+        "media": [
+            {
+                "id": 8,
+                "url": "https://lsnmst.github.io/cultura-estelar/video/ema.mp4",
+                "blob": {
+                    "id": 8,
+                    "key": "ema.mp4",
+                    "filename": "ema.mp4",
+                    "content_type": "video/mp4",
+                    "metadata": {
+                        "identified": true,
+                        "width": 1920,
+                        "height": 1080,
+                        "analyzed": true
+                    }
+                }
+            },
+            {
+                "id": 8,
+                "author": "Maybí Machacalis",
+                "url": "https://lsnmst.github.io/cultura-estelar/images/tupi-5.jpg",
+                "blob": {
+                    "id": 7,
+                    "key": "tupi-5.jpg",
+                    "filename": "tupi-5.jpg",
+                    "content_type": "image/jpeg",
+                    "metadata": {
+                        "identified": true,
+                        "width": 1000,
+                        "height": 1636,
+                        "analyzed": true
+                    }
+                }
+            }
+        ], "speakers": [
+            {
+                "id": 8,
+                "name": "Textos e vídeos por Gustavo Villa e Marina Gomide",
+                "speaker_community": "Nome da comunidade"
+            },
+        ],
+        "media_links": [],
+        "permission_level": "anonymous",
+        "topic": ""
+    },
+    {
+        "title": "Tuivaé",
+        "desc": "",
+        "id": 7,
+        "author": "Textos e vídeos por Gustavo Villa e Marina Gomide, ilustração por Maybí Machacalis",
+        "elementos_naturais": "Não conectada",
+        "sazonalidade": "época do ano ou estação",
+        "context": "-",
+        "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
+        "edu": "-",
+        "created_at": "1904-01-01T00:00:00.498Z",
+        "points": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        80.3616667,
+                        -3.072497
+                    ]
+                },
+                "properties": {
+                    "name": "Tuivaé",
+                    "description": "",
+                    "region": null,
+                    "type_of_place": "Taurus, Orion",
+                    "stories": [
+                        {
+                            "id": 7,
+                            "title": "Tuivaé",
+                            "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+                            "created_at": "1904-01-01T00:00:00.498Z",
+                            "updated_at": "1904-01-01T00:00:00.498Z",
+                            "permission_level": "anonymous",
+                            "date_interviewed": null,
+                            "language": "English",
+                            "interview_location_id": 1,
+                            "interviewer_id": 1,
+                            "community_id": 1,
+                            "topic": ""
+                        }
+                    ]
+                },
+                "id": 7
+            }
+        ],
+        "places": [
+            {
+                "id": 7,
+                "name": "Tuivaé",
+                "type_of_place": "Taurus, Orion",
+                "created_at": "1904-01-01T00:00:00.498Z",
+                "updated_at": "1904-01-01T00:00:00.498Z",
+                "lat": "55.8955",
+                "long": "42.6742",
+                "region": null,
+                "description": "",
+                "community_id": 1
+            }
+        ],
+        "language": "Tupi-Guarani",
+        "media": [
+            {
+                "id": 7,
+                "url": "https://lsnmst.github.io/cultura-estelar/video/homen-velho.mp4",
+                "blob": {
+                    "id": 7,
+                    "key": "homen-velho.mp4",
+                    "filename": "homen-velho.mp4",
+                    "content_type": "video/mp4",
+                    "metadata": {
+                        "identified": true,
+                        "width": 1920,
+                        "height": 1080,
+                        "analyzed": true
+                    }
+                }
+            },
+            {
+                "id": 7,
+                "author": "Maybí Machacalis",
+                "url": "https://lsnmst.github.io/cultura-estelar/images/tupi-8.jpg",
+                "blob": {
+                    "id": 7,
+                    "key": "tupi-8.jpg",
+                    "filename": "tupi-8.jpg",
+                    "content_type": "image/jpeg",
+                    "metadata": {
+                        "identified": true,
+                        "width": 1000,
+                        "height": 1636,
+                        "analyzed": true
+                    }
+                }
+            }
+        ], "speakers": [
+            {
+                "id": 7,
+                "name": "Textos e vídeos por Gustavo Villa e Marina Gomide",
+                "speaker_community": "Nome da comunidade"
+            },
+        ],
+        "media_links": [],
+        "permission_level": "anonymous",
+        "topic": ""
+    },
+    {
+        "title": "M'boi Tatá",
+        "desc": "",
+        "id": 6,
+        "author": "Textos e vídeos por Gustavo Villa e Marina Gomide, ilustração por Maybí Machacalis",
+        "elementos_naturais": "Animais",
+        "sazonalidade": "época do ano ou estação",
+        "context": "-",
+        "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
+        "edu": "-",
+        "created_at": "1904-01-01T00:00:00.498Z",
+        "points": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -110.519139,
+                        -45.072497
+
+                    ]
+                },
+                "properties": {
+                    "name": "M'boi Tatá",
+                    "description": "",
+                    "region": null,
+                    "type_of_place": "Scorpious",
+                    "stories": [
+                        {
+                            "id": 6,
+                            "title": "M'boi Tatá",
+                            "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+                            "created_at": "1904-01-01T00:00:00.498Z",
+                            "updated_at": "1904-01-01T00:00:00.498Z",
+                            "permission_level": "anonymous",
+                            "date_interviewed": null,
+                            "language": "English",
+                            "interview_location_id": 1,
+                            "interviewer_id": 1,
+                            "community_id": 1,
+                            "topic": ""
+                        }
+                    ]
+                },
+                "id": 6
+            }
+        ],
+        "places": [
+            {
+                "id": 6,
+                "name": "M'boi Tatá",
+                "type_of_place": "Corvus",
+                "created_at": "1904-01-01T00:00:00.498Z",
+                "updated_at": "1904-01-01T00:00:00.498Z",
+                "lat": "55.8955",
+                "long": "42.6742",
+                "region": null,
+                "description": "",
+                "community_id": 1
+            }
+        ],
+        "language": "Tupi-Guarani",
+        "media": [
+            {
+                "id": 6,
+                "url": "https://lsnmst.github.io/cultura-estelar/video/cobra.mp4",
+                "blob": {
+                    "id": 6,
+                    "key": "cobra.mp4",
+                    "filename": "cobra.mp4",
+                    "content_type": "video/mp4",
+                    "metadata": {
+                        "identified": true,
+                        "width": 1920,
+                        "height": 1080,
+                        "analyzed": true
+                    }
+                }
+            },
+            {
+                "id": 6,
+                "author": "Maybí Machacalis",
+                "url": "https://lsnmst.github.io/cultura-estelar/images/tupi-11.jpg",
+                "blob": {
+                    "id": 6,
+                    "key": "tupi-11.jpg",
+                    "filename": "tupi-11.jpg",
+                    "content_type": "image/jpeg",
+                    "metadata": {
+                        "identified": true,
+                        "width": 1000,
+                        "height": 1636,
+                        "analyzed": true
+                    }
+                }
+            }
+        ], "speakers": [
+            {
+                "id": 6,
+                "name": "Textos e vídeos por Gustavo Villa e Marina Gomide",
+                "speaker_community": "Nome da comunidade"
+            },
+        ],
+        "media_links": [],
+        "permission_level": "anonymous",
+        "topic": ""
+    },
+    {
+        "title": "Mainamy",
+        "desc": "",
+        "id": 5,
+        "author": "Textos e vídeos por Gustavo Villa e Marina Gomide, ilustração por Maybí Machacalis",
+        "elementos_naturais": "Animais",
+        "sazonalidade": "época do ano ou estação",
+        "context": "-",
+        "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
+        "edu": "-",
+        "created_at": "1904-01-01T00:00:00.498Z",
+        "points": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -172,
+                        -28
+                    ]
+                },
+                "properties": {
+                    "name": "Mainamy",
+                    "description": "",
+                    "region": null,
+                    "type_of_place": "Corvus",
+                    "stories": [
+                        {
+                            "id": 5,
+                            "title": "Arapuca",
+                            "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+                            "created_at": "1904-01-01T00:00:00.498Z",
+                            "updated_at": "1904-01-01T00:00:00.498Z",
+                            "permission_level": "anonymous",
+                            "date_interviewed": null,
+                            "language": "English",
+                            "interview_location_id": 1,
+                            "interviewer_id": 1,
+                            "community_id": 1,
+                            "topic": ""
+                        }
+                    ]
+                },
+                "id": 5
+            }
+        ],
+        "places": [
+            {
+                "id": 5,
+                "name": "Mainamy",
+                "type_of_place": "Corvus",
+                "created_at": "1904-01-01T00:00:00.498Z",
+                "updated_at": "1904-01-01T00:00:00.498Z",
+                "lat": "55.8955",
+                "long": "42.6742",
+                "region": null,
+                "description": "",
+                "community_id": 1
+            }
+        ],
+        "language": "Tupi-Guarani",
+        "media": [
+            {
+                "id": 5,
+                "url": "https://lsnmst.github.io/cultura-estelar/video/mainamy.mp4",
+                "blob": {
+                    "id": 5,
+                    "key": "mainamy.mp4",
+                    "filename": "mainamy.mp4",
+                    "content_type": "video/mp4",
+                    "metadata": {
+                        "identified": true,
+                        "width": 1920,
+                        "height": 1080,
+                        "analyzed": true
+                    }
+                }
+            },
+            {
+                "id": 5,
+                "author": "Maybí Machacalis",
+                "url": "https://lsnmst.github.io/cultura-estelar/images/tupi-13.jpg",
+                "blob": {
+                    "id": 13,
+                    "key": "tupi-13.jpg",
+                    "filename": "tupi-13.jpg",
+                    "content_type": "image/jpeg",
+                    "metadata": {
+                        "identified": true,
+                        "width": 1000,
+                        "height": 1636,
+                        "analyzed": true
+                    }
+                }
+            }
+        ], "speakers": [
+            {
+                "id": 4,
+                "name": "Textos e vídeos por Gustavo Villa e Marina Gomide",
+                "speaker_community": "Nome da comunidade"
+            },
+        ],
+        "media_links": [],
+        "permission_level": "anonymous",
+        "topic": ""
+    },
+    {
+        "title": "Aka'Ekorá a Arapuca",
+        "desc": "",
+        "id": 4,
+        "author": "Textos e vídeos por Gustavo Villa e Marina Gomide, ilustração por Maybí Machacalis",
+        "elementos_naturais": "Não conectada",
+        "sazonalidade": "época do ano ou estação",
+        "context": "-",
+        "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
+        "edu": "-",
+        "created_at": "1904-01-01T00:00:00.498Z",
+        "points": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        29.2,
+                        2
                     ]
                 },
                 "properties": {
@@ -2143,10 +2568,10 @@ const sampleStories = [
         "language": "Tupi-Guarani",
         "media": [
             {
-                "id": 5,
+                "id": 4,
                 "url": "https://lsnmst.github.io/cultura-estelar/video/arapuca.mp4",
                 "blob": {
-                    "id": 5,
+                    "id": 4,
                     "key": "arapuca.mp4",
                     "filename": "arapuca.mp4",
                     "content_type": "video/mp4",
@@ -2163,7 +2588,7 @@ const sampleStories = [
                 "author": "Maybí Machacalis",
                 "url": "https://lsnmst.github.io/cultura-estelar/images/tupi-12.jpg",
                 "blob": {
-                    "id": 12,
+                    "id": 4,
                     "key": "tupi-12.jpg",
                     "filename": "tupi-12.jpg",
                     "content_type": "image/jpeg",
@@ -2234,7 +2659,7 @@ const sampleStories = [
         ],
         "places": [
             {
-                "id": 1,
+                "id": 3,
                 "name": "Estrela Vagalume",
                 "type_of_place": "Vagalume (Sirius)",
                 "created_at": "1903-01-01T00:00:00.498Z",
@@ -2369,7 +2794,7 @@ const sampleStories = [
     {
         "title": "Estrela Tinguaçu",
         "desc": "INTRODUÇÃO<br />A alma-de-gato, também conhecida como Tinguaçu, é um pássaro de plumagem metálica e cauda longa. Em tupi-guarani, “tinguaçu” significa 'pássaro de bico grande'. Além de seu nome, o pássaro também representa um símbolo importante em mitos indígenas.<br /><br />MITO<br />Em uma lenda Guarani, o Tinguaçu age como mensageiro. Quando sete seres mágicos causaram problemas na aldeia, o sábio Pa’i Sumé e sua irmã Porãsy decidiram enfrentá-los. Porãsy embriagou os seres e, com o alerta do Tinguaçu, os Guarani souberam o momento certo para selar a entrada da caverna onde eles estavam, protegendo a aldeia.<br /><br />SIGNIFICADO<br />O Tinguaçu é visto como um guia e protetor, uma figura que simboliza a vigilância e a sabedoria espiritual no povo Guarani.<br /><br />RELAÇÃO COM O COSMOS<br />Os Tupinambá associavam a estrela Tingaçu ao anúncio das Plêiades, marcando o início de um ciclo importante antes do solstício de inverno, geralmente aparecendo 15 dias antes desta constelação. Da mesma forma, na Índia, a estrela Bharani (41 Arietis) marca cerimônias significativas e é associada ao nascer das Plêiades, revelando como culturas distantes usam estrelas para guiar práticas espirituais.",
-        "id": 3,
+        "id": 1,
         "author": "Maybí Machacalis. A arte representa a ave Tinguaçu na estrela 41 Ari.",
         "elementos_naturais": "Animais",
         "sazonalidade": "época do ano ou estação",
@@ -2458,4 +2883,4 @@ const sampleStories = [
     },
 ]
 
-export default sampleStories;
+export default storiesPt;

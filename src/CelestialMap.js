@@ -20,12 +20,16 @@ export default class CelestialMap extends Component {
     activePoint: PropTypes.object,
     points: PropTypes.object,
     framedView: PropTypes.object,
+    centerLong: PropTypes.number,
+    centerLat: PropTypes.number,
   };
 
 
   componentDidMount() {
     const centerLong = parseInt(this.props.centerLong);
     const centerLat = parseInt(this.props.centerLat);
+
+    const isMobile = window.innerWidth <= 768;
 
     var config = {
       projection: "airy",
@@ -48,11 +52,11 @@ export default class CelestialMap extends Component {
       },
       stars: {
         limit: 12,
-        propername: true,
-        propernameStyle: { fill: "#9999bbbe", font: "13px 'Nehanda-SpiritMedium','Palatino Linotype', Georgia, Times, 'Times Roman', serif", align: "right", baseline: "bottom" },
+        propername: !isMobile,
+        propernameStyle: { fill: "#9999bbbe", font: "12px 'Nehanda-SpiritMedium','Palatino Linotype', Georgia, Times, 'Times Roman', serif", align: "right", baseline: "bottom" },
         propernameLimit: 5,
         designation: true,
-        designationStyle: { fill: "#9999bb", font: "11px 'Nehanda-SpiritMedium','Palatino Linotype', Georgia, Times, 'Times Roman', serif", align: "left", baseline: "top" },
+        designationStyle: { fill: "#9999bb", font: "10px 'Nehanda-SpiritMedium','Palatino Linotype', Georgia, Times, 'Times Roman', serif", align: "left", baseline: "top" },
         designationLimit: 2.5,
       },
       dsos: {
@@ -60,12 +64,12 @@ export default class CelestialMap extends Component {
         names: true,
       },
       mw: {
-        style: { fill: "#ffffff", opacity: 0.1 }
+        style: { fill: "#e79f32ff", opacity: 0.1 }
       },
       planets: {
         show: true,
         names: true,
-        nameStyle: { fill: "#00ccff", font: "'MangueiraAlt-Regular'", align: "right", baseline: "top" },
+        nameStyle: { fill: "#00ccff", font: "15px 'Nehanda-SpiritMedium'", align: "right", baseline: "top" },
       },
       background: {
         fill: "rgb(40,11,108)",
