@@ -3,7 +3,7 @@ import React, { createContext, useContext, useMemo, useState } from "react";
 
 const resources = {
     en: {
-        filter: { stories: "Filter stories: " },
+        filter: { stories: "Select the constellation: " },
         nav: { intro: "Introduction", stories: "Stories", search: "Search" },
         card: {
             chooseCategory: "Choose a category",
@@ -12,7 +12,7 @@ const resources = {
         button: { ok: "OK", cancel: "Cancel" }
     },
     pt: {
-        filter: { stories: "Filtrar histórias: " },
+        filter: { stories: "Selecione a constelação: " },
         nav: { intro: "Introdução", stories: "Histórias", search: "Buscar" },
         card: {
             chooseCategory: "Escolha uma categoria",
@@ -21,7 +21,7 @@ const resources = {
         button: { ok: "OK", cancel: "Cancelar" }
     },
     es: {
-        filter: { stories: "Filtrar historias: " },
+        filter: { stories: "Selecciona la constelación: " },
         nav: { intro: "Introducción", stories: "Historias", search: "Buscar" },
         card: {
             chooseCategory: "Elige una categoría",

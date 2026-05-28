@@ -50,18 +50,28 @@ class Card extends Component {
     return (
       <div className={this.state.isToggleOn ? 'cardContainer onCanvas' : 'cardContainer offCanvas'}>
         <div className="tab" onClick={this.handleTray}>
-          <div className="opentab">Conheça as histórias</div>
+          <div className="opentab">
+            {this.state.isToggleOn
+              ? "Ver mapa"
+              : "Explorar histórias"}
+          </div>
           <div className="arrow" />
           <div className="card--infologo" style={{ backgroundColor: "rgb(40,11,108)" }}>
             <img src={this.props.logoinfo_path} alt="Stellarstories" />
           </div>
         </div>
-        <div className="closeMe" onClick={this.handleTray} />
+        {this.state.isToggleOn && (
+          <div className="closeMe" onClick={this.handleTray} />
+        )}
         <div className="card">
           <div className="bar">
             <div className="card--logo">
               <img src={this.props.logo_path} alt="Stellarstories" />
             </div>
+            <div className="card-tupi">TUPI-GUARANI</div>
+            <span className="card-tupi desc">Celebrando a ciência viva dos povos originários, transmitindo seu conhecimento sobre a observação do céu</span>
+
+
 
             <StoryList
               activeStory={this.props.activeStory}

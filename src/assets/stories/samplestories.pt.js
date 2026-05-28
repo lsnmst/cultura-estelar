@@ -2080,7 +2080,113 @@ const storiesPt = [
     },
 
     */
-          {
+    {
+        "title": "Guirá Nhandu",
+        "desc": "",
+        "id": 8,
+        "author": "Textos e vídeos por Gustavo Villa e Marina Gomide, ilustração por Maybí Machacalis",
+        "elementos_naturais": "Animais",
+        "sazonalidade": "época do ano ou estação",
+        "context": "-",
+        "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
+        "edu": "-",
+        "created_at": "1904-01-01T00:00:00.498Z",
+        "points": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -115.519139,
+                        -70.072497
+                    ]
+                },
+                "properties": {
+                    "name": "Guirá Nhandu",
+                    "description": "",
+                    "region": null,
+                    "type_of_place": "Musca, Centaurus, Triangulum Australe, Ara, Scorpious, Lupus, Circinus",
+                    "stories": [
+                        {
+                            "id": 8,
+                            "title": "Guirá Nhandu",
+                            "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+                            "created_at": "1904-01-01T00:00:00.498Z",
+                            "updated_at": "1904-01-01T00:00:00.498Z",
+                            "permission_level": "anonymous",
+                            "date_interviewed": null,
+                            "language": "English",
+                            "interview_location_id": 1,
+                            "interviewer_id": 1,
+                            "community_id": 1,
+                            "topic": ""
+                        }
+                    ]
+                },
+                "id": 8
+            }
+        ],
+        "places": [
+            {
+                "id": 8,
+                "name": "Guirá Nhandu",
+                "type_of_place": "Musca, Centaurus, Triangulum Australe, Ara, Scorpious, Lupus, Circinus",
+                "created_at": "1904-01-01T00:00:00.498Z",
+                "updated_at": "1904-01-01T00:00:00.498Z",
+                "lat": "55.8955",
+                "long": "42.6742",
+                "region": null,
+                "description": "",
+                "community_id": 1
+            }
+        ],
+        "language": "Tupi-Guarani",
+        "media": [
+            {
+                "id": 8,
+                "url": "https://lsnmst.github.io/cultura-estelar/video/ema.mp4",
+                "blob": {
+                    "id": 8,
+                    "key": "ema.mp4",
+                    "filename": "ema.mp4",
+                    "content_type": "video/mp4",
+                    "metadata": {
+                        "identified": true,
+                        "width": 1920,
+                        "height": 1080,
+                        "analyzed": true
+                    }
+                }
+            },
+            {
+                "id": 8,
+                "author": "Maybí Machacalis",
+                "url": "https://lsnmst.github.io/cultura-estelar/images/tupi-5.jpg",
+                "blob": {
+                    "id": 7,
+                    "key": "tupi-5.jpg",
+                    "filename": "tupi-5.jpg",
+                    "content_type": "image/jpeg",
+                    "metadata": {
+                        "identified": true,
+                        "width": 1000,
+                        "height": 1636,
+                        "analyzed": true
+                    }
+                }
+            }
+        ], "speakers": [
+            {
+                "id": 8,
+                "name": "Textos e vídeos por Gustavo Villa e Marina Gomide",
+                "speaker_community": "Nome da comunidade"
+            },
+        ],
+        "media_links": [],
+        "permission_level": "anonymous",
+        "topic": ""
+    },
+    {
         "title": "Coxi Huguá",
         "desc": "",
         "id": 10,
@@ -2229,7 +2335,7 @@ const storiesPt = [
                         }
                     ]
                 },
-                "id": 8
+                "id": 9
             }
         ],
         "places": [
@@ -2284,112 +2390,6 @@ const storiesPt = [
         ], "speakers": [
             {
                 "id": 9,
-                "name": "Textos e vídeos por Gustavo Villa e Marina Gomide",
-                "speaker_community": "Nome da comunidade"
-            },
-        ],
-        "media_links": [],
-        "permission_level": "anonymous",
-        "topic": ""
-    },
-    {
-        "title": "Guirá Nhandu",
-        "desc": "",
-        "id": 8,
-        "author": "Textos e vídeos por Gustavo Villa e Marina Gomide, ilustração por Maybí Machacalis",
-        "elementos_naturais": "Animais",
-        "sazonalidade": "época do ano ou estação",
-        "context": "-",
-        "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
-        "edu": "-",
-        "created_at": "1904-01-01T00:00:00.498Z",
-        "points": [
-            {
-                "type": "Feature",
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        -115.519139,
-                        -70.072497
-                    ]
-                },
-                "properties": {
-                    "name": "Guirá Nhandu",
-                    "description": "",
-                    "region": null,
-                    "type_of_place": "Musca, Centaurus, Triangulum Australe, Ara, Scorpious, Lupus, Circinus",
-                    "stories": [
-                        {
-                            "id": 8,
-                            "title": "Guirá Nhandu",
-                            "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
-                            "created_at": "1904-01-01T00:00:00.498Z",
-                            "updated_at": "1904-01-01T00:00:00.498Z",
-                            "permission_level": "anonymous",
-                            "date_interviewed": null,
-                            "language": "English",
-                            "interview_location_id": 1,
-                            "interviewer_id": 1,
-                            "community_id": 1,
-                            "topic": ""
-                        }
-                    ]
-                },
-                "id": 8
-            }
-        ],
-        "places": [
-            {
-                "id": 8,
-                "name": "Guirá Nhandu",
-                "type_of_place": "Musca, Centaurus, Triangulum Australe, Ara, Scorpious, Lupus, Circinus",
-                "created_at": "1904-01-01T00:00:00.498Z",
-                "updated_at": "1904-01-01T00:00:00.498Z",
-                "lat": "55.8955",
-                "long": "42.6742",
-                "region": null,
-                "description": "",
-                "community_id": 1
-            }
-        ],
-        "language": "Tupi-Guarani",
-        "media": [
-            {
-                "id": 8,
-                "url": "https://lsnmst.github.io/cultura-estelar/video/ema.mp4",
-                "blob": {
-                    "id": 8,
-                    "key": "ema.mp4",
-                    "filename": "ema.mp4",
-                    "content_type": "video/mp4",
-                    "metadata": {
-                        "identified": true,
-                        "width": 1920,
-                        "height": 1080,
-                        "analyzed": true
-                    }
-                }
-            },
-            {
-                "id": 8,
-                "author": "Maybí Machacalis",
-                "url": "https://lsnmst.github.io/cultura-estelar/images/tupi-5.jpg",
-                "blob": {
-                    "id": 7,
-                    "key": "tupi-5.jpg",
-                    "filename": "tupi-5.jpg",
-                    "content_type": "image/jpeg",
-                    "metadata": {
-                        "identified": true,
-                        "width": 1000,
-                        "height": 1636,
-                        "analyzed": true
-                    }
-                }
-            }
-        ], "speakers": [
-            {
-                "id": 8,
                 "name": "Textos e vídeos por Gustavo Villa e Marina Gomide",
                 "speaker_community": "Nome da comunidade"
             },

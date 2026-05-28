@@ -2081,328 +2081,10 @@ const storiesPt = [
 
     */
     {
-        "title": "Coxi Huguá",
-        "desc": "",
-        "id": 10,
-        "author": "Texts and videos by Gustavo Villa and Marina Gomide, illustration by Maybí Machacalis",
-        "elementos_naturais": "Animais",
-        "sazonalidade": "época do ano ou estação",
-        "context": "-",
-        "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
-        "edu": "-",
-        "created_at": "1904-01-01T00:00:00.498Z",
-        "points": [
-            {
-                "type": "Feature",
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        12.9,
-                        -72.8
-                    ]
-                },
-                "properties": {
-                    "name": "Coxi Huguá",
-                    "description": "",
-                    "region": null,
-                    "type_of_place": "SCM",
-                    "stories": [
-                        {
-                            "id": 10,
-                            "title": "Tapi'i Huguá",
-                            "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
-                            "created_at": "1904-01-01T00:00:00.498Z",
-                            "updated_at": "1904-01-01T00:00:00.498Z",
-                            "permission_level": "anonymous",
-                            "date_interviewed": null,
-                            "language": "English",
-                            "interview_location_id": 1,
-                            "interviewer_id": 1,
-                            "community_id": 1,
-                            "topic": ""
-                        }
-                    ]
-                },
-                "id": 10
-            }
-        ],
-        "places": [
-            {
-                "id": 10,
-                "name": "Coxi Huguá ",
-                "type_of_place": "SCM",
-                "created_at": "1904-01-01T00:00:00.498Z",
-                "updated_at": "1904-01-01T00:00:00.498Z",
-                "lat": "55.8955",
-                "long": "42.6742",
-                "region": null,
-                "description": "",
-                "community_id": 1
-            }
-        ],
-        "language": "Tupi-Guarani",
-        "media": [
-            {
-                "id": 10,
-                "url": "https://lsnmst.github.io/cultura-estelar/video/tupir.mp4",
-                "blob": {
-                    "id": 10,
-                    "key": "tupir.mp4",
-                    "filename": "tupir.mp4",
-                    "content_type": "video/mp4",
-                    "metadata": {
-                        "identified": true,
-                        "width": 1920,
-                        "height": 1080,
-                        "analyzed": true
-                    }
-                }
-            },
-            {
-                "id": 10,
-                "author": "Maybí Machacalis",
-                "url": "https://lsnmst.github.io/cultura-estelar/images/tupi-22.jpg",
-                "blob": {
-                    "id": 10,
-                    "key": "tupi-22.jpg",
-                    "filename": "tupi-22.jpg",
-                    "content_type": "image/jpeg",
-                    "metadata": {
-                        "identified": true,
-                        "width": 1000,
-                        "height": 1636,
-                        "analyzed": true
-                    }
-                }
-            }
-        ], "speakers": [
-            {
-                "id": 10,
-                "name": "Texts and videos by Gustavo Villa and Marina Gomide",
-                "speaker_community": "Nome da comunidade"
-            },
-        ],
-        "media_links": [],
-        "permission_level": "anonymous",
-        "topic": ""
-    },
-    {
-        "title": "Coxi Huguá",
-        "desc": "",
-        "id": 10,
-        "author": "Texts and videos by Gustavo Villa and Marina Gomide, illustration by Maybí Machacalis",
-        "elementos_naturais": "Animais",
-        "sazonalidade": "época do ano ou estação",
-        "context": "-",
-        "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
-        "edu": "-",
-        "created_at": "1904-01-01T00:00:00.498Z",
-        "points": [
-            {
-                "type": "Feature",
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        12.9,
-                        -72.8
-                    ]
-                },
-                "properties": {
-                    "name": "Coxi Huguá",
-                    "description": "",
-                    "region": null,
-                    "type_of_place": "SCM",
-                    "stories": [
-                        {
-                            "id": 10,
-                            "title": "Tapi'i Huguá",
-                            "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
-                            "created_at": "1904-01-01T00:00:00.498Z",
-                            "updated_at": "1904-01-01T00:00:00.498Z",
-                            "permission_level": "anonymous",
-                            "date_interviewed": null,
-                            "language": "English",
-                            "interview_location_id": 1,
-                            "interviewer_id": 1,
-                            "community_id": 1,
-                            "topic": ""
-                        }
-                    ]
-                },
-                "id": 10
-            }
-        ],
-        "places": [
-            {
-                "id": 10,
-                "name": "Coxi Huguá ",
-                "type_of_place": "SCM",
-                "created_at": "1904-01-01T00:00:00.498Z",
-                "updated_at": "1904-01-01T00:00:00.498Z",
-                "lat": "55.8955",
-                "long": "42.6742",
-                "region": null,
-                "description": "",
-                "community_id": 1
-            }
-        ],
-        "language": "Tupi-Guarani",
-        "media": [
-            {
-                "id": 10,
-                "url": "https://lsnmst.github.io/cultura-estelar/video/tupir.mp4",
-                "blob": {
-                    "id": 10,
-                    "key": "tupir.mp4",
-                    "filename": "tupir.mp4",
-                    "content_type": "video/mp4",
-                    "metadata": {
-                        "identified": true,
-                        "width": 1920,
-                        "height": 1080,
-                        "analyzed": true
-                    }
-                }
-            },
-            {
-                "id": 10,
-                "author": "Maybí Machacalis",
-                "url": "https://lsnmst.github.io/cultura-estelar/images/tupi-22.jpg",
-                "blob": {
-                    "id": 10,
-                    "key": "tupi-22.jpg",
-                    "filename": "tupi-22.jpg",
-                    "content_type": "image/jpeg",
-                    "metadata": {
-                        "identified": true,
-                        "width": 1000,
-                        "height": 1636,
-                        "analyzed": true
-                    }
-                }
-            }
-        ], "speakers": [
-            {
-                "id": 10,
-                "name": "Texts and videos by Gustavo Villa and Marina Gomide",
-                "speaker_community": "Nome da comunidade"
-            },
-        ],
-        "media_links": [],
-        "permission_level": "anonymous",
-        "topic": ""
-    },
-    {
-        "title": "Tapi'i Huguá",
-        "desc": "",
-        "id": 9,
-        "author": "Texts and videos by Gustavo Villa and Marina Gomide, illustration by Maybí Machacalis",
-        "elementos_naturais": "Animais",
-        "sazonalidade": "época do ano ou estação",
-        "context": "-",
-        "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
-        "edu": "-",
-        "created_at": "1904-01-01T00:00:00.498Z",
-        "points": [
-            {
-                "type": "Feature",
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        81.2,
-                        -69.8
-                    ]
-                },
-                "properties": {
-                    "name": "Tapi'i Huguá",
-                    "description": "",
-                    "region": null,
-                    "type_of_place": "LMC",
-                    "stories": [
-                        {
-                            "id": 9,
-                            "title": "Tapi'i Huguá",
-                            "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
-                            "created_at": "1904-01-01T00:00:00.498Z",
-                            "updated_at": "1904-01-01T00:00:00.498Z",
-                            "permission_level": "anonymous",
-                            "date_interviewed": null,
-                            "language": "English",
-                            "interview_location_id": 1,
-                            "interviewer_id": 1,
-                            "community_id": 1,
-                            "topic": ""
-                        }
-                    ]
-                },
-                "id": 8
-            }
-        ],
-        "places": [
-            {
-                "id": 9,
-                "name": "Tapi'i Huguá",
-                "type_of_place": "LMC",
-                "created_at": "1904-01-01T00:00:00.498Z",
-                "updated_at": "1904-01-01T00:00:00.498Z",
-                "lat": "55.8955",
-                "long": "42.6742",
-                "region": null,
-                "description": "",
-                "community_id": 1
-            }
-        ],
-        "language": "Tupi-Guarani",
-        "media": [
-            {
-                "id": 9,
-                "url": "https://lsnmst.github.io/cultura-estelar/video/tupir.mp4",
-                "blob": {
-                    "id": 9,
-                    "key": "tupir.mp4",
-                    "filename": "tupir.mp4",
-                    "content_type": "video/mp4",
-                    "metadata": {
-                        "identified": true,
-                        "width": 1920,
-                        "height": 1080,
-                        "analyzed": true
-                    }
-                }
-            },
-            {
-                "id": 9,
-                "author": "Maybí Machacalis",
-                "url": "https://lsnmst.github.io/cultura-estelar/images/tupi-21.jpg",
-                "blob": {
-                    "id": 9,
-                    "key": "tupi-21.jpg",
-                    "filename": "tupi-21.jpg",
-                    "content_type": "image/jpeg",
-                    "metadata": {
-                        "identified": true,
-                        "width": 1000,
-                        "height": 1636,
-                        "analyzed": true
-                    }
-                }
-            }
-        ], "speakers": [
-            {
-                "id": 9,
-                "name": "Texts and videos by Gustavo Villa and Marina Gomide",
-                "speaker_community": "Nome da comunidade"
-            },
-        ],
-        "media_links": [],
-        "permission_level": "anonymous",
-        "topic": ""
-    },
-    {
         "title": "Guirá Nhandu",
         "desc": "",
         "id": 8,
-        "author": "Texts and videos by Gustavo Villa and Marina Gomide, illustration by Maybí Machacalis",
+        "author": "Textos e vídeos por Gustavo Villa e Marina Gomide, ilustração por Maybí Machacalis",
         "elementos_naturais": "Animais",
         "sazonalidade": "época do ano ou estação",
         "context": "-",
@@ -2496,7 +2178,219 @@ const storiesPt = [
         ], "speakers": [
             {
                 "id": 8,
-                "name": "Texts and videos by Gustavo Villa and Marina Gomide",
+                "name": "Textos e vídeos por Gustavo Villa e Marina Gomide",
+                "speaker_community": "Nome da comunidade"
+            },
+        ],
+        "media_links": [],
+        "permission_level": "anonymous",
+        "topic": ""
+    },
+    {
+        "title": "Coxi Huguá",
+        "desc": "",
+        "id": 10,
+        "author": "Textos e vídeos por Gustavo Villa e Marina Gomide, ilustração por Maybí Machacalis",
+        "elementos_naturais": "Animais",
+        "sazonalidade": "época do ano ou estação",
+        "context": "-",
+        "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
+        "edu": "-",
+        "created_at": "1904-01-01T00:00:00.498Z",
+        "points": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        12.9,
+                        -72.8
+                    ]
+                },
+                "properties": {
+                    "name": "Coxi Huguá",
+                    "description": "",
+                    "region": null,
+                    "type_of_place": "SCM",
+                    "stories": [
+                        {
+                            "id": 10,
+                            "title": "Tapi'i Huguá",
+                            "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+                            "created_at": "1904-01-01T00:00:00.498Z",
+                            "updated_at": "1904-01-01T00:00:00.498Z",
+                            "permission_level": "anonymous",
+                            "date_interviewed": null,
+                            "language": "English",
+                            "interview_location_id": 1,
+                            "interviewer_id": 1,
+                            "community_id": 1,
+                            "topic": ""
+                        }
+                    ]
+                },
+                "id": 10
+            }
+        ],
+        "places": [
+            {
+                "id": 10,
+                "name": "Coxi Huguá ",
+                "type_of_place": "SCM",
+                "created_at": "1904-01-01T00:00:00.498Z",
+                "updated_at": "1904-01-01T00:00:00.498Z",
+                "lat": "55.8955",
+                "long": "42.6742",
+                "region": null,
+                "description": "",
+                "community_id": 1
+            }
+        ],
+        "language": "Tupi-Guarani",
+        "media": [
+            {
+                "id": 10,
+                "url": "https://lsnmst.github.io/cultura-estelar/video/tupir.mp4",
+                "blob": {
+                    "id": 10,
+                    "key": "tupir.mp4",
+                    "filename": "tupir.mp4",
+                    "content_type": "video/mp4",
+                    "metadata": {
+                        "identified": true,
+                        "width": 1920,
+                        "height": 1080,
+                        "analyzed": true
+                    }
+                }
+            },
+            {
+                "id": 10,
+                "author": "Maybí Machacalis",
+                "url": "https://lsnmst.github.io/cultura-estelar/images/tupi-22.jpg",
+                "blob": {
+                    "id": 10,
+                    "key": "tupi-22.jpg",
+                    "filename": "tupi-22.jpg",
+                    "content_type": "image/jpeg",
+                    "metadata": {
+                        "identified": true,
+                        "width": 1000,
+                        "height": 1636,
+                        "analyzed": true
+                    }
+                }
+            }
+        ], "speakers": [
+            {
+                "id": 10,
+                "name": "Textos e vídeos por Gustavo Villa e Marina Gomide",
+                "speaker_community": "Nome da comunidade"
+            },
+        ],
+        "media_links": [],
+        "permission_level": "anonymous",
+        "topic": ""
+    },
+    {
+        "title": "Tapi'i Huguá",
+        "desc": "",
+        "id": 9,
+        "author": "Textos e vídeos por Gustavo Villa e Marina Gomide, ilustração por Maybí Machacalis",
+        "elementos_naturais": "Animais",
+        "sazonalidade": "época do ano ou estação",
+        "context": "-",
+        "origin": "comunidade, local, quem contou inicialmente, se é uma história compartilhada ou exclusiva de um grupo específico",
+        "edu": "-",
+        "created_at": "1904-01-01T00:00:00.498Z",
+        "points": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        81.2,
+                        -69.8
+                    ]
+                },
+                "properties": {
+                    "name": "Tapi'i Huguá",
+                    "description": "",
+                    "region": null,
+                    "type_of_place": "LMC",
+                    "stories": [
+                        {
+                            "id": 9,
+                            "title": "Tapi'i Huguá",
+                            "desc": "Nesse espaço, a história é descrita. Ao clicar nessa história, o mapa se move para a posição do corpo celeste relacionado.",
+                            "created_at": "1904-01-01T00:00:00.498Z",
+                            "updated_at": "1904-01-01T00:00:00.498Z",
+                            "permission_level": "anonymous",
+                            "date_interviewed": null,
+                            "language": "English",
+                            "interview_location_id": 1,
+                            "interviewer_id": 1,
+                            "community_id": 1,
+                            "topic": ""
+                        }
+                    ]
+                },
+                "id": 9
+            }
+        ],
+        "places": [
+            {
+                "id": 9,
+                "name": "Tapi'i Huguá",
+                "type_of_place": "LMC",
+                "created_at": "1904-01-01T00:00:00.498Z",
+                "updated_at": "1904-01-01T00:00:00.498Z",
+                "lat": "55.8955",
+                "long": "42.6742",
+                "region": null,
+                "description": "",
+                "community_id": 1
+            }
+        ],
+        "language": "Tupi-Guarani",
+        "media": [
+            {
+                "id": 9,
+                "url": "https://lsnmst.github.io/cultura-estelar/video/tupir.mp4",
+                "blob": {
+                    "id": 9,
+                    "key": "tupir.mp4",
+                    "filename": "tupir.mp4",
+                    "content_type": "video/mp4",
+                    "metadata": {
+                        "identified": true,
+                        "width": 1920,
+                        "height": 1080,
+                        "analyzed": true
+                    }
+                }
+            },
+            {
+                "id": 9,
+                "author": "Maybí Machacalis",
+                "url": "https://lsnmst.github.io/cultura-estelar/images/tupi-21.jpg",
+                "blob": {
+                    "id": 9,
+                    "key": "tupi-21.jpg",
+                    "filename": "tupi-21.jpg",
+                    "content_type": "image/jpeg",
+                    "metadata": {
+                        "identified": true,
+                        "width": 1000,
+                        "height": 1636,
+                        "analyzed": true
+                    }
+                }
+            }
+        ], "speakers": [
+            {
+                "id": 9,
+                "name": "Textos e vídeos por Gustavo Villa e Marina Gomide",
                 "speaker_community": "Nome da comunidade"
             },
         ],
@@ -2508,7 +2402,7 @@ const storiesPt = [
         "title": "Tuivaé",
         "desc": "",
         "id": 7,
-        "author": "Texts and videos by Gustavo Villa and Marina Gomide, illustration by Maybí Machacalis",
+        "author": "Textos e vídeos por Gustavo Villa e Marina Gomide, ilustração por Maybí Machacalis",
         "elementos_naturais": "Não conectada",
         "sazonalidade": "época do ano ou estação",
         "context": "-",
@@ -2602,7 +2496,7 @@ const storiesPt = [
         ], "speakers": [
             {
                 "id": 7,
-                "name": "Texts and videos by Gustavo Villa and Marina Gomide",
+                "name": "Textos e vídeos por Gustavo Villa e Marina Gomide",
                 "speaker_community": "Nome da comunidade"
             },
         ],
@@ -2614,7 +2508,7 @@ const storiesPt = [
         "title": "M'boi Tatá",
         "desc": "",
         "id": 6,
-        "author": "Texts and videos by Gustavo Villa and Marina Gomide, illustration by Maybí Machacalis",
+        "author": "Textos e vídeos por Gustavo Villa e Marina Gomide, ilustração por Maybí Machacalis",
         "elementos_naturais": "Animais",
         "sazonalidade": "época do ano ou estação",
         "context": "-",
@@ -2709,7 +2603,7 @@ const storiesPt = [
         ], "speakers": [
             {
                 "id": 6,
-                "name": "Texts and videos by Gustavo Villa and Marina Gomide",
+                "name": "Textos e vídeos por Gustavo Villa e Marina Gomide",
                 "speaker_community": "Nome da comunidade"
             },
         ],
@@ -2721,7 +2615,7 @@ const storiesPt = [
         "title": "Mainamy",
         "desc": "",
         "id": 5,
-        "author": "Texts and videos by Gustavo Villa and Marina Gomide, illustration by Maybí Machacalis",
+        "author": "Textos e vídeos por Gustavo Villa e Marina Gomide, ilustração por Maybí Machacalis",
         "elementos_naturais": "Animais",
         "sazonalidade": "época do ano ou estação",
         "context": "-",
@@ -2815,7 +2709,7 @@ const storiesPt = [
         ], "speakers": [
             {
                 "id": 4,
-                "name": "Texts and videos by Gustavo Villa and Marina Gomide",
+                "name": "Textos e vídeos por Gustavo Villa e Marina Gomide",
                 "speaker_community": "Nome da comunidade"
             },
         ],
@@ -2827,7 +2721,7 @@ const storiesPt = [
         "title": "Aka'Ekorá a Arapuca",
         "desc": "",
         "id": 4,
-        "author": "Texts and videos by Gustavo Villa and Marina Gomide, illustration by Maybí Machacalis",
+        "author": "Textos e vídeos por Gustavo Villa e Marina Gomide, ilustração por Maybí Machacalis",
         "elementos_naturais": "Não conectada",
         "sazonalidade": "época do ano ou estação",
         "context": "-",
@@ -2921,7 +2815,7 @@ const storiesPt = [
         ], "speakers": [
             {
                 "id": 4,
-                "name": "Texts and videos by Gustavo Villa and Marina Gomide",
+                "name": "Textos e vídeos por Gustavo Villa e Marina Gomide",
                 "speaker_community": "Nome da comunidade"
             },
         ],
@@ -3011,7 +2905,7 @@ const storiesPt = [
         ], "speakers": [
             {
                 "id": 3,
-                "name": "Texts and videos by Gustavo Villa and Marina Gomide",
+                "name": "Textos e vídeos por Gustavo Villa e Marina Gomide",
                 "speaker_community": "Nome da comunidade"
             },
         ],
@@ -3101,7 +2995,7 @@ const storiesPt = [
         ], "speakers": [
             {
                 "id": 2,
-                "name": "Texts and videos by Gustavo Villa and Marina Gomide",
+                "name": "Textos e vídeos por Gustavo Villa e Marina Gomide",
                 "speaker_community": "Nome da comunidade"
             },
         ],
@@ -3191,7 +3085,7 @@ const storiesPt = [
         ], "speakers": [
             {
                 "id": 1,
-                "name": "Texts and videos by Gustavo Villa and Marina Gomide",
+                "name": "Textos e vídeos por Gustavo Villa e Marina Gomide",
                 "speaker_community": "Nome da comunidade"
             },
         ],

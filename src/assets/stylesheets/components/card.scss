@@ -31,17 +31,21 @@ $el-shadow: 0 1px 4px $lighter-gray;
     }
 
     .card {
-      left: -100%;
+      top: 0rem;
+      transform: translateX(-50%);
     }
 
     .tab {
+
       pointer-events: all;
 
       &:after {
         content: '▶';
       }
 
-      left: 0;
+      top: -250px !important;
+      left: 50%;
+      transform: translateX(-50%);
     }
   }
 
@@ -92,6 +96,7 @@ $el-shadow: 0 1px 4px $lighter-gray;
   .card--logo {
     margin: 0;
     padding: 1rem;
+    padding-bottom: 0rem;
 
     img {
       width: 100%;
@@ -119,6 +124,22 @@ $el-shadow: 0 1px 4px $lighter-gray;
     }
   }
 
+  .card-tupi {
+    font-family: 'MangueiraAlt-Regular';
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #09697e;
+    margin: 0rem 0 0.8rem 0;
+    text-align: center;
+  }
+
+  .desc {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    margin: 0rem 0 1.8rem 0;
+    padding: 1rem;
+  }
+
   .card--nav {
     display: flex;
     flex-direction: column;
@@ -130,8 +151,10 @@ $el-shadow: 0 1px 4px $lighter-gray;
     &-sort {
       font-family: 'MangueiraAlt-Regular';
       font-size: 1rem;
-      color: $white;
-      margin: 1rem 0 0.5rem 0;
+      line-height: 1.1rem;
+      font-weight: 600;
+      color: #09697e;
+      margin: 0rem 0 2.5rem 0;
     }
 
     .categoryFilter .storiesSort {
@@ -359,129 +382,322 @@ $el-shadow: 0 1px 4px $lighter-gray;
   color: $maybi-blue !important;
 }
 
-
-
-
-// Responsive patches
-
 @include for-phone-only {
+
   .cardContainer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 68vh;
+    z-index: 20;
+    pointer-events: none;
+    text-align: center;
+    margin: auto !important;
+
     &.onCanvas {
-      width: 0;
-
-      .closeMe {
-        display: none;
-      }
-
       .card {
-        top: 0;
-        left: -100vw;
-      }
-
-      .tab {
-        background-color: rgb(40, 11, 108);
-        width: 10rem;
-        height: auto;
-
-        &:after {
-          content: '' !important;
-        }
-
-        .arrow {
-          border-left: 15px solid #09697e;
-        }
-
-        .opentab {
-          display: unset !important;
-          font-size: 0.8rem;
-          max-width: 70%;
-          line-height: 1rem;
-          padding: 10px;
-          position: absolute;
-          color: #09697e;
-          font-weight: bolder;
-        }
+        transform: translateX(0);
       }
     }
 
     &.offCanvas {
-      width: 100%;
-
       .card {
-        top: 0;
-        left: 0;
-      }
-
-      .tab {
-        &:after {
-          content: '' !important;
-        }
-      }
-
-    }
-
-    .closeMe {
-      display: block;
-      position: absolute;
-      right: 0.5rem;
-      top: 0.5rem;
-      color: $white;
-      font-family: sans-serif;
-      font-size: 1.25rem;
-      cursor: pointer;
-      z-index: 2;
-
-      &:after {
-        content: '✕';
+        transform: translateY(calc(100% - 72px));
       }
     }
 
     .card {
-      width: 100vw;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+
+      width: 100%;
+      height: 100%;
+
+      display: flex;
+      flex-direction: column;
+
+      background: rgba(40, 11, 108, 0.96);
+      backdrop-filter: blur(10px);
+
+      border-radius: 22px 22px 0 0;
+      border-top: 2px solid $yellow-maybi;
+
+      box-shadow:
+        0 -10px 30px rgba(0, 0, 0, 0.25);
+
+      transition: transform 0.3s ease;
+
+      overflow: hidden;
+
+      pointer-events: all;
+      padding: 0;
     }
+
+    .bar {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    //
+    // HANDLE / TAB
+    //
 
     .tab {
-      &:focus {
-        outline: none;
-      }
+      position: absolute;
 
-      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-      -webkit-tap-highlight-color: transparent;
+      top: -64px;
+      left: 50%;
+
+      transform: translateX(-50%);
+
+      min-width: 180px;
+      max-width: 90vw;
+
+      height: 52px;
+
+      padding: 0 1.25rem;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      background: rgba(40, 11, 108, 0.96);
+
+      border-radius: 999px;
+
+      border: 2px solid $yellow-maybi;
+
+      box-shadow:
+        0 6px 24px rgba(0, 0, 0, 0.25);
+
+      z-index: 50;
+
+      pointer-events: all;
+      cursor: pointer;
+
+      transition:
+        top 0.35s ease,
+        transform 0.35s ease,
+        opacity 0.25s ease;
 
       &:after {
-        content: '';
+        content: '' !important;
+      }
+    }
+
+    .arrow {
+      display: none;
+    }
+
+    .opentab {
+      display: flex !important;
+
+      align-items: center;
+      justify-content: center;
+
+      white-space: nowrap;
+
+      font-family: 'MangueiraAlt-Regular';
+
+      font-size: 0.9rem;
+      font-weight: 700;
+
+      color: $yellow-maybi;
+
+      text-align: center;
+    }
+
+    //
+    // CLOSE BUTTON
+    //
+
+    .closeMe {
+      display: block;
+
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+
+      width: 36px;
+      height: 36px;
+
+      border-radius: 999px;
+
+      background: rgba(255, 255, 255, 0.1);
+
+      z-index: 30;
+
+      pointer-events: all;
+
+      &:after {
+        content: '✕';
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 100%;
+        height: 100%;
+
+        color: white;
+        font-size: 1rem;
+      }
+    }
+
+    //
+    // HEADER
+    //
+
+    .card--logo {
+      padding: 1.2rem 1.2rem 0.5rem 1.2rem;
+
+      img {
+        width: 100%;
+        max-height: 80px;
+        object-fit: contain;
+      }
+    }
+
+    .card-tupi {
+      font-size: 1rem;
+      line-height: 1.3;
+      text-align: center;
+
+      padding: 0 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .desc {
+      font-size: 0.8rem;
+      line-height: 1.45;
+      text-align: center;
+
+      padding: 0 1.2rem;
+      margin-bottom: 1rem;
+
+      color: white;
+      opacity: 0.9;
+    }
+
+    //
+    // FILTER
+    //
+
+    .card--nav {
+      padding: 0 1rem;
+      margin-bottom: 1rem;
+      flex-shrink: 0;
+    }
+
+    .card--nav-filter {
+      margin-bottom: 0.5rem;
+      font-size: 0.9rem;
+    }
+
+    .select__control {
+      min-height: 52px;
+      border-radius: 14px;
+
+      font-size: 16px;
+
+      background: $maybi-light-blue;
+      border: 1px solid $yellow-maybi !important;
+
+      box-shadow: none !important;
+    }
+
+    .select__value-container {
+      padding: 0 14px;
+    }
+
+    .select__single-value {
+      color: white !important;
+      font-size: 0.95rem;
+    }
+
+    .select__menu {
+      border-radius: 14px;
+      overflow: hidden;
+    }
+
+    //
+    // STORIES
+    //
+
+    .stories {
+      flex: 1;
+      overflow-y: auto;
+
+      -webkit-overflow-scrolling: touch;
+
+      padding:
+        0 1rem calc(env(safe-area-inset-bottom) + 2rem) 1rem;
+    }
+
+    .stories li {
+      border-radius: 18px;
+
+      padding: 1rem;
+
+      margin-bottom: 1rem;
+
+      border: 1px solid $yellow-maybi;
+
+      box-shadow: none;
+
+      &:hover {
+        border: 1px solid $yellow-maybi;
       }
 
-      .arrow {
-        width: 0;
-        height: 0;
-        border-top: 12px solid transparent;
-        border-left: 15px solid $maybi-blue;
-        border-bottom: 12px solid transparent;
-        margin-top: 1.1rem;
-        margin-left: 0.5rem;
+      &.isActive {
+        border: 2px solid $yellow-maybi;
       }
 
-      .card--infologo {
-        display: unset !important;
-        margin-top: 2rem;
-
-        img {
-          margin-top: 2rem !important;
-          width: 150px !important;
-          height: 100px !important;
-        }
+      .title {
+        font-size: 1rem;
+        line-height: 1.3;
       }
 
-      background: $yellow-maybi;
-      left: 0;
-      top: 0.5rem;
-      border-radius: 0;
+      p {
+        font-size: 0.9rem;
+        line-height: 1.5;
+        padding-bottom: 0;
+      }
+
+      .thumbnail {
+        width: 64px;
+        height: 64px;
+        border-radius: 10px;
+      }
+    }
+
+    //
+    // SPEAKERS
+    //
+
+    .speakers {
+      font-size: 0.75rem;
+      line-height: 1.4;
+    }
+
+    //
+    // INFO LOGO
+    //
+
+    .card--infologo {
+      display: none !important;
     }
   }
 
-  .modalpad {
-    padding: 10px;
-  }
+  //
+  // MODAL
+  //
 
+  .modalpad {
+    padding: 1rem;
+  }
 }

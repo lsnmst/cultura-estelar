@@ -17,16 +17,16 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      framedView: null, 
+      framedView: null,
       points: {},
       sourceStories: sampleStories,
       stories: sampleStories,
       activePoint: null,
       activeStory: null,
-      filterOptions: ["Título", "Corpo celestial", "Conexão com elementos naturais", "Sazonalidade", "Speaker", "Topic", "Idioma", "Comunidade"],
-      filterCategory: "Escolha uma categoria",
+      // filterOptions: ["Título", "Corpo celestial", "Conexão com elementos naturais", "Sazonalidade", "Speaker", "Topic", "Idioma", "Comunidade"],
+      // filterCategory: "Escolha uma categoria",
       filterItem: "Escolha a opção",
-      itemOptions: [],
+      // itemOptions: [],
       zoom: 1,
       centerLong: 45,
       centerLat: 10,
@@ -58,91 +58,100 @@ class App extends Component {
     return pointObj;
   };
 
+  /*   filterMap = () => {
+      let filterMap = {};
+      this.state.filterOptions.sort().map(category => {
+        switch (category) {
+          case "Corpo celestial": {
+            // category: Type of Celestial Body
+            const typeOfPlaceSet = new Set(
+              this.state.sourceStories
+                .map(story => {
+                  return story.points.map(
+                    point => point.properties.type_of_place
+                  );
+                })
+                .flat()
+            );
+            filterMap[category] = Array.from(typeOfPlaceSet).filter(item => item).sort();
+            break;
+          }
+          case "Título": {
+            // category: Title
+            const nameSet = new Set(
+              this.state.sourceStories
+                .map(story => story.title)
+                .flat()
+            );
+            filterMap[category] = Array.from(nameSet).filter(item => item).sort();
+            break;
+          }
+          case "Conexão com elementos naturais": {
+            // category: Elementos Naturais
+            const naturaisSet = new Set(
+              this.state.sourceStories
+                .map(story => story.elementos_naturais)
+                .flat()
+            );
+            filterMap[category] = Array.from(naturaisSet).filter(item => item).sort();
+            break;
+          }
+          case "Sazonalidade": {
+            // category: Sazonalidade
+            const sazonalidadeSet = new Set(
+              this.state.sourceStories
+                .map(story => story.sazonalidade)
+                .flat()
+            );
+            filterMap[category] = Array.from(sazonalidadeSet).filter(item => item).sort();
+            break;
+          }
+          case "Topic": {
+            // category: Topic
+            const topicSet = new Set(
+              this.state.sourceStories
+                .map(story => story.topic)
+                .flat()
+            );
+            filterMap[category] = Array.from(topicSet).filter(item => item).sort();
+            break;
+          }
+          case "Idioma": {
+            // category: Language
+            const languageSet = new Set(
+              this.state.sourceStories
+                .map(story => story.language)
+                .flat()
+            );
+            filterMap[category] = Array.from(languageSet).filter(item => item).sort();
+            break;
+          }
+          case "Comunidade": {
+            // category: Speaker Community
+            const communitySet = new Set(
+              this.state.sourceStories
+                .map(story => {
+                  return story.speakers.map(speaker => speaker.speaker_community);
+                })
+                .flat()
+            );
+            filterMap[category] = Array.from(communitySet).filter(item => item).sort();
+            break;
+          }
+        }
+      });
+      return filterMap;
+    };
+   */
+
   filterMap = () => {
-    // Build Filter Map for Dropdowns
-    // {category name: array of items}
-    let filterMap = {};
-    this.state.filterOptions.sort().map(category => {
-      switch (category) {
-        /* case "Corpo celestial": {
-          // category: Type of Celestial Body
-          const typeOfPlaceSet = new Set(
-            this.state.sourceStories
-              .map(story => {
-                return story.points.map(
-                  point => point.properties.type_of_place
-                );
-              })
-              .flat()
-          );
-          filterMap[category] = Array.from(typeOfPlaceSet).filter(item => item).sort();
-          break;
-        } */
-        case "Título": {
-          // category: Title
-          const nameSet = new Set(
-            this.state.sourceStories
-              .map(story => story.title)
-              .flat()
-          );
-          filterMap[category] = Array.from(nameSet).filter(item => item).sort();
-          break;
-        }
-        case "Conexão com elementos naturais": {
-          // category: Elementos Naturais
-          const naturaisSet = new Set(
-            this.state.sourceStories
-              .map(story => story.elementos_naturais)
-              .flat()
-          );
-          filterMap[category] = Array.from(naturaisSet).filter(item => item).sort();
-          break;
-        }
-        case "Sazonalidade": {
-          // category: Sazonalidade
-          const sazonalidadeSet = new Set(
-            this.state.sourceStories
-              .map(story => story.sazonalidade)
-              .flat()
-          );
-          filterMap[category] = Array.from(sazonalidadeSet).filter(item => item).sort();
-          break;
-        }
-        case "Topic": {
-          // category: Topic
-          const topicSet = new Set(
-            this.state.sourceStories
-              .map(story => story.topic)
-              .flat()
-          );
-          filterMap[category] = Array.from(topicSet).filter(item => item).sort();
-          break;
-        }
-        case "Idioma": {
-          // category: Language
-          const languageSet = new Set(
-            this.state.sourceStories
-              .map(story => story.language)
-              .flat()
-          );
-          filterMap[category] = Array.from(languageSet).filter(item => item).sort();
-          break;
-        }
-        case "Comunidade": {
-          // category: Speaker Community
-          const communitySet = new Set(
-            this.state.sourceStories
-              .map(story => {
-                return story.speakers.map(speaker => speaker.speaker_community);
-              })
-              .flat()
-          );
-          filterMap[category] = Array.from(communitySet).filter(item => item).sort();
-          break;
-        }
-      }
-    });
-    return filterMap;
+    return Array.from(
+      new Set(
+        this.state.sourceStories
+          .map(story => story.title)
+          .filter(Boolean)
+      )
+    ).sort();
   };
 
   handleFilter = (category, item) => {
@@ -210,14 +219,26 @@ class App extends Component {
   }
 
   handleFilterItemChange = option => {
-    if (option === null) {
+    if (!option) {
       this.resetStoriesAndMap();
-    } else if (this.state.filterCategory !== null) {
-      const item = option.value;
-      this.handleFilter(this.state.filterCategory, item);
-      this.setState({ filterItem: item });
+      return;
     }
-  }
+
+    const item = option.value;
+
+    const filteredStories = this.state.sourceStories.filter(
+      story => story.title === item
+    );
+
+    const filteredPoints = this.getPointsFromStories(filteredStories);
+
+    this.setState({
+      stories: filteredStories,
+      points: filteredPoints,
+      filterItem: item,
+      activeStory: filteredStories[0] || null
+    });
+  };
 
   showMapPointStories = stories => {
     let storyTitles = stories.map(story => story.title);
@@ -240,7 +261,7 @@ class App extends Component {
   handleStoryHover = (story) => {
     if (!story.points || story.points.length === 0) return;
 
-    const point = story.points[0]; 
+    const point = story.points[0];
     const framedView = {
       center: [point.geometry.coordinates[0], point.geometry.coordinates[1], 0]
     };

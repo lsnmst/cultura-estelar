@@ -3,7 +3,7 @@ import Select from "react-select";
 import PropTypes from "prop-types";
 import { useTranslation } from "./i18n-lite";
 
-const Filter = props => {
+/* const Filter = props => {
   const { t } = useTranslation();
 
   const DEFAULT_CATEGORY_PLACEHOLDER = t("card.chooseCategory");
@@ -27,26 +27,43 @@ const Filter = props => {
       <span className="card--nav-filter">{t("filter.stories")}</span>
 
       <Select
-        className="categoryFilter"
-        classNamePrefix="select"
-        value={selectedCategoryOption}
-        placeholder={DEFAULT_CATEGORY_PLACEHOLDER}
-        onChange={handleCategoryChange}
-        isClearable
-        name="filter-categories"
-        options={optionsHash(props.categories)}
-      />
-
-      <Select
         className="itemFilter"
         classNamePrefix="select"
         value={selectedItemOption}
-        placeholder={DEFAULT_ITEM_PLACEHOLDER}
+        placeholder="Escolha o título"
         onChange={handleItemChange}
         isClearable
         isSearchable
         name="filter-items"
-        options={optionsHash(props.itemOptions)}
+        options={props.filterMap.map(title => ({
+          value: title,
+          label: title
+        }))}
+      />
+    </>
+  );
+};
+ */
+
+const Filter = props => {
+  const handleItemChange = option => props.handleFilterItemChange(option);
+
+  const options = props.filterMap.map(title => ({
+    value: title,
+    label: title
+  }));
+
+  return (
+    <>
+      <Select
+        className="itemFilter"
+        classNamePrefix="select"
+        value={options.find(o => o.value === props.filterItem) || null}
+        placeholder="Selecione a constelação"
+        onChange={handleItemChange}
+        isClearable
+        isSearchable
+        options={options}
       />
     </>
   );
