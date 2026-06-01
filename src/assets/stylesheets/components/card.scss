@@ -10,12 +10,14 @@ $el-shadow: 0 1px 4px $lighter-gray;
   width: 45%;
   max-width: 25rem;
   height: 100%;
+  transition: transform .2s ease-in-out;
 
   &.onCanvas {
     .card {
       display: block;
       top: 0;
       left: 0;
+      transform: translateX(0);
     }
 
     .tab {
@@ -28,11 +30,11 @@ $el-shadow: 0 1px 4px $lighter-gray;
   &.offCanvas {
     @media screen and (min-width: 600px) {
       pointer-events: none;
+      transform: translateX(calc(-100% + 2rem));
     }
 
     .card {
       top: 0rem;
-      transform: translateX(-50%);
     }
 
     .tab {
@@ -43,9 +45,10 @@ $el-shadow: 0 1px 4px $lighter-gray;
         content: '▶';
       }
 
-      top: -250px !important;
-      left: 50%;
-      transform: translateX(-50%);
+      top: 0.5rem;
+      right: -2rem;
+      left: auto;
+      transform: none;
     }
   }
 
@@ -389,7 +392,7 @@ $el-shadow: 0 1px 4px $lighter-gray;
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 68vh;
+    height: 78vh;
     z-index: 20;
     pointer-events: none;
     text-align: center;
@@ -446,13 +449,14 @@ $el-shadow: 0 1px 4px $lighter-gray;
     // HANDLE / TAB
     //
 
+    $tab-height: 52px;
+
     .tab {
       position: absolute;
 
-      top: -64px;
-      left: 50%;
-
-      transform: translateX(-50%);
+      top: -100px !important;
+      left: 50% !important;
+      transform: translateX(-50%) !important;
 
       min-width: 180px;
       max-width: 90vw;
